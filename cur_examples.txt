@@ -1,200 +1,128 @@
-- intent: course_info 
+- intent: prof_research_info 
   examples: | 
-  - what course does [abishek sinha](Professors) teach?
-  - what course does [prof. abishek sinha](Professors) teach?
-  - what course does [prof abishek sinha](Professors) teach?
-  - what course does [prof abishek sinha](Professors) teach?
-  - what course does [professor abishek sinha](Professors) teach?
-  - what course does [dr. abishek sinha](Professors) teach?
-  - courses taught by [abishek sinha](Professors)?
-  - courses taught by [prof. abishek sinha](Professors)?
-  - courses taught by [prof abishek sinha](Professors)?
-  - courses taught by [professor abishek sinha](Professors)?
-  - courses taught by [prof abishek sinha](Professors)?
-  - what course does [arun rajkumar](Professors) teach?
-  - what course does [prof. arun rajkumar](Professors) teach?
-  - what course does [prof arun rajkumar](Professors) teach?
-  - what course does [prof arun rajkumar](Professors) teach?
-  - what course does [professor arun rajkumar](Professors) teach?
-  - what course does [dr. arun rajkumar](Professors) teach?
-  - courses taught by [arun rajkumar](Professors)?
-  - courses taught by [prof. arun rajkumar](Professors)?
-  - courses taught by [prof arun rajkumar](Professors)?
-  - courses taught by [professor arun rajkumar](Professors)?
-  - courses taught by [prof arun rajkumar](Professors)?
-  - what course does [himanshu goyal](Professors) teach?
-  - what course does [prof. himanshu goyal](Professors) teach?
-  - what course does [prof himanshu goyal](Professors) teach?
-  - what course does [prof himanshu goyal](Professors) teach?
-  - what course does [professor himanshu goyal](Professors) teach?
-  - what course does [dr. himanshu goyal](Professors) teach?
-  - courses taught by [himanshu goyal](Professors)?
-  - courses taught by [prof. himanshu goyal](Professors)?
-  - courses taught by [prof himanshu goyal](Professors)?
-  - courses taught by [professor himanshu goyal](Professors)?
-  - courses taught by [prof himanshu goyal](Professors)?
-  - what course does [piyush shakya](Professors) teach?
-  - what course does [prof. piyush shakya](Professors) teach?
-  - what course does [prof piyush shakya](Professors) teach?
-  - what course does [prof piyush shakya](Professors) teach?
-  - what course does [professor piyush shakya](Professors) teach?
-  - what course does [dr. piyush shakya](Professors) teach?
-  - courses taught by [piyush shakya](Professors)?
-  - courses taught by [prof. piyush shakya](Professors)?
-  - courses taught by [prof piyush shakya](Professors)?
-  - courses taught by [professor piyush shakya](Professors)?
-  - courses taught by [prof piyush shakya](Professors)?
-  - what course does [krishna jagannathan](Professors) teach?
-  - what course does [prof. krishna jagannathan](Professors) teach?
-  - what course does [prof krishna jagannathan](Professors) teach?
-  - what course does [prof krishna jagannathan](Professors) teach?
-  - what course does [professor krishna jagannathan](Professors) teach?
-  - what course does [dr. krishna jagannathan](Professors) teach?
-  - courses taught by [krishna jagannathan](Professors)?
-  - courses taught by [prof. krishna jagannathan](Professors)?
-  - courses taught by [prof krishna jagannathan](Professors)?
-  - courses taught by [professor krishna jagannathan](Professors)?
-  - courses taught by [prof krishna jagannathan](Professors)?
-  - what course does [r ravi krishna](Professors) teach?
-  - what course does [prof. r ravi krishna](Professors) teach?
-  - what course does [prof r ravi krishna](Professors) teach?
-  - what course does [prof r ravi krishna](Professors) teach?
-  - what course does [professor r ravi krishna](Professors) teach?
-  - what course does [dr. r ravi krishna](Professors) teach?
-  - courses taught by [r ravi krishna](Professors)?
-  - courses taught by [prof. r ravi krishna](Professors)?
-  - courses taught by [prof r ravi krishna](Professors)?
-  - courses taught by [professor r ravi krishna](Professors)?
-  - courses taught by [prof r ravi krishna](Professors)?
-  - what course does [rupesh nasre](Professors) teach?
-  - what course does [prof. rupesh nasre](Professors) teach?
-  - what course does [prof rupesh nasre](Professors) teach?
-  - what course does [prof rupesh nasre](Professors) teach?
-  - what course does [professor rupesh nasre](Professors) teach?
-  - what course does [dr. rupesh nasre](Professors) teach?
-  - courses taught by [rupesh nasre](Professors)?
-  - courses taught by [prof. rupesh nasre](Professors)?
-  - courses taught by [prof rupesh nasre](Professors)?
-  - courses taught by [professor rupesh nasre](Professors)?
-  - courses taught by [prof rupesh nasre](Professors)?
-  - what course does [s aniruddhan](Professors) teach?
-  - what course does [prof. s aniruddhan](Professors) teach?
-  - what course does [prof s aniruddhan](Professors) teach?
-  - what course does [prof s aniruddhan](Professors) teach?
-  - what course does [professor s aniruddhan](Professors) teach?
-  - what course does [dr. s aniruddhan](Professors) teach?
-  - courses taught by [s aniruddhan](Professors)?
-  - courses taught by [prof. s aniruddhan](Professors)?
-  - courses taught by [prof s aniruddhan](Professors)?
-  - courses taught by [professor s aniruddhan](Professors)?
-  - courses taught by [prof s aniruddhan](Professors)?
-  - what course does [shweta agarwal](Professors) teach?
-  - what course does [prof. shweta agarwal](Professors) teach?
-  - what course does [prof shweta agarwal](Professors) teach?
-  - what course does [prof shweta agarwal](Professors) teach?
-  - what course does [professor shweta agarwal](Professors) teach?
-  - what course does [dr. shweta agarwal](Professors) teach?
-  - courses taught by [shweta agarwal](Professors)?
-  - courses taught by [prof. shweta agarwal](Professors)?
-  - courses taught by [prof shweta agarwal](Professors)?
-  - courses taught by [professor shweta agarwal](Professors)?
-  - courses taught by [prof shweta agarwal](Professors)?
-  - what course does [a seshadri sekhar](Professors) teach?
-  - what course does [prof. a seshadri sekhar](Professors) teach?
-  - what course does [prof a seshadri sekhar](Professors) teach?
-  - what course does [prof a seshadri sekhar](Professors) teach?
-  - what course does [professor a seshadri sekhar](Professors) teach?
-  - what course does [dr. a seshadri sekhar](Professors) teach?
-  - courses taught by [a seshadri sekhar](Professors)?
-  - courses taught by [prof. a seshadri sekhar](Professors)?
-  - courses taught by [prof a seshadri sekhar](Professors)?
-  - courses taught by [professor a seshadri sekhar](Professors)?
-  - courses taught by [prof a seshadri sekhar](Professors)?
-  - what course does [balaram ravindran](Professors) teach?
-  - what course does [prof. balaram ravindran](Professors) teach?
-  - what course does [prof balaram ravindran](Professors) teach?
-  - what course does [prof balaram ravindran](Professors) teach?
-  - what course does [professor balaram ravindran](Professors) teach?
-  - what course does [dr. balaram ravindran](Professors) teach?
-  - courses taught by [balaram ravindran](Professors)?
-  - courses taught by [prof. balaram ravindran](Professors)?
-  - courses taught by [prof balaram ravindran](Professors)?
-  - courses taught by [professor balaram ravindran](Professors)?
-  - courses taught by [prof balaram ravindran](Professors)?
-  - what course does [preeti aghalayam](Professors) teach?
-  - what course does [prof. preeti aghalayam](Professors) teach?
-  - what course does [prof preeti aghalayam](Professors) teach?
-  - what course does [prof preeti aghalayam](Professors) teach?
-  - what course does [professor preeti aghalayam](Professors) teach?
-  - what course does [dr. preeti aghalayam](Professors) teach?
-  - courses taught by [preeti aghalayam](Professors)?
-  - courses taught by [prof. preeti aghalayam](Professors)?
-  - courses taught by [prof preeti aghalayam](Professors)?
-  - courses taught by [professor preeti aghalayam](Professors)?
-  - courses taught by [prof preeti aghalayam](Professors)?
-  - what course does [c chandra sekhar](Professors) teach?
-  - what course does [prof. c chandra sekhar](Professors) teach?
-  - what course does [prof c chandra sekhar](Professors) teach?
-  - what course does [prof c chandra sekhar](Professors) teach?
-  - what course does [professor c chandra sekhar](Professors) teach?
-  - what course does [dr. c chandra sekhar](Professors) teach?
-  - courses taught by [c chandra sekhar](Professors)?
-  - courses taught by [prof. c chandra sekhar](Professors)?
-  - courses taught by [prof c chandra sekhar](Professors)?
-  - courses taught by [professor c chandra sekhar](Professors)?
-  - courses taught by [prof c chandra sekhar](Professors)?
-  - what course does [dhiman chatterjee](Professors) teach?
-  - what course does [prof. dhiman chatterjee](Professors) teach?
-  - what course does [prof dhiman chatterjee](Professors) teach?
-  - what course does [prof dhiman chatterjee](Professors) teach?
-  - what course does [professor dhiman chatterjee](Professors) teach?
-  - what course does [dr. dhiman chatterjee](Professors) teach?
-  - courses taught by [dhiman chatterjee](Professors)?
-  - courses taught by [prof. dhiman chatterjee](Professors)?
-  - courses taught by [prof dhiman chatterjee](Professors)?
-  - courses taught by [professor dhiman chatterjee](Professors)?
-  - courses taught by [prof dhiman chatterjee](Professors)?
-  - what course does [n.s. narayanaswamy](Professors) teach?
-  - what course does [prof. n.s. narayanaswamy](Professors) teach?
-  - what course does [prof n.s. narayanaswamy](Professors) teach?
-  - what course does [prof n.s. narayanaswamy](Professors) teach?
-  - what course does [professor n.s. narayanaswamy](Professors) teach?
-  - what course does [dr. n.s. narayanaswamy](Professors) teach?
-  - courses taught by [n.s. narayanaswamy](Professors)?
-  - courses taught by [prof. n.s. narayanaswamy](Professors)?
-  - courses taught by [prof n.s. narayanaswamy](Professors)?
-  - courses taught by [professor n.s. narayanaswamy](Professors)?
-  - courses taught by [prof n.s. narayanaswamy](Professors)?
-  - what course does [rajagopalan srinivasan](Professors) teach?
-  - what course does [prof. rajagopalan srinivasan](Professors) teach?
-  - what course does [prof rajagopalan srinivasan](Professors) teach?
-  - what course does [prof rajagopalan srinivasan](Professors) teach?
-  - what course does [professor rajagopalan srinivasan](Professors) teach?
-  - what course does [dr. rajagopalan srinivasan](Professors) teach?
-  - courses taught by [rajagopalan srinivasan](Professors)?
-  - courses taught by [prof. rajagopalan srinivasan](Professors)?
-  - courses taught by [prof rajagopalan srinivasan](Professors)?
-  - courses taught by [professor rajagopalan srinivasan](Professors)?
-  - courses taught by [prof rajagopalan srinivasan](Professors)?
-  - what course does [sathyan subbiah](Professors) teach?
-  - what course does [prof. sathyan subbiah](Professors) teach?
-  - what course does [prof sathyan subbiah](Professors) teach?
-  - what course does [prof sathyan subbiah](Professors) teach?
-  - what course does [professor sathyan subbiah](Professors) teach?
-  - what course does [dr. sathyan subbiah](Professors) teach?
-  - courses taught by [sathyan subbiah](Professors)?
-  - courses taught by [prof. sathyan subbiah](Professors)?
-  - courses taught by [prof sathyan subbiah](Professors)?
-  - courses taught by [professor sathyan subbiah](Professors)?
-  - courses taught by [prof sathyan subbiah](Professors)?
-  - what course does [p sreenivasa kumar](Professors) teach?
-  - what course does [prof. p sreenivasa kumar](Professors) teach?
-  - what course does [prof p sreenivasa kumar](Professors) teach?
-  - what course does [prof p sreenivasa kumar](Professors) teach?
-  - what course does [professor p sreenivasa kumar](Professors) teach?
-  - what course does [dr. p sreenivasa kumar](Professors) teach?
-  - courses taught by [p sreenivasa kumar](Professors)?
-  - courses taught by [prof. p sreenivasa kumar](Professors)?
-  - courses taught by [prof p sreenivasa kumar](Professors)?
-  - courses taught by [professor p sreenivasa kumar](Professors)?
-  - courses taught by [prof p sreenivasa kumar](Professors)?
+    - what are [abishek sinha's](Professors) research interests ?
+    - what are [abishek sinha's](Professors) research areas ?
+    - what are [abishek sinha's](Professors) research specialities ?
+    - what are [abishek sinha's](Professors) areas of interests ?
+    - what field is [abishek sinha](Professors) interested in ?
+    - what research field is [abishek sinha](Professors) working in ?
+    - what research field does [abishek sinha](Professors) specialize in ?
+    - what are [arun rajkumar's](Professors) research interests ?
+    - what are [arun rajkumar's](Professors) research areas ?
+    - what are [arun rajkumar's](Professors) research specialities ?
+    - what are [arun rajkumar's](Professors) areas of interests ?
+    - what field is [arun rajkumar](Professors) interested in ?
+    - what research field is [arun rajkumar](Professors) working in ?
+    - what research field does [arun rajkumar](Professors) specialize in ?
+    - what are [himanshu goyal's](Professors) research interests ?
+    - what are [himanshu goyal's](Professors) research areas ?
+    - what are [himanshu goyal's](Professors) research specialities ?
+    - what are [himanshu goyal's](Professors) areas of interests ?
+    - what field is [himanshu goyal](Professors) interested in ?
+    - what research field is [himanshu goyal](Professors) working in ?
+    - what research field does [himanshu goyal](Professors) specialize in ?
+    - what are [piyush shakya's](Professors) research interests ?
+    - what are [piyush shakya's](Professors) research areas ?
+    - what are [piyush shakya's](Professors) research specialities ?
+    - what are [piyush shakya's](Professors) areas of interests ?
+    - what field is [piyush shakya](Professors) interested in ?
+    - what research field is [piyush shakya](Professors) working in ?
+    - what research field does [piyush shakya](Professors) specialize in ?
+    - what are [krishna jagannathan's](Professors) research interests ?
+    - what are [krishna jagannathan's](Professors) research areas ?
+    - what are [krishna jagannathan's](Professors) research specialities ?
+    - what are [krishna jagannathan's](Professors) areas of interests ?
+    - what field is [krishna jagannathan](Professors) interested in ?
+    - what research field is [krishna jagannathan](Professors) working in ?
+    - what research field does [krishna jagannathan](Professors) specialize in ?
+    - what are [r ravi krishna's](Professors) research interests ?
+    - what are [r ravi krishna's](Professors) research areas ?
+    - what are [r ravi krishna's](Professors) research specialities ?
+    - what are [r ravi krishna's](Professors) areas of interests ?
+    - what field is [r ravi krishna](Professors) interested in ?
+    - what research field is [r ravi krishna](Professors) working in ?
+    - what research field does [r ravi krishna](Professors) specialize in ?
+    - what are [rupesh nasre's](Professors) research interests ?
+    - what are [rupesh nasre's](Professors) research areas ?
+    - what are [rupesh nasre's](Professors) research specialities ?
+    - what are [rupesh nasre's](Professors) areas of interests ?
+    - what field is [rupesh nasre](Professors) interested in ?
+    - what research field is [rupesh nasre](Professors) working in ?
+    - what research field does [rupesh nasre](Professors) specialize in ?
+    - what are [s aniruddhan's](Professors) research interests ?
+    - what are [s aniruddhan's](Professors) research areas ?
+    - what are [s aniruddhan's](Professors) research specialities ?
+    - what are [s aniruddhan's](Professors) areas of interests ?
+    - what field is [s aniruddhan](Professors) interested in ?
+    - what research field is [s aniruddhan](Professors) working in ?
+    - what research field does [s aniruddhan](Professors) specialize in ?
+    - what are [shweta agarwal's](Professors) research interests ?
+    - what are [shweta agarwal's](Professors) research areas ?
+    - what are [shweta agarwal's](Professors) research specialities ?
+    - what are [shweta agarwal's](Professors) areas of interests ?
+    - what field is [shweta agarwal](Professors) interested in ?
+    - what research field is [shweta agarwal](Professors) working in ?
+    - what research field does [shweta agarwal](Professors) specialize in ?
+    - what are [a seshadri sekhar's](Professors) research interests ?
+    - what are [a seshadri sekhar's](Professors) research areas ?
+    - what are [a seshadri sekhar's](Professors) research specialities ?
+    - what are [a seshadri sekhar's](Professors) areas of interests ?
+    - what field is [a seshadri sekhar](Professors) interested in ?
+    - what research field is [a seshadri sekhar](Professors) working in ?
+    - what research field does [a seshadri sekhar](Professors) specialize in ?
+    - what are [balaram ravindran's](Professors) research interests ?
+    - what are [balaram ravindran's](Professors) research areas ?
+    - what are [balaram ravindran's](Professors) research specialities ?
+    - what are [balaram ravindran's](Professors) areas of interests ?
+    - what field is [balaram ravindran](Professors) interested in ?
+    - what research field is [balaram ravindran](Professors) working in ?
+    - what research field does [balaram ravindran](Professors) specialize in ?
+    - what are [preeti aghalayam's](Professors) research interests ?
+    - what are [preeti aghalayam's](Professors) research areas ?
+    - what are [preeti aghalayam's](Professors) research specialities ?
+    - what are [preeti aghalayam's](Professors) areas of interests ?
+    - what field is [preeti aghalayam](Professors) interested in ?
+    - what research field is [preeti aghalayam](Professors) working in ?
+    - what research field does [preeti aghalayam](Professors) specialize in ?
+    - what are [c chandra sekhar's](Professors) research interests ?
+    - what are [c chandra sekhar's](Professors) research areas ?
+    - what are [c chandra sekhar's](Professors) research specialities ?
+    - what are [c chandra sekhar's](Professors) areas of interests ?
+    - what field is [c chandra sekhar](Professors) interested in ?
+    - what research field is [c chandra sekhar](Professors) working in ?
+    - what research field does [c chandra sekhar](Professors) specialize in ?
+    - what are [dhiman chatterjee's](Professors) research interests ?
+    - what are [dhiman chatterjee's](Professors) research areas ?
+    - what are [dhiman chatterjee's](Professors) research specialities ?
+    - what are [dhiman chatterjee's](Professors) areas of interests ?
+    - what field is [dhiman chatterjee](Professors) interested in ?
+    - what research field is [dhiman chatterjee](Professors) working in ?
+    - what research field does [dhiman chatterjee](Professors) specialize in ?
+    - what are [n.s. narayanaswamy's](Professors) research interests ?
+    - what are [n.s. narayanaswamy's](Professors) research areas ?
+    - what are [n.s. narayanaswamy's](Professors) research specialities ?
+    - what are [n.s. narayanaswamy's](Professors) areas of interests ?
+    - what field is [n.s. narayanaswamy](Professors) interested in ?
+    - what research field is [n.s. narayanaswamy](Professors) working in ?
+    - what research field does [n.s. narayanaswamy](Professors) specialize in ?
+    - what are [rajagopalan srinivasan's](Professors) research interests ?
+    - what are [rajagopalan srinivasan's](Professors) research areas ?
+    - what are [rajagopalan srinivasan's](Professors) research specialities ?
+    - what are [rajagopalan srinivasan's](Professors) areas of interests ?
+    - what field is [rajagopalan srinivasan](Professors) interested in ?
+    - what research field is [rajagopalan srinivasan](Professors) working in ?
+    - what research field does [rajagopalan srinivasan](Professors) specialize in ?
+    - what are [sathyan subbiah's](Professors) research interests ?
+    - what are [sathyan subbiah's](Professors) research areas ?
+    - what are [sathyan subbiah's](Professors) research specialities ?
+    - what are [sathyan subbiah's](Professors) areas of interests ?
+    - what field is [sathyan subbiah](Professors) interested in ?
+    - what research field is [sathyan subbiah](Professors) working in ?
+    - what research field does [sathyan subbiah](Professors) specialize in ?
+    - what are [p sreenivasa kumar's](Professors) research interests ?
+    - what are [p sreenivasa kumar's](Professors) research areas ?
+    - what are [p sreenivasa kumar's](Professors) research specialities ?
+    - what are [p sreenivasa kumar's](Professors) areas of interests ?
+    - what field is [p sreenivasa kumar](Professors) interested in ?
+    - what research field is [p sreenivasa kumar](Professors) working in ?
+    - what research field does [p sreenivasa kumar](Professors) specialize in ?

@@ -273,3 +273,2257 @@
   - courses taught by [prof p sreenivasa kumar](Professors)?
   - courses taught by [professor p sreenivasa kumar](Professors)?
   - courses taught by [prof p sreenivasa kumar](Professors)?
+- lookup: Courses 
+  examples: |
+  - ME2200
+  - Materials and Design
+  - EE6112
+  - Topics in Random Processes and Concentrations
+  - CS6700
+  - Reinforcement Learning
+  - CH1020
+  - Principles & Calculations in Chemical
+  - CH4250
+  - Process Engineering
+  - CH5030
+  - Transport Phenomena
+  - CH5370
+  - Environmental Quality Monitoring & Analysis
+  - CS2800
+  - Design and Analysis of Algorithms
+  - CS3700
+  - Introduction to Database Systems
+  - CS6023
+  - GPU Programming
+  - CS6910
+  - Deep Learning
+  - CS6852
+  - Theory and Applications of Ontologies
+  - ME1100
+  - Thermodynamics
+  - EE3002
+  - Analog Circuits
+  - EE6150
+  - Stochastic Modeling and the Theory of Queues
+  - ME1480
+  - Engineering Drawing
+  - ME3302
+  - Automation in manufacturing
+  - CS1100
+  - Introduction to Programming
+  - CS1200
+  - Discrete Mathematics
+- intent: course_info 
+  examples: | 
+    - tell me about the course [ME2200](Courses)
+    - tell me about the course [Materials and Design](Courses)
+    - tell me about the [ME2200](Courses) course 
+    - tell me about the [Materials and Design](Courses) course 
+    - information about the [ME2200](Courses) course 
+    - information about the [Materials and Design](Courses) course 
+    - details of the [ME2200](Courses) course 
+    - details of the [Materials and Design](Courses) course 
+    - what is the [ME2200](Courses) course about 
+    - what is the [Materials and Design](Courses) course about 
+    - describe the [ME2200](Courses) course 
+    - describe the [Materials and Design](Courses) course 
+    - tell me about the course [EE6112](Courses)
+    - tell me about the course [Topics in Random Processes and Concentrations](Courses)
+    - tell me about the [EE6112](Courses) course 
+    - tell me about the [Topics in Random Processes and Concentrations](Courses) course 
+    - information about the [EE6112](Courses) course 
+    - information about the [Topics in Random Processes and Concentrations](Courses) course 
+    - details of the [EE6112](Courses) course 
+    - details of the [Topics in Random Processes and Concentrations](Courses) course 
+    - what is the [EE6112](Courses) course about 
+    - what is the [Topics in Random Processes and Concentrations](Courses) course about 
+    - describe the [EE6112](Courses) course 
+    - describe the [Topics in Random Processes and Concentrations](Courses) course 
+    - tell me about the course [CS6700](Courses)
+    - tell me about the course [Reinforcement Learning](Courses)
+    - tell me about the [CS6700](Courses) course 
+    - tell me about the [Reinforcement Learning](Courses) course 
+    - information about the [CS6700](Courses) course 
+    - information about the [Reinforcement Learning](Courses) course 
+    - details of the [CS6700](Courses) course 
+    - details of the [Reinforcement Learning](Courses) course 
+    - what is the [CS6700](Courses) course about 
+    - what is the [Reinforcement Learning](Courses) course about 
+    - describe the [CS6700](Courses) course 
+    - describe the [Reinforcement Learning](Courses) course 
+    - tell me about the course [CH1020](Courses)
+    - tell me about the course [Principles & Calculations in Chemical](Courses)
+    - tell me about the [CH1020](Courses) course 
+    - tell me about the [Principles & Calculations in Chemical](Courses) course 
+    - information about the [CH1020](Courses) course 
+    - information about the [Principles & Calculations in Chemical](Courses) course 
+    - details of the [CH1020](Courses) course 
+    - details of the [Principles & Calculations in Chemical](Courses) course 
+    - what is the [CH1020](Courses) course about 
+    - what is the [Principles & Calculations in Chemical](Courses) course about 
+    - describe the [CH1020](Courses) course 
+    - describe the [Principles & Calculations in Chemical](Courses) course 
+    - tell me about the course [CH4250](Courses)
+    - tell me about the course [Process Engineering](Courses)
+    - tell me about the [CH4250](Courses) course 
+    - tell me about the [Process Engineering](Courses) course 
+    - information about the [CH4250](Courses) course 
+    - information about the [Process Engineering](Courses) course 
+    - details of the [CH4250](Courses) course 
+    - details of the [Process Engineering](Courses) course 
+    - what is the [CH4250](Courses) course about 
+    - what is the [Process Engineering](Courses) course about 
+    - describe the [CH4250](Courses) course 
+    - describe the [Process Engineering](Courses) course 
+    - tell me about the course [CH5030](Courses)
+    - tell me about the course [Transport Phenomena](Courses)
+    - tell me about the [CH5030](Courses) course 
+    - tell me about the [Transport Phenomena](Courses) course 
+    - information about the [CH5030](Courses) course 
+    - information about the [Transport Phenomena](Courses) course 
+    - details of the [CH5030](Courses) course 
+    - details of the [Transport Phenomena](Courses) course 
+    - what is the [CH5030](Courses) course about 
+    - what is the [Transport Phenomena](Courses) course about 
+    - describe the [CH5030](Courses) course 
+    - describe the [Transport Phenomena](Courses) course 
+    - tell me about the course [CH5370](Courses)
+    - tell me about the course [Environmental Quality Monitoring & Analysis](Courses)
+    - tell me about the [CH5370](Courses) course 
+    - tell me about the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - information about the [CH5370](Courses) course 
+    - information about the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - details of the [CH5370](Courses) course 
+    - details of the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what is the [CH5370](Courses) course about 
+    - what is the [Environmental Quality Monitoring & Analysis](Courses) course about 
+    - describe the [CH5370](Courses) course 
+    - describe the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - tell me about the course [CS2800](Courses)
+    - tell me about the course [Design and Analysis of Algorithms](Courses)
+    - tell me about the [CS2800](Courses) course 
+    - tell me about the [Design and Analysis of Algorithms](Courses) course 
+    - information about the [CS2800](Courses) course 
+    - information about the [Design and Analysis of Algorithms](Courses) course 
+    - details of the [CS2800](Courses) course 
+    - details of the [Design and Analysis of Algorithms](Courses) course 
+    - what is the [CS2800](Courses) course about 
+    - what is the [Design and Analysis of Algorithms](Courses) course about 
+    - describe the [CS2800](Courses) course 
+    - describe the [Design and Analysis of Algorithms](Courses) course 
+    - tell me about the course [CS3700](Courses)
+    - tell me about the course [Introduction to Database Systems](Courses)
+    - tell me about the [CS3700](Courses) course 
+    - tell me about the [Introduction to Database Systems](Courses) course 
+    - information about the [CS3700](Courses) course 
+    - information about the [Introduction to Database Systems](Courses) course 
+    - details of the [CS3700](Courses) course 
+    - details of the [Introduction to Database Systems](Courses) course 
+    - what is the [CS3700](Courses) course about 
+    - what is the [Introduction to Database Systems](Courses) course about 
+    - describe the [CS3700](Courses) course 
+    - describe the [Introduction to Database Systems](Courses) course 
+    - tell me about the course [CS6023](Courses)
+    - tell me about the course [GPU Programming](Courses)
+    - tell me about the [CS6023](Courses) course 
+    - tell me about the [GPU Programming](Courses) course 
+    - information about the [CS6023](Courses) course 
+    - information about the [GPU Programming](Courses) course 
+    - details of the [CS6023](Courses) course 
+    - details of the [GPU Programming](Courses) course 
+    - what is the [CS6023](Courses) course about 
+    - what is the [GPU Programming](Courses) course about 
+    - describe the [CS6023](Courses) course 
+    - describe the [GPU Programming](Courses) course 
+    - tell me about the course [CS6910](Courses)
+    - tell me about the course [Deep Learning](Courses)
+    - tell me about the [CS6910](Courses) course 
+    - tell me about the [Deep Learning](Courses) course 
+    - information about the [CS6910](Courses) course 
+    - information about the [Deep Learning](Courses) course 
+    - details of the [CS6910](Courses) course 
+    - details of the [Deep Learning](Courses) course 
+    - what is the [CS6910](Courses) course about 
+    - what is the [Deep Learning](Courses) course about 
+    - describe the [CS6910](Courses) course 
+    - describe the [Deep Learning](Courses) course 
+    - tell me about the course [CS6852](Courses)
+    - tell me about the course [Theory and Applications of Ontologies](Courses)
+    - tell me about the [CS6852](Courses) course 
+    - tell me about the [Theory and Applications of Ontologies](Courses) course 
+    - information about the [CS6852](Courses) course 
+    - information about the [Theory and Applications of Ontologies](Courses) course 
+    - details of the [CS6852](Courses) course 
+    - details of the [Theory and Applications of Ontologies](Courses) course 
+    - what is the [CS6852](Courses) course about 
+    - what is the [Theory and Applications of Ontologies](Courses) course about 
+    - describe the [CS6852](Courses) course 
+    - describe the [Theory and Applications of Ontologies](Courses) course 
+    - tell me about the course [ME1100](Courses)
+    - tell me about the course [Thermodynamics](Courses)
+    - tell me about the [ME1100](Courses) course 
+    - tell me about the [Thermodynamics](Courses) course 
+    - information about the [ME1100](Courses) course 
+    - information about the [Thermodynamics](Courses) course 
+    - details of the [ME1100](Courses) course 
+    - details of the [Thermodynamics](Courses) course 
+    - what is the [ME1100](Courses) course about 
+    - what is the [Thermodynamics](Courses) course about 
+    - describe the [ME1100](Courses) course 
+    - describe the [Thermodynamics](Courses) course 
+    - tell me about the course [EE3002](Courses)
+    - tell me about the course [Analog Circuits](Courses)
+    - tell me about the [EE3002](Courses) course 
+    - tell me about the [Analog Circuits](Courses) course 
+    - information about the [EE3002](Courses) course 
+    - information about the [Analog Circuits](Courses) course 
+    - details of the [EE3002](Courses) course 
+    - details of the [Analog Circuits](Courses) course 
+    - what is the [EE3002](Courses) course about 
+    - what is the [Analog Circuits](Courses) course about 
+    - describe the [EE3002](Courses) course 
+    - describe the [Analog Circuits](Courses) course 
+    - tell me about the course [EE6150](Courses)
+    - tell me about the course [Stochastic Modeling and the Theory of Queues](Courses)
+    - tell me about the [EE6150](Courses) course 
+    - tell me about the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - information about the [EE6150](Courses) course 
+    - information about the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - details of the [EE6150](Courses) course 
+    - details of the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what is the [EE6150](Courses) course about 
+    - what is the [Stochastic Modeling and the Theory of Queues](Courses) course about 
+    - describe the [EE6150](Courses) course 
+    - describe the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - tell me about the course [ME1480](Courses)
+    - tell me about the course [Engineering Drawing](Courses)
+    - tell me about the [ME1480](Courses) course 
+    - tell me about the [Engineering Drawing](Courses) course 
+    - information about the [ME1480](Courses) course 
+    - information about the [Engineering Drawing](Courses) course 
+    - details of the [ME1480](Courses) course 
+    - details of the [Engineering Drawing](Courses) course 
+    - what is the [ME1480](Courses) course about 
+    - what is the [Engineering Drawing](Courses) course about 
+    - describe the [ME1480](Courses) course 
+    - describe the [Engineering Drawing](Courses) course 
+    - tell me about the course [ME3302](Courses)
+    - tell me about the course [Automation in manufacturing](Courses)
+    - tell me about the [ME3302](Courses) course 
+    - tell me about the [Automation in manufacturing](Courses) course 
+    - information about the [ME3302](Courses) course 
+    - information about the [Automation in manufacturing](Courses) course 
+    - details of the [ME3302](Courses) course 
+    - details of the [Automation in manufacturing](Courses) course 
+    - what is the [ME3302](Courses) course about 
+    - what is the [Automation in manufacturing](Courses) course about 
+    - describe the [ME3302](Courses) course 
+    - describe the [Automation in manufacturing](Courses) course 
+    - tell me about the course [CS1100](Courses)
+    - tell me about the course [Introduction to Programming](Courses)
+    - tell me about the [CS1100](Courses) course 
+    - tell me about the [Introduction to Programming](Courses) course 
+    - information about the [CS1100](Courses) course 
+    - information about the [Introduction to Programming](Courses) course 
+    - details of the [CS1100](Courses) course 
+    - details of the [Introduction to Programming](Courses) course 
+    - what is the [CS1100](Courses) course about 
+    - what is the [Introduction to Programming](Courses) course about 
+    - describe the [CS1100](Courses) course 
+    - describe the [Introduction to Programming](Courses) course 
+    - tell me about the course [CS1200](Courses)
+    - tell me about the course [Discrete Mathematics](Courses)
+    - tell me about the [CS1200](Courses) course 
+    - tell me about the [Discrete Mathematics](Courses) course 
+    - information about the [CS1200](Courses) course 
+    - information about the [Discrete Mathematics](Courses) course 
+    - details of the [CS1200](Courses) course 
+    - details of the [Discrete Mathematics](Courses) course 
+    - what is the [CS1200](Courses) course about 
+    - what is the [Discrete Mathematics](Courses) course about 
+    - describe the [CS1200](Courses) course 
+    - describe the [Discrete Mathematics](Courses) course 
+- intent: course_prof_info 
+  examples: | 
+    - which prof teaches the course [Materials and Design](Courses) ?
+    - which prof teaches the course [ME2200](Courses) ?
+    - which prof teaches the [Materials and Design](Courses) course ?
+    - which prof teaches the [ME2200](Courses) course ?
+    - which profs teaches the course [Materials and Design](Courses) ?
+    - which profs teaches the course [ME2200](Courses) ?
+    - which profs teaches the [Materials and Design](Courses) course ?
+    - which profs teaches the [ME2200](Courses) course ?
+    - which teacher teaches the course [Materials and Design](Courses) ?
+    - which teacher teaches the course [ME2200](Courses) ?
+    - which teacher teaches the [Materials and Design](Courses) course ?
+    - which teacher teaches the [ME2200](Courses) course ?
+    - which instructor teaches the course [Materials and Design](Courses) ?
+    - which instructor teaches the course [ME2200](Courses) ?
+    - which instructor teaches the [Materials and Design](Courses) course ?
+    - which instructor teaches the [ME2200](Courses) course ?
+    - which lecturer teaches the course [Materials and Design](Courses) ?
+    - which lecturer teaches the course [ME2200](Courses) ?
+    - which lecturer teaches the [Materials and Design](Courses) course ?
+    - which lecturer teaches the [ME2200](Courses) course ?
+    - which professor teaches the course [Materials and Design](Courses) ?
+    - which professor teaches the course [ME2200](Courses) ?
+    - which professor teaches the [Materials and Design](Courses) course ?
+    - which professor teaches the [ME2200](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which prof teaches the course [EE6112](Courses) ?
+    - which prof teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which prof teaches the [EE6112](Courses) course ?
+    - which profs teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which profs teaches the course [EE6112](Courses) ?
+    - which profs teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which profs teaches the [EE6112](Courses) course ?
+    - which teacher teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which teacher teaches the course [EE6112](Courses) ?
+    - which teacher teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which teacher teaches the [EE6112](Courses) course ?
+    - which instructor teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which instructor teaches the course [EE6112](Courses) ?
+    - which instructor teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which instructor teaches the [EE6112](Courses) course ?
+    - which lecturer teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which lecturer teaches the course [EE6112](Courses) ?
+    - which lecturer teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which lecturer teaches the [EE6112](Courses) course ?
+    - which professor teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which professor teaches the course [EE6112](Courses) ?
+    - which professor teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which professor teaches the [EE6112](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Reinforcement Learning](Courses) ?
+    - which prof teaches the course [CS6700](Courses) ?
+    - which prof teaches the [Reinforcement Learning](Courses) course ?
+    - which prof teaches the [CS6700](Courses) course ?
+    - which profs teaches the course [Reinforcement Learning](Courses) ?
+    - which profs teaches the course [CS6700](Courses) ?
+    - which profs teaches the [Reinforcement Learning](Courses) course ?
+    - which profs teaches the [CS6700](Courses) course ?
+    - which teacher teaches the course [Reinforcement Learning](Courses) ?
+    - which teacher teaches the course [CS6700](Courses) ?
+    - which teacher teaches the [Reinforcement Learning](Courses) course ?
+    - which teacher teaches the [CS6700](Courses) course ?
+    - which instructor teaches the course [Reinforcement Learning](Courses) ?
+    - which instructor teaches the course [CS6700](Courses) ?
+    - which instructor teaches the [Reinforcement Learning](Courses) course ?
+    - which instructor teaches the [CS6700](Courses) course ?
+    - which lecturer teaches the course [Reinforcement Learning](Courses) ?
+    - which lecturer teaches the course [CS6700](Courses) ?
+    - which lecturer teaches the [Reinforcement Learning](Courses) course ?
+    - which lecturer teaches the [CS6700](Courses) course ?
+    - which professor teaches the course [Reinforcement Learning](Courses) ?
+    - which professor teaches the course [CS6700](Courses) ?
+    - which professor teaches the [Reinforcement Learning](Courses) course ?
+    - which professor teaches the [CS6700](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which prof teaches the course [CH1020](Courses) ?
+    - which prof teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which prof teaches the [CH1020](Courses) course ?
+    - which profs teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which profs teaches the course [CH1020](Courses) ?
+    - which profs teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which profs teaches the [CH1020](Courses) course ?
+    - which teacher teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which teacher teaches the course [CH1020](Courses) ?
+    - which teacher teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which teacher teaches the [CH1020](Courses) course ?
+    - which instructor teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which instructor teaches the course [CH1020](Courses) ?
+    - which instructor teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which instructor teaches the [CH1020](Courses) course ?
+    - which lecturer teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which lecturer teaches the course [CH1020](Courses) ?
+    - which lecturer teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which lecturer teaches the [CH1020](Courses) course ?
+    - which professor teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which professor teaches the course [CH1020](Courses) ?
+    - which professor teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which professor teaches the [CH1020](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Process Engineering](Courses) ?
+    - which prof teaches the course [CH4250](Courses) ?
+    - which prof teaches the [Process Engineering](Courses) course ?
+    - which prof teaches the [CH4250](Courses) course ?
+    - which profs teaches the course [Process Engineering](Courses) ?
+    - which profs teaches the course [CH4250](Courses) ?
+    - which profs teaches the [Process Engineering](Courses) course ?
+    - which profs teaches the [CH4250](Courses) course ?
+    - which teacher teaches the course [Process Engineering](Courses) ?
+    - which teacher teaches the course [CH4250](Courses) ?
+    - which teacher teaches the [Process Engineering](Courses) course ?
+    - which teacher teaches the [CH4250](Courses) course ?
+    - which instructor teaches the course [Process Engineering](Courses) ?
+    - which instructor teaches the course [CH4250](Courses) ?
+    - which instructor teaches the [Process Engineering](Courses) course ?
+    - which instructor teaches the [CH4250](Courses) course ?
+    - which lecturer teaches the course [Process Engineering](Courses) ?
+    - which lecturer teaches the course [CH4250](Courses) ?
+    - which lecturer teaches the [Process Engineering](Courses) course ?
+    - which lecturer teaches the [CH4250](Courses) course ?
+    - which professor teaches the course [Process Engineering](Courses) ?
+    - which professor teaches the course [CH4250](Courses) ?
+    - which professor teaches the [Process Engineering](Courses) course ?
+    - which professor teaches the [CH4250](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Transport Phenomena](Courses) ?
+    - which prof teaches the course [CH5030](Courses) ?
+    - which prof teaches the [Transport Phenomena](Courses) course ?
+    - which prof teaches the [CH5030](Courses) course ?
+    - which profs teaches the course [Transport Phenomena](Courses) ?
+    - which profs teaches the course [CH5030](Courses) ?
+    - which profs teaches the [Transport Phenomena](Courses) course ?
+    - which profs teaches the [CH5030](Courses) course ?
+    - which teacher teaches the course [Transport Phenomena](Courses) ?
+    - which teacher teaches the course [CH5030](Courses) ?
+    - which teacher teaches the [Transport Phenomena](Courses) course ?
+    - which teacher teaches the [CH5030](Courses) course ?
+    - which instructor teaches the course [Transport Phenomena](Courses) ?
+    - which instructor teaches the course [CH5030](Courses) ?
+    - which instructor teaches the [Transport Phenomena](Courses) course ?
+    - which instructor teaches the [CH5030](Courses) course ?
+    - which lecturer teaches the course [Transport Phenomena](Courses) ?
+    - which lecturer teaches the course [CH5030](Courses) ?
+    - which lecturer teaches the [Transport Phenomena](Courses) course ?
+    - which lecturer teaches the [CH5030](Courses) course ?
+    - which professor teaches the course [Transport Phenomena](Courses) ?
+    - which professor teaches the course [CH5030](Courses) ?
+    - which professor teaches the [Transport Phenomena](Courses) course ?
+    - which professor teaches the [CH5030](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which prof teaches the course [CH5370](Courses) ?
+    - which prof teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which prof teaches the [CH5370](Courses) course ?
+    - which profs teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which profs teaches the course [CH5370](Courses) ?
+    - which profs teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which profs teaches the [CH5370](Courses) course ?
+    - which teacher teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which teacher teaches the course [CH5370](Courses) ?
+    - which teacher teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which teacher teaches the [CH5370](Courses) course ?
+    - which instructor teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which instructor teaches the course [CH5370](Courses) ?
+    - which instructor teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which instructor teaches the [CH5370](Courses) course ?
+    - which lecturer teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which lecturer teaches the course [CH5370](Courses) ?
+    - which lecturer teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which lecturer teaches the [CH5370](Courses) course ?
+    - which professor teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which professor teaches the course [CH5370](Courses) ?
+    - which professor teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which professor teaches the [CH5370](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which prof teaches the course [CS2800](Courses) ?
+    - which prof teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which prof teaches the [CS2800](Courses) course ?
+    - which profs teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which profs teaches the course [CS2800](Courses) ?
+    - which profs teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which profs teaches the [CS2800](Courses) course ?
+    - which teacher teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which teacher teaches the course [CS2800](Courses) ?
+    - which teacher teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which teacher teaches the [CS2800](Courses) course ?
+    - which instructor teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which instructor teaches the course [CS2800](Courses) ?
+    - which instructor teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which instructor teaches the [CS2800](Courses) course ?
+    - which lecturer teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which lecturer teaches the course [CS2800](Courses) ?
+    - which lecturer teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which lecturer teaches the [CS2800](Courses) course ?
+    - which professor teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which professor teaches the course [CS2800](Courses) ?
+    - which professor teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which professor teaches the [CS2800](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Introduction to Database Systems](Courses) ?
+    - which prof teaches the course [CS3700](Courses) ?
+    - which prof teaches the [Introduction to Database Systems](Courses) course ?
+    - which prof teaches the [CS3700](Courses) course ?
+    - which profs teaches the course [Introduction to Database Systems](Courses) ?
+    - which profs teaches the course [CS3700](Courses) ?
+    - which profs teaches the [Introduction to Database Systems](Courses) course ?
+    - which profs teaches the [CS3700](Courses) course ?
+    - which teacher teaches the course [Introduction to Database Systems](Courses) ?
+    - which teacher teaches the course [CS3700](Courses) ?
+    - which teacher teaches the [Introduction to Database Systems](Courses) course ?
+    - which teacher teaches the [CS3700](Courses) course ?
+    - which instructor teaches the course [Introduction to Database Systems](Courses) ?
+    - which instructor teaches the course [CS3700](Courses) ?
+    - which instructor teaches the [Introduction to Database Systems](Courses) course ?
+    - which instructor teaches the [CS3700](Courses) course ?
+    - which lecturer teaches the course [Introduction to Database Systems](Courses) ?
+    - which lecturer teaches the course [CS3700](Courses) ?
+    - which lecturer teaches the [Introduction to Database Systems](Courses) course ?
+    - which lecturer teaches the [CS3700](Courses) course ?
+    - which professor teaches the course [Introduction to Database Systems](Courses) ?
+    - which professor teaches the course [CS3700](Courses) ?
+    - which professor teaches the [Introduction to Database Systems](Courses) course ?
+    - which professor teaches the [CS3700](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [GPU Programming](Courses) ?
+    - which prof teaches the course [CS6023](Courses) ?
+    - which prof teaches the [GPU Programming](Courses) course ?
+    - which prof teaches the [CS6023](Courses) course ?
+    - which profs teaches the course [GPU Programming](Courses) ?
+    - which profs teaches the course [CS6023](Courses) ?
+    - which profs teaches the [GPU Programming](Courses) course ?
+    - which profs teaches the [CS6023](Courses) course ?
+    - which teacher teaches the course [GPU Programming](Courses) ?
+    - which teacher teaches the course [CS6023](Courses) ?
+    - which teacher teaches the [GPU Programming](Courses) course ?
+    - which teacher teaches the [CS6023](Courses) course ?
+    - which instructor teaches the course [GPU Programming](Courses) ?
+    - which instructor teaches the course [CS6023](Courses) ?
+    - which instructor teaches the [GPU Programming](Courses) course ?
+    - which instructor teaches the [CS6023](Courses) course ?
+    - which lecturer teaches the course [GPU Programming](Courses) ?
+    - which lecturer teaches the course [CS6023](Courses) ?
+    - which lecturer teaches the [GPU Programming](Courses) course ?
+    - which lecturer teaches the [CS6023](Courses) course ?
+    - which professor teaches the course [GPU Programming](Courses) ?
+    - which professor teaches the course [CS6023](Courses) ?
+    - which professor teaches the [GPU Programming](Courses) course ?
+    - which professor teaches the [CS6023](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Deep Learning](Courses) ?
+    - which prof teaches the course [CS6910](Courses) ?
+    - which prof teaches the [Deep Learning](Courses) course ?
+    - which prof teaches the [CS6910](Courses) course ?
+    - which profs teaches the course [Deep Learning](Courses) ?
+    - which profs teaches the course [CS6910](Courses) ?
+    - which profs teaches the [Deep Learning](Courses) course ?
+    - which profs teaches the [CS6910](Courses) course ?
+    - which teacher teaches the course [Deep Learning](Courses) ?
+    - which teacher teaches the course [CS6910](Courses) ?
+    - which teacher teaches the [Deep Learning](Courses) course ?
+    - which teacher teaches the [CS6910](Courses) course ?
+    - which instructor teaches the course [Deep Learning](Courses) ?
+    - which instructor teaches the course [CS6910](Courses) ?
+    - which instructor teaches the [Deep Learning](Courses) course ?
+    - which instructor teaches the [CS6910](Courses) course ?
+    - which lecturer teaches the course [Deep Learning](Courses) ?
+    - which lecturer teaches the course [CS6910](Courses) ?
+    - which lecturer teaches the [Deep Learning](Courses) course ?
+    - which lecturer teaches the [CS6910](Courses) course ?
+    - which professor teaches the course [Deep Learning](Courses) ?
+    - which professor teaches the course [CS6910](Courses) ?
+    - which professor teaches the [Deep Learning](Courses) course ?
+    - which professor teaches the [CS6910](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which prof teaches the course [CS6852](Courses) ?
+    - which prof teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which prof teaches the [CS6852](Courses) course ?
+    - which profs teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which profs teaches the course [CS6852](Courses) ?
+    - which profs teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which profs teaches the [CS6852](Courses) course ?
+    - which teacher teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which teacher teaches the course [CS6852](Courses) ?
+    - which teacher teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which teacher teaches the [CS6852](Courses) course ?
+    - which instructor teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which instructor teaches the course [CS6852](Courses) ?
+    - which instructor teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which instructor teaches the [CS6852](Courses) course ?
+    - which lecturer teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which lecturer teaches the course [CS6852](Courses) ?
+    - which lecturer teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which lecturer teaches the [CS6852](Courses) course ?
+    - which professor teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which professor teaches the course [CS6852](Courses) ?
+    - which professor teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which professor teaches the [CS6852](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Thermodynamics](Courses) ?
+    - which prof teaches the course [ME1100](Courses) ?
+    - which prof teaches the [Thermodynamics](Courses) course ?
+    - which prof teaches the [ME1100](Courses) course ?
+    - which profs teaches the course [Thermodynamics](Courses) ?
+    - which profs teaches the course [ME1100](Courses) ?
+    - which profs teaches the [Thermodynamics](Courses) course ?
+    - which profs teaches the [ME1100](Courses) course ?
+    - which teacher teaches the course [Thermodynamics](Courses) ?
+    - which teacher teaches the course [ME1100](Courses) ?
+    - which teacher teaches the [Thermodynamics](Courses) course ?
+    - which teacher teaches the [ME1100](Courses) course ?
+    - which instructor teaches the course [Thermodynamics](Courses) ?
+    - which instructor teaches the course [ME1100](Courses) ?
+    - which instructor teaches the [Thermodynamics](Courses) course ?
+    - which instructor teaches the [ME1100](Courses) course ?
+    - which lecturer teaches the course [Thermodynamics](Courses) ?
+    - which lecturer teaches the course [ME1100](Courses) ?
+    - which lecturer teaches the [Thermodynamics](Courses) course ?
+    - which lecturer teaches the [ME1100](Courses) course ?
+    - which professor teaches the course [Thermodynamics](Courses) ?
+    - which professor teaches the course [ME1100](Courses) ?
+    - which professor teaches the [Thermodynamics](Courses) course ?
+    - which professor teaches the [ME1100](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Analog Circuits](Courses) ?
+    - which prof teaches the course [EE3002](Courses) ?
+    - which prof teaches the [Analog Circuits](Courses) course ?
+    - which prof teaches the [EE3002](Courses) course ?
+    - which profs teaches the course [Analog Circuits](Courses) ?
+    - which profs teaches the course [EE3002](Courses) ?
+    - which profs teaches the [Analog Circuits](Courses) course ?
+    - which profs teaches the [EE3002](Courses) course ?
+    - which teacher teaches the course [Analog Circuits](Courses) ?
+    - which teacher teaches the course [EE3002](Courses) ?
+    - which teacher teaches the [Analog Circuits](Courses) course ?
+    - which teacher teaches the [EE3002](Courses) course ?
+    - which instructor teaches the course [Analog Circuits](Courses) ?
+    - which instructor teaches the course [EE3002](Courses) ?
+    - which instructor teaches the [Analog Circuits](Courses) course ?
+    - which instructor teaches the [EE3002](Courses) course ?
+    - which lecturer teaches the course [Analog Circuits](Courses) ?
+    - which lecturer teaches the course [EE3002](Courses) ?
+    - which lecturer teaches the [Analog Circuits](Courses) course ?
+    - which lecturer teaches the [EE3002](Courses) course ?
+    - which professor teaches the course [Analog Circuits](Courses) ?
+    - which professor teaches the course [EE3002](Courses) ?
+    - which professor teaches the [Analog Circuits](Courses) course ?
+    - which professor teaches the [EE3002](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which prof teaches the course [EE6150](Courses) ?
+    - which prof teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which prof teaches the [EE6150](Courses) course ?
+    - which profs teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which profs teaches the course [EE6150](Courses) ?
+    - which profs teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which profs teaches the [EE6150](Courses) course ?
+    - which teacher teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which teacher teaches the course [EE6150](Courses) ?
+    - which teacher teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which teacher teaches the [EE6150](Courses) course ?
+    - which instructor teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which instructor teaches the course [EE6150](Courses) ?
+    - which instructor teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which instructor teaches the [EE6150](Courses) course ?
+    - which lecturer teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which lecturer teaches the course [EE6150](Courses) ?
+    - which lecturer teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which lecturer teaches the [EE6150](Courses) course ?
+    - which professor teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which professor teaches the course [EE6150](Courses) ?
+    - which professor teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which professor teaches the [EE6150](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Engineering Drawing](Courses) ?
+    - which prof teaches the course [ME1480](Courses) ?
+    - which prof teaches the [Engineering Drawing](Courses) course ?
+    - which prof teaches the [ME1480](Courses) course ?
+    - which profs teaches the course [Engineering Drawing](Courses) ?
+    - which profs teaches the course [ME1480](Courses) ?
+    - which profs teaches the [Engineering Drawing](Courses) course ?
+    - which profs teaches the [ME1480](Courses) course ?
+    - which teacher teaches the course [Engineering Drawing](Courses) ?
+    - which teacher teaches the course [ME1480](Courses) ?
+    - which teacher teaches the [Engineering Drawing](Courses) course ?
+    - which teacher teaches the [ME1480](Courses) course ?
+    - which instructor teaches the course [Engineering Drawing](Courses) ?
+    - which instructor teaches the course [ME1480](Courses) ?
+    - which instructor teaches the [Engineering Drawing](Courses) course ?
+    - which instructor teaches the [ME1480](Courses) course ?
+    - which lecturer teaches the course [Engineering Drawing](Courses) ?
+    - which lecturer teaches the course [ME1480](Courses) ?
+    - which lecturer teaches the [Engineering Drawing](Courses) course ?
+    - which lecturer teaches the [ME1480](Courses) course ?
+    - which professor teaches the course [Engineering Drawing](Courses) ?
+    - which professor teaches the course [ME1480](Courses) ?
+    - which professor teaches the [Engineering Drawing](Courses) course ?
+    - which professor teaches the [ME1480](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Automation in manufacturing](Courses) ?
+    - which prof teaches the course [ME3302](Courses) ?
+    - which prof teaches the [Automation in manufacturing](Courses) course ?
+    - which prof teaches the [ME3302](Courses) course ?
+    - which profs teaches the course [Automation in manufacturing](Courses) ?
+    - which profs teaches the course [ME3302](Courses) ?
+    - which profs teaches the [Automation in manufacturing](Courses) course ?
+    - which profs teaches the [ME3302](Courses) course ?
+    - which teacher teaches the course [Automation in manufacturing](Courses) ?
+    - which teacher teaches the course [ME3302](Courses) ?
+    - which teacher teaches the [Automation in manufacturing](Courses) course ?
+    - which teacher teaches the [ME3302](Courses) course ?
+    - which instructor teaches the course [Automation in manufacturing](Courses) ?
+    - which instructor teaches the course [ME3302](Courses) ?
+    - which instructor teaches the [Automation in manufacturing](Courses) course ?
+    - which instructor teaches the [ME3302](Courses) course ?
+    - which lecturer teaches the course [Automation in manufacturing](Courses) ?
+    - which lecturer teaches the course [ME3302](Courses) ?
+    - which lecturer teaches the [Automation in manufacturing](Courses) course ?
+    - which lecturer teaches the [ME3302](Courses) course ?
+    - which professor teaches the course [Automation in manufacturing](Courses) ?
+    - which professor teaches the course [ME3302](Courses) ?
+    - which professor teaches the [Automation in manufacturing](Courses) course ?
+    - which professor teaches the [ME3302](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Introduction to Programming](Courses) ?
+    - which prof teaches the course [CS1100](Courses) ?
+    - which prof teaches the [Introduction to Programming](Courses) course ?
+    - which prof teaches the [CS1100](Courses) course ?
+    - which profs teaches the course [Introduction to Programming](Courses) ?
+    - which profs teaches the course [CS1100](Courses) ?
+    - which profs teaches the [Introduction to Programming](Courses) course ?
+    - which profs teaches the [CS1100](Courses) course ?
+    - which teacher teaches the course [Introduction to Programming](Courses) ?
+    - which teacher teaches the course [CS1100](Courses) ?
+    - which teacher teaches the [Introduction to Programming](Courses) course ?
+    - which teacher teaches the [CS1100](Courses) course ?
+    - which instructor teaches the course [Introduction to Programming](Courses) ?
+    - which instructor teaches the course [CS1100](Courses) ?
+    - which instructor teaches the [Introduction to Programming](Courses) course ?
+    - which instructor teaches the [CS1100](Courses) course ?
+    - which lecturer teaches the course [Introduction to Programming](Courses) ?
+    - which lecturer teaches the course [CS1100](Courses) ?
+    - which lecturer teaches the [Introduction to Programming](Courses) course ?
+    - which lecturer teaches the [CS1100](Courses) course ?
+    - which professor teaches the course [Introduction to Programming](Courses) ?
+    - which professor teaches the course [CS1100](Courses) ?
+    - which professor teaches the [Introduction to Programming](Courses) course ?
+    - which professor teaches the [CS1100](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+    - which prof teaches the course [Discrete Mathematics](Courses) ?
+    - which prof teaches the course [CS1200](Courses) ?
+    - which prof teaches the [Discrete Mathematics](Courses) course ?
+    - which prof teaches the [CS1200](Courses) course ?
+    - which profs teaches the course [Discrete Mathematics](Courses) ?
+    - which profs teaches the course [CS1200](Courses) ?
+    - which profs teaches the [Discrete Mathematics](Courses) course ?
+    - which profs teaches the [CS1200](Courses) course ?
+    - which teacher teaches the course [Discrete Mathematics](Courses) ?
+    - which teacher teaches the course [CS1200](Courses) ?
+    - which teacher teaches the [Discrete Mathematics](Courses) course ?
+    - which teacher teaches the [CS1200](Courses) course ?
+    - which instructor teaches the course [Discrete Mathematics](Courses) ?
+    - which instructor teaches the course [CS1200](Courses) ?
+    - which instructor teaches the [Discrete Mathematics](Courses) course ?
+    - which instructor teaches the [CS1200](Courses) course ?
+    - which lecturer teaches the course [Discrete Mathematics](Courses) ?
+    - which lecturer teaches the course [CS1200](Courses) ?
+    - which lecturer teaches the [Discrete Mathematics](Courses) course ?
+    - which lecturer teaches the [CS1200](Courses) course ?
+    - which professor teaches the course [Discrete Mathematics](Courses) ?
+    - which professor teaches the course [CS1200](Courses) ?
+    - which professor teaches the [Discrete Mathematics](Courses) course ?
+    - which professor teaches the [CS1200](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the [professor](Courses) course ?
+    - who teaches the course [professor](Courses) ?
+    - who teaches the course [professor](Courses) ?
+- intent: course_prof_info 
+  examples: | 
+    - which prof teaches the course [Materials and Design](Courses) ?
+    - which prof teaches the course [ME2200](Courses) ?
+    - which prof teaches the [Materials and Design](Courses) course ?
+    - which prof teaches the [ME2200](Courses) course ?
+    - which profs teaches the course [Materials and Design](Courses) ?
+    - which profs teaches the course [ME2200](Courses) ?
+    - which profs teaches the [Materials and Design](Courses) course ?
+    - which profs teaches the [ME2200](Courses) course ?
+    - which teacher teaches the course [Materials and Design](Courses) ?
+    - which teacher teaches the course [ME2200](Courses) ?
+    - which teacher teaches the [Materials and Design](Courses) course ?
+    - which teacher teaches the [ME2200](Courses) course ?
+    - which instructor teaches the course [Materials and Design](Courses) ?
+    - which instructor teaches the course [ME2200](Courses) ?
+    - which instructor teaches the [Materials and Design](Courses) course ?
+    - which instructor teaches the [ME2200](Courses) course ?
+    - which lecturer teaches the course [Materials and Design](Courses) ?
+    - which lecturer teaches the course [ME2200](Courses) ?
+    - which lecturer teaches the [Materials and Design](Courses) course ?
+    - which lecturer teaches the [ME2200](Courses) course ?
+    - which professor teaches the course [Materials and Design](Courses) ?
+    - which professor teaches the course [ME2200](Courses) ?
+    - which professor teaches the [Materials and Design](Courses) course ?
+    - which professor teaches the [ME2200](Courses) course ?
+    - who teaches the [Materials and Design](Courses) course ?
+    - who teaches the [ME2200](Courses) course ?
+    - who teaches the course [Materials and Design](Courses) ?
+    - who teaches the course [ME2200](Courses) ?
+    - which prof teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which prof teaches the course [EE6112](Courses) ?
+    - which prof teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which prof teaches the [EE6112](Courses) course ?
+    - which profs teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which profs teaches the course [EE6112](Courses) ?
+    - which profs teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which profs teaches the [EE6112](Courses) course ?
+    - which teacher teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which teacher teaches the course [EE6112](Courses) ?
+    - which teacher teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which teacher teaches the [EE6112](Courses) course ?
+    - which instructor teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which instructor teaches the course [EE6112](Courses) ?
+    - which instructor teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which instructor teaches the [EE6112](Courses) course ?
+    - which lecturer teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which lecturer teaches the course [EE6112](Courses) ?
+    - which lecturer teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which lecturer teaches the [EE6112](Courses) course ?
+    - which professor teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - which professor teaches the course [EE6112](Courses) ?
+    - which professor teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - which professor teaches the [EE6112](Courses) course ?
+    - who teaches the [Topics in Random Processes and Concentrations](Courses) course ?
+    - who teaches the [EE6112](Courses) course ?
+    - who teaches the course [Topics in Random Processes and Concentrations](Courses) ?
+    - who teaches the course [EE6112](Courses) ?
+    - which prof teaches the course [Reinforcement Learning](Courses) ?
+    - which prof teaches the course [CS6700](Courses) ?
+    - which prof teaches the [Reinforcement Learning](Courses) course ?
+    - which prof teaches the [CS6700](Courses) course ?
+    - which profs teaches the course [Reinforcement Learning](Courses) ?
+    - which profs teaches the course [CS6700](Courses) ?
+    - which profs teaches the [Reinforcement Learning](Courses) course ?
+    - which profs teaches the [CS6700](Courses) course ?
+    - which teacher teaches the course [Reinforcement Learning](Courses) ?
+    - which teacher teaches the course [CS6700](Courses) ?
+    - which teacher teaches the [Reinforcement Learning](Courses) course ?
+    - which teacher teaches the [CS6700](Courses) course ?
+    - which instructor teaches the course [Reinforcement Learning](Courses) ?
+    - which instructor teaches the course [CS6700](Courses) ?
+    - which instructor teaches the [Reinforcement Learning](Courses) course ?
+    - which instructor teaches the [CS6700](Courses) course ?
+    - which lecturer teaches the course [Reinforcement Learning](Courses) ?
+    - which lecturer teaches the course [CS6700](Courses) ?
+    - which lecturer teaches the [Reinforcement Learning](Courses) course ?
+    - which lecturer teaches the [CS6700](Courses) course ?
+    - which professor teaches the course [Reinforcement Learning](Courses) ?
+    - which professor teaches the course [CS6700](Courses) ?
+    - which professor teaches the [Reinforcement Learning](Courses) course ?
+    - which professor teaches the [CS6700](Courses) course ?
+    - who teaches the [Reinforcement Learning](Courses) course ?
+    - who teaches the [CS6700](Courses) course ?
+    - who teaches the course [Reinforcement Learning](Courses) ?
+    - who teaches the course [CS6700](Courses) ?
+    - which prof teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which prof teaches the course [CH1020](Courses) ?
+    - which prof teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which prof teaches the [CH1020](Courses) course ?
+    - which profs teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which profs teaches the course [CH1020](Courses) ?
+    - which profs teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which profs teaches the [CH1020](Courses) course ?
+    - which teacher teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which teacher teaches the course [CH1020](Courses) ?
+    - which teacher teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which teacher teaches the [CH1020](Courses) course ?
+    - which instructor teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which instructor teaches the course [CH1020](Courses) ?
+    - which instructor teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which instructor teaches the [CH1020](Courses) course ?
+    - which lecturer teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which lecturer teaches the course [CH1020](Courses) ?
+    - which lecturer teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which lecturer teaches the [CH1020](Courses) course ?
+    - which professor teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - which professor teaches the course [CH1020](Courses) ?
+    - which professor teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - which professor teaches the [CH1020](Courses) course ?
+    - who teaches the [Principles & Calculations in Chemical](Courses) course ?
+    - who teaches the [CH1020](Courses) course ?
+    - who teaches the course [Principles & Calculations in Chemical](Courses) ?
+    - who teaches the course [CH1020](Courses) ?
+    - which prof teaches the course [Process Engineering](Courses) ?
+    - which prof teaches the course [CH4250](Courses) ?
+    - which prof teaches the [Process Engineering](Courses) course ?
+    - which prof teaches the [CH4250](Courses) course ?
+    - which profs teaches the course [Process Engineering](Courses) ?
+    - which profs teaches the course [CH4250](Courses) ?
+    - which profs teaches the [Process Engineering](Courses) course ?
+    - which profs teaches the [CH4250](Courses) course ?
+    - which teacher teaches the course [Process Engineering](Courses) ?
+    - which teacher teaches the course [CH4250](Courses) ?
+    - which teacher teaches the [Process Engineering](Courses) course ?
+    - which teacher teaches the [CH4250](Courses) course ?
+    - which instructor teaches the course [Process Engineering](Courses) ?
+    - which instructor teaches the course [CH4250](Courses) ?
+    - which instructor teaches the [Process Engineering](Courses) course ?
+    - which instructor teaches the [CH4250](Courses) course ?
+    - which lecturer teaches the course [Process Engineering](Courses) ?
+    - which lecturer teaches the course [CH4250](Courses) ?
+    - which lecturer teaches the [Process Engineering](Courses) course ?
+    - which lecturer teaches the [CH4250](Courses) course ?
+    - which professor teaches the course [Process Engineering](Courses) ?
+    - which professor teaches the course [CH4250](Courses) ?
+    - which professor teaches the [Process Engineering](Courses) course ?
+    - which professor teaches the [CH4250](Courses) course ?
+    - who teaches the [Process Engineering](Courses) course ?
+    - who teaches the [CH4250](Courses) course ?
+    - who teaches the course [Process Engineering](Courses) ?
+    - who teaches the course [CH4250](Courses) ?
+    - which prof teaches the course [Transport Phenomena](Courses) ?
+    - which prof teaches the course [CH5030](Courses) ?
+    - which prof teaches the [Transport Phenomena](Courses) course ?
+    - which prof teaches the [CH5030](Courses) course ?
+    - which profs teaches the course [Transport Phenomena](Courses) ?
+    - which profs teaches the course [CH5030](Courses) ?
+    - which profs teaches the [Transport Phenomena](Courses) course ?
+    - which profs teaches the [CH5030](Courses) course ?
+    - which teacher teaches the course [Transport Phenomena](Courses) ?
+    - which teacher teaches the course [CH5030](Courses) ?
+    - which teacher teaches the [Transport Phenomena](Courses) course ?
+    - which teacher teaches the [CH5030](Courses) course ?
+    - which instructor teaches the course [Transport Phenomena](Courses) ?
+    - which instructor teaches the course [CH5030](Courses) ?
+    - which instructor teaches the [Transport Phenomena](Courses) course ?
+    - which instructor teaches the [CH5030](Courses) course ?
+    - which lecturer teaches the course [Transport Phenomena](Courses) ?
+    - which lecturer teaches the course [CH5030](Courses) ?
+    - which lecturer teaches the [Transport Phenomena](Courses) course ?
+    - which lecturer teaches the [CH5030](Courses) course ?
+    - which professor teaches the course [Transport Phenomena](Courses) ?
+    - which professor teaches the course [CH5030](Courses) ?
+    - which professor teaches the [Transport Phenomena](Courses) course ?
+    - which professor teaches the [CH5030](Courses) course ?
+    - who teaches the [Transport Phenomena](Courses) course ?
+    - who teaches the [CH5030](Courses) course ?
+    - who teaches the course [Transport Phenomena](Courses) ?
+    - who teaches the course [CH5030](Courses) ?
+    - which prof teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which prof teaches the course [CH5370](Courses) ?
+    - which prof teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which prof teaches the [CH5370](Courses) course ?
+    - which profs teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which profs teaches the course [CH5370](Courses) ?
+    - which profs teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which profs teaches the [CH5370](Courses) course ?
+    - which teacher teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which teacher teaches the course [CH5370](Courses) ?
+    - which teacher teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which teacher teaches the [CH5370](Courses) course ?
+    - which instructor teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which instructor teaches the course [CH5370](Courses) ?
+    - which instructor teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which instructor teaches the [CH5370](Courses) course ?
+    - which lecturer teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which lecturer teaches the course [CH5370](Courses) ?
+    - which lecturer teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which lecturer teaches the [CH5370](Courses) course ?
+    - which professor teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - which professor teaches the course [CH5370](Courses) ?
+    - which professor teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - which professor teaches the [CH5370](Courses) course ?
+    - who teaches the [Environmental Quality Monitoring & Analysis](Courses) course ?
+    - who teaches the [CH5370](Courses) course ?
+    - who teaches the course [Environmental Quality Monitoring & Analysis](Courses) ?
+    - who teaches the course [CH5370](Courses) ?
+    - which prof teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which prof teaches the course [CS2800](Courses) ?
+    - which prof teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which prof teaches the [CS2800](Courses) course ?
+    - which profs teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which profs teaches the course [CS2800](Courses) ?
+    - which profs teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which profs teaches the [CS2800](Courses) course ?
+    - which teacher teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which teacher teaches the course [CS2800](Courses) ?
+    - which teacher teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which teacher teaches the [CS2800](Courses) course ?
+    - which instructor teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which instructor teaches the course [CS2800](Courses) ?
+    - which instructor teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which instructor teaches the [CS2800](Courses) course ?
+    - which lecturer teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which lecturer teaches the course [CS2800](Courses) ?
+    - which lecturer teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which lecturer teaches the [CS2800](Courses) course ?
+    - which professor teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - which professor teaches the course [CS2800](Courses) ?
+    - which professor teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - which professor teaches the [CS2800](Courses) course ?
+    - who teaches the [Design and Analysis of Algorithms](Courses) course ?
+    - who teaches the [CS2800](Courses) course ?
+    - who teaches the course [Design and Analysis of Algorithms](Courses) ?
+    - who teaches the course [CS2800](Courses) ?
+    - which prof teaches the course [Introduction to Database Systems](Courses) ?
+    - which prof teaches the course [CS3700](Courses) ?
+    - which prof teaches the [Introduction to Database Systems](Courses) course ?
+    - which prof teaches the [CS3700](Courses) course ?
+    - which profs teaches the course [Introduction to Database Systems](Courses) ?
+    - which profs teaches the course [CS3700](Courses) ?
+    - which profs teaches the [Introduction to Database Systems](Courses) course ?
+    - which profs teaches the [CS3700](Courses) course ?
+    - which teacher teaches the course [Introduction to Database Systems](Courses) ?
+    - which teacher teaches the course [CS3700](Courses) ?
+    - which teacher teaches the [Introduction to Database Systems](Courses) course ?
+    - which teacher teaches the [CS3700](Courses) course ?
+    - which instructor teaches the course [Introduction to Database Systems](Courses) ?
+    - which instructor teaches the course [CS3700](Courses) ?
+    - which instructor teaches the [Introduction to Database Systems](Courses) course ?
+    - which instructor teaches the [CS3700](Courses) course ?
+    - which lecturer teaches the course [Introduction to Database Systems](Courses) ?
+    - which lecturer teaches the course [CS3700](Courses) ?
+    - which lecturer teaches the [Introduction to Database Systems](Courses) course ?
+    - which lecturer teaches the [CS3700](Courses) course ?
+    - which professor teaches the course [Introduction to Database Systems](Courses) ?
+    - which professor teaches the course [CS3700](Courses) ?
+    - which professor teaches the [Introduction to Database Systems](Courses) course ?
+    - which professor teaches the [CS3700](Courses) course ?
+    - who teaches the [Introduction to Database Systems](Courses) course ?
+    - who teaches the [CS3700](Courses) course ?
+    - who teaches the course [Introduction to Database Systems](Courses) ?
+    - who teaches the course [CS3700](Courses) ?
+    - which prof teaches the course [GPU Programming](Courses) ?
+    - which prof teaches the course [CS6023](Courses) ?
+    - which prof teaches the [GPU Programming](Courses) course ?
+    - which prof teaches the [CS6023](Courses) course ?
+    - which profs teaches the course [GPU Programming](Courses) ?
+    - which profs teaches the course [CS6023](Courses) ?
+    - which profs teaches the [GPU Programming](Courses) course ?
+    - which profs teaches the [CS6023](Courses) course ?
+    - which teacher teaches the course [GPU Programming](Courses) ?
+    - which teacher teaches the course [CS6023](Courses) ?
+    - which teacher teaches the [GPU Programming](Courses) course ?
+    - which teacher teaches the [CS6023](Courses) course ?
+    - which instructor teaches the course [GPU Programming](Courses) ?
+    - which instructor teaches the course [CS6023](Courses) ?
+    - which instructor teaches the [GPU Programming](Courses) course ?
+    - which instructor teaches the [CS6023](Courses) course ?
+    - which lecturer teaches the course [GPU Programming](Courses) ?
+    - which lecturer teaches the course [CS6023](Courses) ?
+    - which lecturer teaches the [GPU Programming](Courses) course ?
+    - which lecturer teaches the [CS6023](Courses) course ?
+    - which professor teaches the course [GPU Programming](Courses) ?
+    - which professor teaches the course [CS6023](Courses) ?
+    - which professor teaches the [GPU Programming](Courses) course ?
+    - which professor teaches the [CS6023](Courses) course ?
+    - who teaches the [GPU Programming](Courses) course ?
+    - who teaches the [CS6023](Courses) course ?
+    - who teaches the course [GPU Programming](Courses) ?
+    - who teaches the course [CS6023](Courses) ?
+    - which prof teaches the course [Deep Learning](Courses) ?
+    - which prof teaches the course [CS6910](Courses) ?
+    - which prof teaches the [Deep Learning](Courses) course ?
+    - which prof teaches the [CS6910](Courses) course ?
+    - which profs teaches the course [Deep Learning](Courses) ?
+    - which profs teaches the course [CS6910](Courses) ?
+    - which profs teaches the [Deep Learning](Courses) course ?
+    - which profs teaches the [CS6910](Courses) course ?
+    - which teacher teaches the course [Deep Learning](Courses) ?
+    - which teacher teaches the course [CS6910](Courses) ?
+    - which teacher teaches the [Deep Learning](Courses) course ?
+    - which teacher teaches the [CS6910](Courses) course ?
+    - which instructor teaches the course [Deep Learning](Courses) ?
+    - which instructor teaches the course [CS6910](Courses) ?
+    - which instructor teaches the [Deep Learning](Courses) course ?
+    - which instructor teaches the [CS6910](Courses) course ?
+    - which lecturer teaches the course [Deep Learning](Courses) ?
+    - which lecturer teaches the course [CS6910](Courses) ?
+    - which lecturer teaches the [Deep Learning](Courses) course ?
+    - which lecturer teaches the [CS6910](Courses) course ?
+    - which professor teaches the course [Deep Learning](Courses) ?
+    - which professor teaches the course [CS6910](Courses) ?
+    - which professor teaches the [Deep Learning](Courses) course ?
+    - which professor teaches the [CS6910](Courses) course ?
+    - who teaches the [Deep Learning](Courses) course ?
+    - who teaches the [CS6910](Courses) course ?
+    - who teaches the course [Deep Learning](Courses) ?
+    - who teaches the course [CS6910](Courses) ?
+    - which prof teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which prof teaches the course [CS6852](Courses) ?
+    - which prof teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which prof teaches the [CS6852](Courses) course ?
+    - which profs teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which profs teaches the course [CS6852](Courses) ?
+    - which profs teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which profs teaches the [CS6852](Courses) course ?
+    - which teacher teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which teacher teaches the course [CS6852](Courses) ?
+    - which teacher teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which teacher teaches the [CS6852](Courses) course ?
+    - which instructor teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which instructor teaches the course [CS6852](Courses) ?
+    - which instructor teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which instructor teaches the [CS6852](Courses) course ?
+    - which lecturer teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which lecturer teaches the course [CS6852](Courses) ?
+    - which lecturer teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which lecturer teaches the [CS6852](Courses) course ?
+    - which professor teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - which professor teaches the course [CS6852](Courses) ?
+    - which professor teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - which professor teaches the [CS6852](Courses) course ?
+    - who teaches the [Theory and Applications of Ontologies](Courses) course ?
+    - who teaches the [CS6852](Courses) course ?
+    - who teaches the course [Theory and Applications of Ontologies](Courses) ?
+    - who teaches the course [CS6852](Courses) ?
+    - which prof teaches the course [Thermodynamics](Courses) ?
+    - which prof teaches the course [ME1100](Courses) ?
+    - which prof teaches the [Thermodynamics](Courses) course ?
+    - which prof teaches the [ME1100](Courses) course ?
+    - which profs teaches the course [Thermodynamics](Courses) ?
+    - which profs teaches the course [ME1100](Courses) ?
+    - which profs teaches the [Thermodynamics](Courses) course ?
+    - which profs teaches the [ME1100](Courses) course ?
+    - which teacher teaches the course [Thermodynamics](Courses) ?
+    - which teacher teaches the course [ME1100](Courses) ?
+    - which teacher teaches the [Thermodynamics](Courses) course ?
+    - which teacher teaches the [ME1100](Courses) course ?
+    - which instructor teaches the course [Thermodynamics](Courses) ?
+    - which instructor teaches the course [ME1100](Courses) ?
+    - which instructor teaches the [Thermodynamics](Courses) course ?
+    - which instructor teaches the [ME1100](Courses) course ?
+    - which lecturer teaches the course [Thermodynamics](Courses) ?
+    - which lecturer teaches the course [ME1100](Courses) ?
+    - which lecturer teaches the [Thermodynamics](Courses) course ?
+    - which lecturer teaches the [ME1100](Courses) course ?
+    - which professor teaches the course [Thermodynamics](Courses) ?
+    - which professor teaches the course [ME1100](Courses) ?
+    - which professor teaches the [Thermodynamics](Courses) course ?
+    - which professor teaches the [ME1100](Courses) course ?
+    - who teaches the [Thermodynamics](Courses) course ?
+    - who teaches the [ME1100](Courses) course ?
+    - who teaches the course [Thermodynamics](Courses) ?
+    - who teaches the course [ME1100](Courses) ?
+    - which prof teaches the course [Analog Circuits](Courses) ?
+    - which prof teaches the course [EE3002](Courses) ?
+    - which prof teaches the [Analog Circuits](Courses) course ?
+    - which prof teaches the [EE3002](Courses) course ?
+    - which profs teaches the course [Analog Circuits](Courses) ?
+    - which profs teaches the course [EE3002](Courses) ?
+    - which profs teaches the [Analog Circuits](Courses) course ?
+    - which profs teaches the [EE3002](Courses) course ?
+    - which teacher teaches the course [Analog Circuits](Courses) ?
+    - which teacher teaches the course [EE3002](Courses) ?
+    - which teacher teaches the [Analog Circuits](Courses) course ?
+    - which teacher teaches the [EE3002](Courses) course ?
+    - which instructor teaches the course [Analog Circuits](Courses) ?
+    - which instructor teaches the course [EE3002](Courses) ?
+    - which instructor teaches the [Analog Circuits](Courses) course ?
+    - which instructor teaches the [EE3002](Courses) course ?
+    - which lecturer teaches the course [Analog Circuits](Courses) ?
+    - which lecturer teaches the course [EE3002](Courses) ?
+    - which lecturer teaches the [Analog Circuits](Courses) course ?
+    - which lecturer teaches the [EE3002](Courses) course ?
+    - which professor teaches the course [Analog Circuits](Courses) ?
+    - which professor teaches the course [EE3002](Courses) ?
+    - which professor teaches the [Analog Circuits](Courses) course ?
+    - which professor teaches the [EE3002](Courses) course ?
+    - who teaches the [Analog Circuits](Courses) course ?
+    - who teaches the [EE3002](Courses) course ?
+    - who teaches the course [Analog Circuits](Courses) ?
+    - who teaches the course [EE3002](Courses) ?
+    - which prof teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which prof teaches the course [EE6150](Courses) ?
+    - which prof teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which prof teaches the [EE6150](Courses) course ?
+    - which profs teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which profs teaches the course [EE6150](Courses) ?
+    - which profs teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which profs teaches the [EE6150](Courses) course ?
+    - which teacher teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which teacher teaches the course [EE6150](Courses) ?
+    - which teacher teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which teacher teaches the [EE6150](Courses) course ?
+    - which instructor teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which instructor teaches the course [EE6150](Courses) ?
+    - which instructor teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which instructor teaches the [EE6150](Courses) course ?
+    - which lecturer teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which lecturer teaches the course [EE6150](Courses) ?
+    - which lecturer teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which lecturer teaches the [EE6150](Courses) course ?
+    - which professor teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - which professor teaches the course [EE6150](Courses) ?
+    - which professor teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - which professor teaches the [EE6150](Courses) course ?
+    - who teaches the [Stochastic Modeling and the Theory of Queues](Courses) course ?
+    - who teaches the [EE6150](Courses) course ?
+    - who teaches the course [Stochastic Modeling and the Theory of Queues](Courses) ?
+    - who teaches the course [EE6150](Courses) ?
+    - which prof teaches the course [Engineering Drawing](Courses) ?
+    - which prof teaches the course [ME1480](Courses) ?
+    - which prof teaches the [Engineering Drawing](Courses) course ?
+    - which prof teaches the [ME1480](Courses) course ?
+    - which profs teaches the course [Engineering Drawing](Courses) ?
+    - which profs teaches the course [ME1480](Courses) ?
+    - which profs teaches the [Engineering Drawing](Courses) course ?
+    - which profs teaches the [ME1480](Courses) course ?
+    - which teacher teaches the course [Engineering Drawing](Courses) ?
+    - which teacher teaches the course [ME1480](Courses) ?
+    - which teacher teaches the [Engineering Drawing](Courses) course ?
+    - which teacher teaches the [ME1480](Courses) course ?
+    - which instructor teaches the course [Engineering Drawing](Courses) ?
+    - which instructor teaches the course [ME1480](Courses) ?
+    - which instructor teaches the [Engineering Drawing](Courses) course ?
+    - which instructor teaches the [ME1480](Courses) course ?
+    - which lecturer teaches the course [Engineering Drawing](Courses) ?
+    - which lecturer teaches the course [ME1480](Courses) ?
+    - which lecturer teaches the [Engineering Drawing](Courses) course ?
+    - which lecturer teaches the [ME1480](Courses) course ?
+    - which professor teaches the course [Engineering Drawing](Courses) ?
+    - which professor teaches the course [ME1480](Courses) ?
+    - which professor teaches the [Engineering Drawing](Courses) course ?
+    - which professor teaches the [ME1480](Courses) course ?
+    - who teaches the [Engineering Drawing](Courses) course ?
+    - who teaches the [ME1480](Courses) course ?
+    - who teaches the course [Engineering Drawing](Courses) ?
+    - who teaches the course [ME1480](Courses) ?
+    - which prof teaches the course [Automation in manufacturing](Courses) ?
+    - which prof teaches the course [ME3302](Courses) ?
+    - which prof teaches the [Automation in manufacturing](Courses) course ?
+    - which prof teaches the [ME3302](Courses) course ?
+    - which profs teaches the course [Automation in manufacturing](Courses) ?
+    - which profs teaches the course [ME3302](Courses) ?
+    - which profs teaches the [Automation in manufacturing](Courses) course ?
+    - which profs teaches the [ME3302](Courses) course ?
+    - which teacher teaches the course [Automation in manufacturing](Courses) ?
+    - which teacher teaches the course [ME3302](Courses) ?
+    - which teacher teaches the [Automation in manufacturing](Courses) course ?
+    - which teacher teaches the [ME3302](Courses) course ?
+    - which instructor teaches the course [Automation in manufacturing](Courses) ?
+    - which instructor teaches the course [ME3302](Courses) ?
+    - which instructor teaches the [Automation in manufacturing](Courses) course ?
+    - which instructor teaches the [ME3302](Courses) course ?
+    - which lecturer teaches the course [Automation in manufacturing](Courses) ?
+    - which lecturer teaches the course [ME3302](Courses) ?
+    - which lecturer teaches the [Automation in manufacturing](Courses) course ?
+    - which lecturer teaches the [ME3302](Courses) course ?
+    - which professor teaches the course [Automation in manufacturing](Courses) ?
+    - which professor teaches the course [ME3302](Courses) ?
+    - which professor teaches the [Automation in manufacturing](Courses) course ?
+    - which professor teaches the [ME3302](Courses) course ?
+    - who teaches the [Automation in manufacturing](Courses) course ?
+    - who teaches the [ME3302](Courses) course ?
+    - who teaches the course [Automation in manufacturing](Courses) ?
+    - who teaches the course [ME3302](Courses) ?
+    - which prof teaches the course [Introduction to Programming](Courses) ?
+    - which prof teaches the course [CS1100](Courses) ?
+    - which prof teaches the [Introduction to Programming](Courses) course ?
+    - which prof teaches the [CS1100](Courses) course ?
+    - which profs teaches the course [Introduction to Programming](Courses) ?
+    - which profs teaches the course [CS1100](Courses) ?
+    - which profs teaches the [Introduction to Programming](Courses) course ?
+    - which profs teaches the [CS1100](Courses) course ?
+    - which teacher teaches the course [Introduction to Programming](Courses) ?
+    - which teacher teaches the course [CS1100](Courses) ?
+    - which teacher teaches the [Introduction to Programming](Courses) course ?
+    - which teacher teaches the [CS1100](Courses) course ?
+    - which instructor teaches the course [Introduction to Programming](Courses) ?
+    - which instructor teaches the course [CS1100](Courses) ?
+    - which instructor teaches the [Introduction to Programming](Courses) course ?
+    - which instructor teaches the [CS1100](Courses) course ?
+    - which lecturer teaches the course [Introduction to Programming](Courses) ?
+    - which lecturer teaches the course [CS1100](Courses) ?
+    - which lecturer teaches the [Introduction to Programming](Courses) course ?
+    - which lecturer teaches the [CS1100](Courses) course ?
+    - which professor teaches the course [Introduction to Programming](Courses) ?
+    - which professor teaches the course [CS1100](Courses) ?
+    - which professor teaches the [Introduction to Programming](Courses) course ?
+    - which professor teaches the [CS1100](Courses) course ?
+    - who teaches the [Introduction to Programming](Courses) course ?
+    - who teaches the [CS1100](Courses) course ?
+    - who teaches the course [Introduction to Programming](Courses) ?
+    - who teaches the course [CS1100](Courses) ?
+    - which prof teaches the course [Discrete Mathematics](Courses) ?
+    - which prof teaches the course [CS1200](Courses) ?
+    - which prof teaches the [Discrete Mathematics](Courses) course ?
+    - which prof teaches the [CS1200](Courses) course ?
+    - which profs teaches the course [Discrete Mathematics](Courses) ?
+    - which profs teaches the course [CS1200](Courses) ?
+    - which profs teaches the [Discrete Mathematics](Courses) course ?
+    - which profs teaches the [CS1200](Courses) course ?
+    - which teacher teaches the course [Discrete Mathematics](Courses) ?
+    - which teacher teaches the course [CS1200](Courses) ?
+    - which teacher teaches the [Discrete Mathematics](Courses) course ?
+    - which teacher teaches the [CS1200](Courses) course ?
+    - which instructor teaches the course [Discrete Mathematics](Courses) ?
+    - which instructor teaches the course [CS1200](Courses) ?
+    - which instructor teaches the [Discrete Mathematics](Courses) course ?
+    - which instructor teaches the [CS1200](Courses) course ?
+    - which lecturer teaches the course [Discrete Mathematics](Courses) ?
+    - which lecturer teaches the course [CS1200](Courses) ?
+    - which lecturer teaches the [Discrete Mathematics](Courses) course ?
+    - which lecturer teaches the [CS1200](Courses) course ?
+    - which professor teaches the course [Discrete Mathematics](Courses) ?
+    - which professor teaches the course [CS1200](Courses) ?
+    - which professor teaches the [Discrete Mathematics](Courses) course ?
+    - which professor teaches the [CS1200](Courses) course ?
+    - who teaches the [Discrete Mathematics](Courses) course ?
+    - who teaches the [CS1200](Courses) course ?
+    - who teaches the course [Discrete Mathematics](Courses) ?
+    - who teaches the course [CS1200](Courses) ?
+- intent: course_prereq_info 
+  examples: | 
+    - what courses are the prerequisites for the course [ME2200](Courses) 
+    - what courses are the prerequisites for the course [Materials and Design](Courses) 
+    - what courses are the prerequisites for the [ME2200](Courses) course 
+    - what courses are the prerequisites for the [Materials and Design](Courses) course 
+    - what courses are the prereqs for the course [ME2200](Courses) 
+    - what courses are the prereqs for the course [Materials and Design](Courses) 
+    - what courses are the prereqs for the [ME2200](Courses) course 
+    - what courses are the prereqs for the [Materials and Design](Courses) course 
+    - what courses are the requirements for the course [ME2200](Courses) 
+    - what courses are the requirements for the course [Materials and Design](Courses) 
+    - what courses are the requirements for the [ME2200](Courses) course 
+    - what courses are the requirements for the [Materials and Design](Courses) course 
+    - what courses are the prerequisite for the course [ME2200](Courses) 
+    - what courses are the prerequisite for the course [Materials and Design](Courses) 
+    - what courses are the prerequisite for the [ME2200](Courses) course 
+    - what courses are the prerequisite for the [Materials and Design](Courses) course 
+    - what courses have to be completed before the [Materials and Design](Courses) course 
+    - what courses have to be completed before the [ME2200](Courses) course 
+    - what prerequisite courses does the [Materials and Design](Courses) course have 
+    - what prerequisite courses does the [ME2200](Courses) course have 
+    - what courses are the prerequisites for the course [EE6112](Courses) 
+    - what courses are the prerequisites for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prerequisites for the [EE6112](Courses) course 
+    - what courses are the prerequisites for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the prereqs for the course [EE6112](Courses) 
+    - what courses are the prereqs for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prereqs for the [EE6112](Courses) course 
+    - what courses are the prereqs for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the requirements for the course [EE6112](Courses) 
+    - what courses are the requirements for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the requirements for the [EE6112](Courses) course 
+    - what courses are the requirements for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the prerequisite for the course [EE6112](Courses) 
+    - what courses are the prerequisite for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prerequisite for the [EE6112](Courses) course 
+    - what courses are the prerequisite for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses have to be completed before the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses have to be completed before the [EE6112](Courses) course 
+    - what prerequisite courses does the [Topics in Random Processes and Concentrations](Courses) course have 
+    - what prerequisite courses does the [EE6112](Courses) course have 
+    - what courses are the prerequisites for the course [CS6700](Courses) 
+    - what courses are the prerequisites for the course [Reinforcement Learning](Courses) 
+    - what courses are the prerequisites for the [CS6700](Courses) course 
+    - what courses are the prerequisites for the [Reinforcement Learning](Courses) course 
+    - what courses are the prereqs for the course [CS6700](Courses) 
+    - what courses are the prereqs for the course [Reinforcement Learning](Courses) 
+    - what courses are the prereqs for the [CS6700](Courses) course 
+    - what courses are the prereqs for the [Reinforcement Learning](Courses) course 
+    - what courses are the requirements for the course [CS6700](Courses) 
+    - what courses are the requirements for the course [Reinforcement Learning](Courses) 
+    - what courses are the requirements for the [CS6700](Courses) course 
+    - what courses are the requirements for the [Reinforcement Learning](Courses) course 
+    - what courses are the prerequisite for the course [CS6700](Courses) 
+    - what courses are the prerequisite for the course [Reinforcement Learning](Courses) 
+    - what courses are the prerequisite for the [CS6700](Courses) course 
+    - what courses are the prerequisite for the [Reinforcement Learning](Courses) course 
+    - what courses have to be completed before the [Reinforcement Learning](Courses) course 
+    - what courses have to be completed before the [CS6700](Courses) course 
+    - what prerequisite courses does the [Reinforcement Learning](Courses) course have 
+    - what prerequisite courses does the [CS6700](Courses) course have 
+    - what courses are the prerequisites for the course [CH1020](Courses) 
+    - what courses are the prerequisites for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prerequisites for the [CH1020](Courses) course 
+    - what courses are the prerequisites for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the prereqs for the course [CH1020](Courses) 
+    - what courses are the prereqs for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prereqs for the [CH1020](Courses) course 
+    - what courses are the prereqs for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the requirements for the course [CH1020](Courses) 
+    - what courses are the requirements for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the requirements for the [CH1020](Courses) course 
+    - what courses are the requirements for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the prerequisite for the course [CH1020](Courses) 
+    - what courses are the prerequisite for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prerequisite for the [CH1020](Courses) course 
+    - what courses are the prerequisite for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses have to be completed before the [Principles & Calculations in Chemical](Courses) course 
+    - what courses have to be completed before the [CH1020](Courses) course 
+    - what prerequisite courses does the [Principles & Calculations in Chemical](Courses) course have 
+    - what prerequisite courses does the [CH1020](Courses) course have 
+    - what courses are the prerequisites for the course [CH4250](Courses) 
+    - what courses are the prerequisites for the course [Process Engineering](Courses) 
+    - what courses are the prerequisites for the [CH4250](Courses) course 
+    - what courses are the prerequisites for the [Process Engineering](Courses) course 
+    - what courses are the prereqs for the course [CH4250](Courses) 
+    - what courses are the prereqs for the course [Process Engineering](Courses) 
+    - what courses are the prereqs for the [CH4250](Courses) course 
+    - what courses are the prereqs for the [Process Engineering](Courses) course 
+    - what courses are the requirements for the course [CH4250](Courses) 
+    - what courses are the requirements for the course [Process Engineering](Courses) 
+    - what courses are the requirements for the [CH4250](Courses) course 
+    - what courses are the requirements for the [Process Engineering](Courses) course 
+    - what courses are the prerequisite for the course [CH4250](Courses) 
+    - what courses are the prerequisite for the course [Process Engineering](Courses) 
+    - what courses are the prerequisite for the [CH4250](Courses) course 
+    - what courses are the prerequisite for the [Process Engineering](Courses) course 
+    - what courses have to be completed before the [Process Engineering](Courses) course 
+    - what courses have to be completed before the [CH4250](Courses) course 
+    - what prerequisite courses does the [Process Engineering](Courses) course have 
+    - what prerequisite courses does the [CH4250](Courses) course have 
+    - what courses are the prerequisites for the course [CH5030](Courses) 
+    - what courses are the prerequisites for the course [Transport Phenomena](Courses) 
+    - what courses are the prerequisites for the [CH5030](Courses) course 
+    - what courses are the prerequisites for the [Transport Phenomena](Courses) course 
+    - what courses are the prereqs for the course [CH5030](Courses) 
+    - what courses are the prereqs for the course [Transport Phenomena](Courses) 
+    - what courses are the prereqs for the [CH5030](Courses) course 
+    - what courses are the prereqs for the [Transport Phenomena](Courses) course 
+    - what courses are the requirements for the course [CH5030](Courses) 
+    - what courses are the requirements for the course [Transport Phenomena](Courses) 
+    - what courses are the requirements for the [CH5030](Courses) course 
+    - what courses are the requirements for the [Transport Phenomena](Courses) course 
+    - what courses are the prerequisite for the course [CH5030](Courses) 
+    - what courses are the prerequisite for the course [Transport Phenomena](Courses) 
+    - what courses are the prerequisite for the [CH5030](Courses) course 
+    - what courses are the prerequisite for the [Transport Phenomena](Courses) course 
+    - what courses have to be completed before the [Transport Phenomena](Courses) course 
+    - what courses have to be completed before the [CH5030](Courses) course 
+    - what prerequisite courses does the [Transport Phenomena](Courses) course have 
+    - what prerequisite courses does the [CH5030](Courses) course have 
+    - what courses are the prerequisites for the course [CH5370](Courses) 
+    - what courses are the prerequisites for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prerequisites for the [CH5370](Courses) course 
+    - what courses are the prerequisites for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the prereqs for the course [CH5370](Courses) 
+    - what courses are the prereqs for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prereqs for the [CH5370](Courses) course 
+    - what courses are the prereqs for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the requirements for the course [CH5370](Courses) 
+    - what courses are the requirements for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the requirements for the [CH5370](Courses) course 
+    - what courses are the requirements for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the prerequisite for the course [CH5370](Courses) 
+    - what courses are the prerequisite for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prerequisite for the [CH5370](Courses) course 
+    - what courses are the prerequisite for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses have to be completed before the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses have to be completed before the [CH5370](Courses) course 
+    - what prerequisite courses does the [Environmental Quality Monitoring & Analysis](Courses) course have 
+    - what prerequisite courses does the [CH5370](Courses) course have 
+    - what courses are the prerequisites for the course [CS2800](Courses) 
+    - what courses are the prerequisites for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prerequisites for the [CS2800](Courses) course 
+    - what courses are the prerequisites for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the prereqs for the course [CS2800](Courses) 
+    - what courses are the prereqs for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prereqs for the [CS2800](Courses) course 
+    - what courses are the prereqs for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the requirements for the course [CS2800](Courses) 
+    - what courses are the requirements for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the requirements for the [CS2800](Courses) course 
+    - what courses are the requirements for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the prerequisite for the course [CS2800](Courses) 
+    - what courses are the prerequisite for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prerequisite for the [CS2800](Courses) course 
+    - what courses are the prerequisite for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses have to be completed before the [Design and Analysis of Algorithms](Courses) course 
+    - what courses have to be completed before the [CS2800](Courses) course 
+    - what prerequisite courses does the [Design and Analysis of Algorithms](Courses) course have 
+    - what prerequisite courses does the [CS2800](Courses) course have 
+    - what courses are the prerequisites for the course [CS3700](Courses) 
+    - what courses are the prerequisites for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prerequisites for the [CS3700](Courses) course 
+    - what courses are the prerequisites for the [Introduction to Database Systems](Courses) course 
+    - what courses are the prereqs for the course [CS3700](Courses) 
+    - what courses are the prereqs for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prereqs for the [CS3700](Courses) course 
+    - what courses are the prereqs for the [Introduction to Database Systems](Courses) course 
+    - what courses are the requirements for the course [CS3700](Courses) 
+    - what courses are the requirements for the course [Introduction to Database Systems](Courses) 
+    - what courses are the requirements for the [CS3700](Courses) course 
+    - what courses are the requirements for the [Introduction to Database Systems](Courses) course 
+    - what courses are the prerequisite for the course [CS3700](Courses) 
+    - what courses are the prerequisite for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prerequisite for the [CS3700](Courses) course 
+    - what courses are the prerequisite for the [Introduction to Database Systems](Courses) course 
+    - what courses have to be completed before the [Introduction to Database Systems](Courses) course 
+    - what courses have to be completed before the [CS3700](Courses) course 
+    - what prerequisite courses does the [Introduction to Database Systems](Courses) course have 
+    - what prerequisite courses does the [CS3700](Courses) course have 
+    - what courses are the prerequisites for the course [CS6023](Courses) 
+    - what courses are the prerequisites for the course [GPU Programming](Courses) 
+    - what courses are the prerequisites for the [CS6023](Courses) course 
+    - what courses are the prerequisites for the [GPU Programming](Courses) course 
+    - what courses are the prereqs for the course [CS6023](Courses) 
+    - what courses are the prereqs for the course [GPU Programming](Courses) 
+    - what courses are the prereqs for the [CS6023](Courses) course 
+    - what courses are the prereqs for the [GPU Programming](Courses) course 
+    - what courses are the requirements for the course [CS6023](Courses) 
+    - what courses are the requirements for the course [GPU Programming](Courses) 
+    - what courses are the requirements for the [CS6023](Courses) course 
+    - what courses are the requirements for the [GPU Programming](Courses) course 
+    - what courses are the prerequisite for the course [CS6023](Courses) 
+    - what courses are the prerequisite for the course [GPU Programming](Courses) 
+    - what courses are the prerequisite for the [CS6023](Courses) course 
+    - what courses are the prerequisite for the [GPU Programming](Courses) course 
+    - what courses have to be completed before the [GPU Programming](Courses) course 
+    - what courses have to be completed before the [CS6023](Courses) course 
+    - what prerequisite courses does the [GPU Programming](Courses) course have 
+    - what prerequisite courses does the [CS6023](Courses) course have 
+    - what courses are the prerequisites for the course [CS6910](Courses) 
+    - what courses are the prerequisites for the course [Deep Learning](Courses) 
+    - what courses are the prerequisites for the [CS6910](Courses) course 
+    - what courses are the prerequisites for the [Deep Learning](Courses) course 
+    - what courses are the prereqs for the course [CS6910](Courses) 
+    - what courses are the prereqs for the course [Deep Learning](Courses) 
+    - what courses are the prereqs for the [CS6910](Courses) course 
+    - what courses are the prereqs for the [Deep Learning](Courses) course 
+    - what courses are the requirements for the course [CS6910](Courses) 
+    - what courses are the requirements for the course [Deep Learning](Courses) 
+    - what courses are the requirements for the [CS6910](Courses) course 
+    - what courses are the requirements for the [Deep Learning](Courses) course 
+    - what courses are the prerequisite for the course [CS6910](Courses) 
+    - what courses are the prerequisite for the course [Deep Learning](Courses) 
+    - what courses are the prerequisite for the [CS6910](Courses) course 
+    - what courses are the prerequisite for the [Deep Learning](Courses) course 
+    - what courses have to be completed before the [Deep Learning](Courses) course 
+    - what courses have to be completed before the [CS6910](Courses) course 
+    - what prerequisite courses does the [Deep Learning](Courses) course have 
+    - what prerequisite courses does the [CS6910](Courses) course have 
+    - what courses are the prerequisites for the course [CS6852](Courses) 
+    - what courses are the prerequisites for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prerequisites for the [CS6852](Courses) course 
+    - what courses are the prerequisites for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the prereqs for the course [CS6852](Courses) 
+    - what courses are the prereqs for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prereqs for the [CS6852](Courses) course 
+    - what courses are the prereqs for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the requirements for the course [CS6852](Courses) 
+    - what courses are the requirements for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the requirements for the [CS6852](Courses) course 
+    - what courses are the requirements for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the prerequisite for the course [CS6852](Courses) 
+    - what courses are the prerequisite for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prerequisite for the [CS6852](Courses) course 
+    - what courses are the prerequisite for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses have to be completed before the [Theory and Applications of Ontologies](Courses) course 
+    - what courses have to be completed before the [CS6852](Courses) course 
+    - what prerequisite courses does the [Theory and Applications of Ontologies](Courses) course have 
+    - what prerequisite courses does the [CS6852](Courses) course have 
+    - what courses are the prerequisites for the course [ME1100](Courses) 
+    - what courses are the prerequisites for the course [Thermodynamics](Courses) 
+    - what courses are the prerequisites for the [ME1100](Courses) course 
+    - what courses are the prerequisites for the [Thermodynamics](Courses) course 
+    - what courses are the prereqs for the course [ME1100](Courses) 
+    - what courses are the prereqs for the course [Thermodynamics](Courses) 
+    - what courses are the prereqs for the [ME1100](Courses) course 
+    - what courses are the prereqs for the [Thermodynamics](Courses) course 
+    - what courses are the requirements for the course [ME1100](Courses) 
+    - what courses are the requirements for the course [Thermodynamics](Courses) 
+    - what courses are the requirements for the [ME1100](Courses) course 
+    - what courses are the requirements for the [Thermodynamics](Courses) course 
+    - what courses are the prerequisite for the course [ME1100](Courses) 
+    - what courses are the prerequisite for the course [Thermodynamics](Courses) 
+    - what courses are the prerequisite for the [ME1100](Courses) course 
+    - what courses are the prerequisite for the [Thermodynamics](Courses) course 
+    - what courses have to be completed before the [Thermodynamics](Courses) course 
+    - what courses have to be completed before the [ME1100](Courses) course 
+    - what prerequisite courses does the [Thermodynamics](Courses) course have 
+    - what prerequisite courses does the [ME1100](Courses) course have 
+    - what courses are the prerequisites for the course [EE3002](Courses) 
+    - what courses are the prerequisites for the course [Analog Circuits](Courses) 
+    - what courses are the prerequisites for the [EE3002](Courses) course 
+    - what courses are the prerequisites for the [Analog Circuits](Courses) course 
+    - what courses are the prereqs for the course [EE3002](Courses) 
+    - what courses are the prereqs for the course [Analog Circuits](Courses) 
+    - what courses are the prereqs for the [EE3002](Courses) course 
+    - what courses are the prereqs for the [Analog Circuits](Courses) course 
+    - what courses are the requirements for the course [EE3002](Courses) 
+    - what courses are the requirements for the course [Analog Circuits](Courses) 
+    - what courses are the requirements for the [EE3002](Courses) course 
+    - what courses are the requirements for the [Analog Circuits](Courses) course 
+    - what courses are the prerequisite for the course [EE3002](Courses) 
+    - what courses are the prerequisite for the course [Analog Circuits](Courses) 
+    - what courses are the prerequisite for the [EE3002](Courses) course 
+    - what courses are the prerequisite for the [Analog Circuits](Courses) course 
+    - what courses have to be completed before the [Analog Circuits](Courses) course 
+    - what courses have to be completed before the [EE3002](Courses) course 
+    - what prerequisite courses does the [Analog Circuits](Courses) course have 
+    - what prerequisite courses does the [EE3002](Courses) course have 
+    - what courses are the prerequisites for the course [EE6150](Courses) 
+    - what courses are the prerequisites for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prerequisites for the [EE6150](Courses) course 
+    - what courses are the prerequisites for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the prereqs for the course [EE6150](Courses) 
+    - what courses are the prereqs for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prereqs for the [EE6150](Courses) course 
+    - what courses are the prereqs for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the requirements for the course [EE6150](Courses) 
+    - what courses are the requirements for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the requirements for the [EE6150](Courses) course 
+    - what courses are the requirements for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the prerequisite for the course [EE6150](Courses) 
+    - what courses are the prerequisite for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prerequisite for the [EE6150](Courses) course 
+    - what courses are the prerequisite for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses have to be completed before the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses have to be completed before the [EE6150](Courses) course 
+    - what prerequisite courses does the [Stochastic Modeling and the Theory of Queues](Courses) course have 
+    - what prerequisite courses does the [EE6150](Courses) course have 
+    - what courses are the prerequisites for the course [ME1480](Courses) 
+    - what courses are the prerequisites for the course [Engineering Drawing](Courses) 
+    - what courses are the prerequisites for the [ME1480](Courses) course 
+    - what courses are the prerequisites for the [Engineering Drawing](Courses) course 
+    - what courses are the prereqs for the course [ME1480](Courses) 
+    - what courses are the prereqs for the course [Engineering Drawing](Courses) 
+    - what courses are the prereqs for the [ME1480](Courses) course 
+    - what courses are the prereqs for the [Engineering Drawing](Courses) course 
+    - what courses are the requirements for the course [ME1480](Courses) 
+    - what courses are the requirements for the course [Engineering Drawing](Courses) 
+    - what courses are the requirements for the [ME1480](Courses) course 
+    - what courses are the requirements for the [Engineering Drawing](Courses) course 
+    - what courses are the prerequisite for the course [ME1480](Courses) 
+    - what courses are the prerequisite for the course [Engineering Drawing](Courses) 
+    - what courses are the prerequisite for the [ME1480](Courses) course 
+    - what courses are the prerequisite for the [Engineering Drawing](Courses) course 
+    - what courses have to be completed before the [Engineering Drawing](Courses) course 
+    - what courses have to be completed before the [ME1480](Courses) course 
+    - what prerequisite courses does the [Engineering Drawing](Courses) course have 
+    - what prerequisite courses does the [ME1480](Courses) course have 
+    - what courses are the prerequisites for the course [ME3302](Courses) 
+    - what courses are the prerequisites for the course [Automation in manufacturing](Courses) 
+    - what courses are the prerequisites for the [ME3302](Courses) course 
+    - what courses are the prerequisites for the [Automation in manufacturing](Courses) course 
+    - what courses are the prereqs for the course [ME3302](Courses) 
+    - what courses are the prereqs for the course [Automation in manufacturing](Courses) 
+    - what courses are the prereqs for the [ME3302](Courses) course 
+    - what courses are the prereqs for the [Automation in manufacturing](Courses) course 
+    - what courses are the requirements for the course [ME3302](Courses) 
+    - what courses are the requirements for the course [Automation in manufacturing](Courses) 
+    - what courses are the requirements for the [ME3302](Courses) course 
+    - what courses are the requirements for the [Automation in manufacturing](Courses) course 
+    - what courses are the prerequisite for the course [ME3302](Courses) 
+    - what courses are the prerequisite for the course [Automation in manufacturing](Courses) 
+    - what courses are the prerequisite for the [ME3302](Courses) course 
+    - what courses are the prerequisite for the [Automation in manufacturing](Courses) course 
+    - what courses have to be completed before the [Automation in manufacturing](Courses) course 
+    - what courses have to be completed before the [ME3302](Courses) course 
+    - what prerequisite courses does the [Automation in manufacturing](Courses) course have 
+    - what prerequisite courses does the [ME3302](Courses) course have 
+    - what courses are the prerequisites for the course [CS1100](Courses) 
+    - what courses are the prerequisites for the course [Introduction to Programming](Courses) 
+    - what courses are the prerequisites for the [CS1100](Courses) course 
+    - what courses are the prerequisites for the [Introduction to Programming](Courses) course 
+    - what courses are the prereqs for the course [CS1100](Courses) 
+    - what courses are the prereqs for the course [Introduction to Programming](Courses) 
+    - what courses are the prereqs for the [CS1100](Courses) course 
+    - what courses are the prereqs for the [Introduction to Programming](Courses) course 
+    - what courses are the requirements for the course [CS1100](Courses) 
+    - what courses are the requirements for the course [Introduction to Programming](Courses) 
+    - what courses are the requirements for the [CS1100](Courses) course 
+    - what courses are the requirements for the [Introduction to Programming](Courses) course 
+    - what courses are the prerequisite for the course [CS1100](Courses) 
+    - what courses are the prerequisite for the course [Introduction to Programming](Courses) 
+    - what courses are the prerequisite for the [CS1100](Courses) course 
+    - what courses are the prerequisite for the [Introduction to Programming](Courses) course 
+    - what courses have to be completed before the [Introduction to Programming](Courses) course 
+    - what courses have to be completed before the [CS1100](Courses) course 
+    - what prerequisite courses does the [Introduction to Programming](Courses) course have 
+    - what prerequisite courses does the [CS1100](Courses) course have 
+    - what courses are the prerequisites for the course [CS1200](Courses) 
+    - what courses are the prerequisites for the course [Discrete Mathematics](Courses) 
+    - what courses are the prerequisites for the [CS1200](Courses) course 
+    - what courses are the prerequisites for the [Discrete Mathematics](Courses) course 
+    - what courses are the prereqs for the course [CS1200](Courses) 
+    - what courses are the prereqs for the course [Discrete Mathematics](Courses) 
+    - what courses are the prereqs for the [CS1200](Courses) course 
+    - what courses are the prereqs for the [Discrete Mathematics](Courses) course 
+    - what courses are the requirements for the course [CS1200](Courses) 
+    - what courses are the requirements for the course [Discrete Mathematics](Courses) 
+    - what courses are the requirements for the [CS1200](Courses) course 
+    - what courses are the requirements for the [Discrete Mathematics](Courses) course 
+    - what courses are the prerequisite for the course [CS1200](Courses) 
+    - what courses are the prerequisite for the course [Discrete Mathematics](Courses) 
+    - what courses are the prerequisite for the [CS1200](Courses) course 
+    - what courses are the prerequisite for the [Discrete Mathematics](Courses) course 
+    - what courses have to be completed before the [Discrete Mathematics](Courses) course 
+    - what courses have to be completed before the [CS1200](Courses) course 
+    - what prerequisite courses does the [Discrete Mathematics](Courses) course have 
+    - what prerequisite courses does the [CS1200](Courses) course have 
+    - what prerequisite courses does [that](ObjectPronoun) have 
+    - what are [that](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [this](ObjectPronoun) have 
+    - what are [this](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [it](ObjectPronoun) have 
+    - what are [it](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [the](ObjectPronoun) have 
+    - what are [the](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [it's](ObjectPronoun) have 
+    - what are [it's](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [its](ObjectPronoun) have 
+    - what are [its](ObjectPronoun) prerequisite courses 
+- intent: course_prereq_info 
+  examples: | 
+    - what courses are the prerequisites for the course [ME2200](Courses) 
+    - what courses are the prerequisites for the course [Materials and Design](Courses) 
+    - what courses are the prerequisites for the [ME2200](Courses) course 
+    - what courses are the prerequisites for the [Materials and Design](Courses) course 
+    - what courses are the prereqs for the course [ME2200](Courses) 
+    - what courses are the prereqs for the course [Materials and Design](Courses) 
+    - what courses are the prereqs for the [ME2200](Courses) course 
+    - what courses are the prereqs for the [Materials and Design](Courses) course 
+    - what courses are the requirements for the course [ME2200](Courses) 
+    - what courses are the requirements for the course [Materials and Design](Courses) 
+    - what courses are the requirements for the [ME2200](Courses) course 
+    - what courses are the requirements for the [Materials and Design](Courses) course 
+    - what courses are the prerequisite for the course [ME2200](Courses) 
+    - what courses are the prerequisite for the course [Materials and Design](Courses) 
+    - what courses are the prerequisite for the [ME2200](Courses) course 
+    - what courses are the prerequisite for the [Materials and Design](Courses) course 
+    - what courses have to be completed before the [Materials and Design](Courses) course 
+    - what courses have to be completed before the [ME2200](Courses) course 
+    - what prerequisite courses does the [Materials and Design](Courses) course have 
+    - what prerequisite courses does the [ME2200](Courses) course have 
+    - what courses are the prerequisites for the course [EE6112](Courses) 
+    - what courses are the prerequisites for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prerequisites for the [EE6112](Courses) course 
+    - what courses are the prerequisites for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the prereqs for the course [EE6112](Courses) 
+    - what courses are the prereqs for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prereqs for the [EE6112](Courses) course 
+    - what courses are the prereqs for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the requirements for the course [EE6112](Courses) 
+    - what courses are the requirements for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the requirements for the [EE6112](Courses) course 
+    - what courses are the requirements for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses are the prerequisite for the course [EE6112](Courses) 
+    - what courses are the prerequisite for the course [Topics in Random Processes and Concentrations](Courses) 
+    - what courses are the prerequisite for the [EE6112](Courses) course 
+    - what courses are the prerequisite for the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses have to be completed before the [Topics in Random Processes and Concentrations](Courses) course 
+    - what courses have to be completed before the [EE6112](Courses) course 
+    - what prerequisite courses does the [Topics in Random Processes and Concentrations](Courses) course have 
+    - what prerequisite courses does the [EE6112](Courses) course have 
+    - what courses are the prerequisites for the course [CS6700](Courses) 
+    - what courses are the prerequisites for the course [Reinforcement Learning](Courses) 
+    - what courses are the prerequisites for the [CS6700](Courses) course 
+    - what courses are the prerequisites for the [Reinforcement Learning](Courses) course 
+    - what courses are the prereqs for the course [CS6700](Courses) 
+    - what courses are the prereqs for the course [Reinforcement Learning](Courses) 
+    - what courses are the prereqs for the [CS6700](Courses) course 
+    - what courses are the prereqs for the [Reinforcement Learning](Courses) course 
+    - what courses are the requirements for the course [CS6700](Courses) 
+    - what courses are the requirements for the course [Reinforcement Learning](Courses) 
+    - what courses are the requirements for the [CS6700](Courses) course 
+    - what courses are the requirements for the [Reinforcement Learning](Courses) course 
+    - what courses are the prerequisite for the course [CS6700](Courses) 
+    - what courses are the prerequisite for the course [Reinforcement Learning](Courses) 
+    - what courses are the prerequisite for the [CS6700](Courses) course 
+    - what courses are the prerequisite for the [Reinforcement Learning](Courses) course 
+    - what courses have to be completed before the [Reinforcement Learning](Courses) course 
+    - what courses have to be completed before the [CS6700](Courses) course 
+    - what prerequisite courses does the [Reinforcement Learning](Courses) course have 
+    - what prerequisite courses does the [CS6700](Courses) course have 
+    - what courses are the prerequisites for the course [CH1020](Courses) 
+    - what courses are the prerequisites for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prerequisites for the [CH1020](Courses) course 
+    - what courses are the prerequisites for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the prereqs for the course [CH1020](Courses) 
+    - what courses are the prereqs for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prereqs for the [CH1020](Courses) course 
+    - what courses are the prereqs for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the requirements for the course [CH1020](Courses) 
+    - what courses are the requirements for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the requirements for the [CH1020](Courses) course 
+    - what courses are the requirements for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses are the prerequisite for the course [CH1020](Courses) 
+    - what courses are the prerequisite for the course [Principles & Calculations in Chemical](Courses) 
+    - what courses are the prerequisite for the [CH1020](Courses) course 
+    - what courses are the prerequisite for the [Principles & Calculations in Chemical](Courses) course 
+    - what courses have to be completed before the [Principles & Calculations in Chemical](Courses) course 
+    - what courses have to be completed before the [CH1020](Courses) course 
+    - what prerequisite courses does the [Principles & Calculations in Chemical](Courses) course have 
+    - what prerequisite courses does the [CH1020](Courses) course have 
+    - what courses are the prerequisites for the course [CH4250](Courses) 
+    - what courses are the prerequisites for the course [Process Engineering](Courses) 
+    - what courses are the prerequisites for the [CH4250](Courses) course 
+    - what courses are the prerequisites for the [Process Engineering](Courses) course 
+    - what courses are the prereqs for the course [CH4250](Courses) 
+    - what courses are the prereqs for the course [Process Engineering](Courses) 
+    - what courses are the prereqs for the [CH4250](Courses) course 
+    - what courses are the prereqs for the [Process Engineering](Courses) course 
+    - what courses are the requirements for the course [CH4250](Courses) 
+    - what courses are the requirements for the course [Process Engineering](Courses) 
+    - what courses are the requirements for the [CH4250](Courses) course 
+    - what courses are the requirements for the [Process Engineering](Courses) course 
+    - what courses are the prerequisite for the course [CH4250](Courses) 
+    - what courses are the prerequisite for the course [Process Engineering](Courses) 
+    - what courses are the prerequisite for the [CH4250](Courses) course 
+    - what courses are the prerequisite for the [Process Engineering](Courses) course 
+    - what courses have to be completed before the [Process Engineering](Courses) course 
+    - what courses have to be completed before the [CH4250](Courses) course 
+    - what prerequisite courses does the [Process Engineering](Courses) course have 
+    - what prerequisite courses does the [CH4250](Courses) course have 
+    - what courses are the prerequisites for the course [CH5030](Courses) 
+    - what courses are the prerequisites for the course [Transport Phenomena](Courses) 
+    - what courses are the prerequisites for the [CH5030](Courses) course 
+    - what courses are the prerequisites for the [Transport Phenomena](Courses) course 
+    - what courses are the prereqs for the course [CH5030](Courses) 
+    - what courses are the prereqs for the course [Transport Phenomena](Courses) 
+    - what courses are the prereqs for the [CH5030](Courses) course 
+    - what courses are the prereqs for the [Transport Phenomena](Courses) course 
+    - what courses are the requirements for the course [CH5030](Courses) 
+    - what courses are the requirements for the course [Transport Phenomena](Courses) 
+    - what courses are the requirements for the [CH5030](Courses) course 
+    - what courses are the requirements for the [Transport Phenomena](Courses) course 
+    - what courses are the prerequisite for the course [CH5030](Courses) 
+    - what courses are the prerequisite for the course [Transport Phenomena](Courses) 
+    - what courses are the prerequisite for the [CH5030](Courses) course 
+    - what courses are the prerequisite for the [Transport Phenomena](Courses) course 
+    - what courses have to be completed before the [Transport Phenomena](Courses) course 
+    - what courses have to be completed before the [CH5030](Courses) course 
+    - what prerequisite courses does the [Transport Phenomena](Courses) course have 
+    - what prerequisite courses does the [CH5030](Courses) course have 
+    - what courses are the prerequisites for the course [CH5370](Courses) 
+    - what courses are the prerequisites for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prerequisites for the [CH5370](Courses) course 
+    - what courses are the prerequisites for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the prereqs for the course [CH5370](Courses) 
+    - what courses are the prereqs for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prereqs for the [CH5370](Courses) course 
+    - what courses are the prereqs for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the requirements for the course [CH5370](Courses) 
+    - what courses are the requirements for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the requirements for the [CH5370](Courses) course 
+    - what courses are the requirements for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses are the prerequisite for the course [CH5370](Courses) 
+    - what courses are the prerequisite for the course [Environmental Quality Monitoring & Analysis](Courses) 
+    - what courses are the prerequisite for the [CH5370](Courses) course 
+    - what courses are the prerequisite for the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses have to be completed before the [Environmental Quality Monitoring & Analysis](Courses) course 
+    - what courses have to be completed before the [CH5370](Courses) course 
+    - what prerequisite courses does the [Environmental Quality Monitoring & Analysis](Courses) course have 
+    - what prerequisite courses does the [CH5370](Courses) course have 
+    - what courses are the prerequisites for the course [CS2800](Courses) 
+    - what courses are the prerequisites for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prerequisites for the [CS2800](Courses) course 
+    - what courses are the prerequisites for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the prereqs for the course [CS2800](Courses) 
+    - what courses are the prereqs for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prereqs for the [CS2800](Courses) course 
+    - what courses are the prereqs for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the requirements for the course [CS2800](Courses) 
+    - what courses are the requirements for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the requirements for the [CS2800](Courses) course 
+    - what courses are the requirements for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses are the prerequisite for the course [CS2800](Courses) 
+    - what courses are the prerequisite for the course [Design and Analysis of Algorithms](Courses) 
+    - what courses are the prerequisite for the [CS2800](Courses) course 
+    - what courses are the prerequisite for the [Design and Analysis of Algorithms](Courses) course 
+    - what courses have to be completed before the [Design and Analysis of Algorithms](Courses) course 
+    - what courses have to be completed before the [CS2800](Courses) course 
+    - what prerequisite courses does the [Design and Analysis of Algorithms](Courses) course have 
+    - what prerequisite courses does the [CS2800](Courses) course have 
+    - what courses are the prerequisites for the course [CS3700](Courses) 
+    - what courses are the prerequisites for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prerequisites for the [CS3700](Courses) course 
+    - what courses are the prerequisites for the [Introduction to Database Systems](Courses) course 
+    - what courses are the prereqs for the course [CS3700](Courses) 
+    - what courses are the prereqs for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prereqs for the [CS3700](Courses) course 
+    - what courses are the prereqs for the [Introduction to Database Systems](Courses) course 
+    - what courses are the requirements for the course [CS3700](Courses) 
+    - what courses are the requirements for the course [Introduction to Database Systems](Courses) 
+    - what courses are the requirements for the [CS3700](Courses) course 
+    - what courses are the requirements for the [Introduction to Database Systems](Courses) course 
+    - what courses are the prerequisite for the course [CS3700](Courses) 
+    - what courses are the prerequisite for the course [Introduction to Database Systems](Courses) 
+    - what courses are the prerequisite for the [CS3700](Courses) course 
+    - what courses are the prerequisite for the [Introduction to Database Systems](Courses) course 
+    - what courses have to be completed before the [Introduction to Database Systems](Courses) course 
+    - what courses have to be completed before the [CS3700](Courses) course 
+    - what prerequisite courses does the [Introduction to Database Systems](Courses) course have 
+    - what prerequisite courses does the [CS3700](Courses) course have 
+    - what courses are the prerequisites for the course [CS6023](Courses) 
+    - what courses are the prerequisites for the course [GPU Programming](Courses) 
+    - what courses are the prerequisites for the [CS6023](Courses) course 
+    - what courses are the prerequisites for the [GPU Programming](Courses) course 
+    - what courses are the prereqs for the course [CS6023](Courses) 
+    - what courses are the prereqs for the course [GPU Programming](Courses) 
+    - what courses are the prereqs for the [CS6023](Courses) course 
+    - what courses are the prereqs for the [GPU Programming](Courses) course 
+    - what courses are the requirements for the course [CS6023](Courses) 
+    - what courses are the requirements for the course [GPU Programming](Courses) 
+    - what courses are the requirements for the [CS6023](Courses) course 
+    - what courses are the requirements for the [GPU Programming](Courses) course 
+    - what courses are the prerequisite for the course [CS6023](Courses) 
+    - what courses are the prerequisite for the course [GPU Programming](Courses) 
+    - what courses are the prerequisite for the [CS6023](Courses) course 
+    - what courses are the prerequisite for the [GPU Programming](Courses) course 
+    - what courses have to be completed before the [GPU Programming](Courses) course 
+    - what courses have to be completed before the [CS6023](Courses) course 
+    - what prerequisite courses does the [GPU Programming](Courses) course have 
+    - what prerequisite courses does the [CS6023](Courses) course have 
+    - what courses are the prerequisites for the course [CS6910](Courses) 
+    - what courses are the prerequisites for the course [Deep Learning](Courses) 
+    - what courses are the prerequisites for the [CS6910](Courses) course 
+    - what courses are the prerequisites for the [Deep Learning](Courses) course 
+    - what courses are the prereqs for the course [CS6910](Courses) 
+    - what courses are the prereqs for the course [Deep Learning](Courses) 
+    - what courses are the prereqs for the [CS6910](Courses) course 
+    - what courses are the prereqs for the [Deep Learning](Courses) course 
+    - what courses are the requirements for the course [CS6910](Courses) 
+    - what courses are the requirements for the course [Deep Learning](Courses) 
+    - what courses are the requirements for the [CS6910](Courses) course 
+    - what courses are the requirements for the [Deep Learning](Courses) course 
+    - what courses are the prerequisite for the course [CS6910](Courses) 
+    - what courses are the prerequisite for the course [Deep Learning](Courses) 
+    - what courses are the prerequisite for the [CS6910](Courses) course 
+    - what courses are the prerequisite for the [Deep Learning](Courses) course 
+    - what courses have to be completed before the [Deep Learning](Courses) course 
+    - what courses have to be completed before the [CS6910](Courses) course 
+    - what prerequisite courses does the [Deep Learning](Courses) course have 
+    - what prerequisite courses does the [CS6910](Courses) course have 
+    - what courses are the prerequisites for the course [CS6852](Courses) 
+    - what courses are the prerequisites for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prerequisites for the [CS6852](Courses) course 
+    - what courses are the prerequisites for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the prereqs for the course [CS6852](Courses) 
+    - what courses are the prereqs for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prereqs for the [CS6852](Courses) course 
+    - what courses are the prereqs for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the requirements for the course [CS6852](Courses) 
+    - what courses are the requirements for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the requirements for the [CS6852](Courses) course 
+    - what courses are the requirements for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses are the prerequisite for the course [CS6852](Courses) 
+    - what courses are the prerequisite for the course [Theory and Applications of Ontologies](Courses) 
+    - what courses are the prerequisite for the [CS6852](Courses) course 
+    - what courses are the prerequisite for the [Theory and Applications of Ontologies](Courses) course 
+    - what courses have to be completed before the [Theory and Applications of Ontologies](Courses) course 
+    - what courses have to be completed before the [CS6852](Courses) course 
+    - what prerequisite courses does the [Theory and Applications of Ontologies](Courses) course have 
+    - what prerequisite courses does the [CS6852](Courses) course have 
+    - what courses are the prerequisites for the course [ME1100](Courses) 
+    - what courses are the prerequisites for the course [Thermodynamics](Courses) 
+    - what courses are the prerequisites for the [ME1100](Courses) course 
+    - what courses are the prerequisites for the [Thermodynamics](Courses) course 
+    - what courses are the prereqs for the course [ME1100](Courses) 
+    - what courses are the prereqs for the course [Thermodynamics](Courses) 
+    - what courses are the prereqs for the [ME1100](Courses) course 
+    - what courses are the prereqs for the [Thermodynamics](Courses) course 
+    - what courses are the requirements for the course [ME1100](Courses) 
+    - what courses are the requirements for the course [Thermodynamics](Courses) 
+    - what courses are the requirements for the [ME1100](Courses) course 
+    - what courses are the requirements for the [Thermodynamics](Courses) course 
+    - what courses are the prerequisite for the course [ME1100](Courses) 
+    - what courses are the prerequisite for the course [Thermodynamics](Courses) 
+    - what courses are the prerequisite for the [ME1100](Courses) course 
+    - what courses are the prerequisite for the [Thermodynamics](Courses) course 
+    - what courses have to be completed before the [Thermodynamics](Courses) course 
+    - what courses have to be completed before the [ME1100](Courses) course 
+    - what prerequisite courses does the [Thermodynamics](Courses) course have 
+    - what prerequisite courses does the [ME1100](Courses) course have 
+    - what courses are the prerequisites for the course [EE3002](Courses) 
+    - what courses are the prerequisites for the course [Analog Circuits](Courses) 
+    - what courses are the prerequisites for the [EE3002](Courses) course 
+    - what courses are the prerequisites for the [Analog Circuits](Courses) course 
+    - what courses are the prereqs for the course [EE3002](Courses) 
+    - what courses are the prereqs for the course [Analog Circuits](Courses) 
+    - what courses are the prereqs for the [EE3002](Courses) course 
+    - what courses are the prereqs for the [Analog Circuits](Courses) course 
+    - what courses are the requirements for the course [EE3002](Courses) 
+    - what courses are the requirements for the course [Analog Circuits](Courses) 
+    - what courses are the requirements for the [EE3002](Courses) course 
+    - what courses are the requirements for the [Analog Circuits](Courses) course 
+    - what courses are the prerequisite for the course [EE3002](Courses) 
+    - what courses are the prerequisite for the course [Analog Circuits](Courses) 
+    - what courses are the prerequisite for the [EE3002](Courses) course 
+    - what courses are the prerequisite for the [Analog Circuits](Courses) course 
+    - what courses have to be completed before the [Analog Circuits](Courses) course 
+    - what courses have to be completed before the [EE3002](Courses) course 
+    - what prerequisite courses does the [Analog Circuits](Courses) course have 
+    - what prerequisite courses does the [EE3002](Courses) course have 
+    - what courses are the prerequisites for the course [EE6150](Courses) 
+    - what courses are the prerequisites for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prerequisites for the [EE6150](Courses) course 
+    - what courses are the prerequisites for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the prereqs for the course [EE6150](Courses) 
+    - what courses are the prereqs for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prereqs for the [EE6150](Courses) course 
+    - what courses are the prereqs for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the requirements for the course [EE6150](Courses) 
+    - what courses are the requirements for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the requirements for the [EE6150](Courses) course 
+    - what courses are the requirements for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses are the prerequisite for the course [EE6150](Courses) 
+    - what courses are the prerequisite for the course [Stochastic Modeling and the Theory of Queues](Courses) 
+    - what courses are the prerequisite for the [EE6150](Courses) course 
+    - what courses are the prerequisite for the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses have to be completed before the [Stochastic Modeling and the Theory of Queues](Courses) course 
+    - what courses have to be completed before the [EE6150](Courses) course 
+    - what prerequisite courses does the [Stochastic Modeling and the Theory of Queues](Courses) course have 
+    - what prerequisite courses does the [EE6150](Courses) course have 
+    - what courses are the prerequisites for the course [ME1480](Courses) 
+    - what courses are the prerequisites for the course [Engineering Drawing](Courses) 
+    - what courses are the prerequisites for the [ME1480](Courses) course 
+    - what courses are the prerequisites for the [Engineering Drawing](Courses) course 
+    - what courses are the prereqs for the course [ME1480](Courses) 
+    - what courses are the prereqs for the course [Engineering Drawing](Courses) 
+    - what courses are the prereqs for the [ME1480](Courses) course 
+    - what courses are the prereqs for the [Engineering Drawing](Courses) course 
+    - what courses are the requirements for the course [ME1480](Courses) 
+    - what courses are the requirements for the course [Engineering Drawing](Courses) 
+    - what courses are the requirements for the [ME1480](Courses) course 
+    - what courses are the requirements for the [Engineering Drawing](Courses) course 
+    - what courses are the prerequisite for the course [ME1480](Courses) 
+    - what courses are the prerequisite for the course [Engineering Drawing](Courses) 
+    - what courses are the prerequisite for the [ME1480](Courses) course 
+    - what courses are the prerequisite for the [Engineering Drawing](Courses) course 
+    - what courses have to be completed before the [Engineering Drawing](Courses) course 
+    - what courses have to be completed before the [ME1480](Courses) course 
+    - what prerequisite courses does the [Engineering Drawing](Courses) course have 
+    - what prerequisite courses does the [ME1480](Courses) course have 
+    - what courses are the prerequisites for the course [ME3302](Courses) 
+    - what courses are the prerequisites for the course [Automation in manufacturing](Courses) 
+    - what courses are the prerequisites for the [ME3302](Courses) course 
+    - what courses are the prerequisites for the [Automation in manufacturing](Courses) course 
+    - what courses are the prereqs for the course [ME3302](Courses) 
+    - what courses are the prereqs for the course [Automation in manufacturing](Courses) 
+    - what courses are the prereqs for the [ME3302](Courses) course 
+    - what courses are the prereqs for the [Automation in manufacturing](Courses) course 
+    - what courses are the requirements for the course [ME3302](Courses) 
+    - what courses are the requirements for the course [Automation in manufacturing](Courses) 
+    - what courses are the requirements for the [ME3302](Courses) course 
+    - what courses are the requirements for the [Automation in manufacturing](Courses) course 
+    - what courses are the prerequisite for the course [ME3302](Courses) 
+    - what courses are the prerequisite for the course [Automation in manufacturing](Courses) 
+    - what courses are the prerequisite for the [ME3302](Courses) course 
+    - what courses are the prerequisite for the [Automation in manufacturing](Courses) course 
+    - what courses have to be completed before the [Automation in manufacturing](Courses) course 
+    - what courses have to be completed before the [ME3302](Courses) course 
+    - what prerequisite courses does the [Automation in manufacturing](Courses) course have 
+    - what prerequisite courses does the [ME3302](Courses) course have 
+    - what courses are the prerequisites for the course [CS1100](Courses) 
+    - what courses are the prerequisites for the course [Introduction to Programming](Courses) 
+    - what courses are the prerequisites for the [CS1100](Courses) course 
+    - what courses are the prerequisites for the [Introduction to Programming](Courses) course 
+    - what courses are the prereqs for the course [CS1100](Courses) 
+    - what courses are the prereqs for the course [Introduction to Programming](Courses) 
+    - what courses are the prereqs for the [CS1100](Courses) course 
+    - what courses are the prereqs for the [Introduction to Programming](Courses) course 
+    - what courses are the requirements for the course [CS1100](Courses) 
+    - what courses are the requirements for the course [Introduction to Programming](Courses) 
+    - what courses are the requirements for the [CS1100](Courses) course 
+    - what courses are the requirements for the [Introduction to Programming](Courses) course 
+    - what courses are the prerequisite for the course [CS1100](Courses) 
+    - what courses are the prerequisite for the course [Introduction to Programming](Courses) 
+    - what courses are the prerequisite for the [CS1100](Courses) course 
+    - what courses are the prerequisite for the [Introduction to Programming](Courses) course 
+    - what courses have to be completed before the [Introduction to Programming](Courses) course 
+    - what courses have to be completed before the [CS1100](Courses) course 
+    - what prerequisite courses does the [Introduction to Programming](Courses) course have 
+    - what prerequisite courses does the [CS1100](Courses) course have 
+    - what courses are the prerequisites for the course [CS1200](Courses) 
+    - what courses are the prerequisites for the course [Discrete Mathematics](Courses) 
+    - what courses are the prerequisites for the [CS1200](Courses) course 
+    - what courses are the prerequisites for the [Discrete Mathematics](Courses) course 
+    - what courses are the prereqs for the course [CS1200](Courses) 
+    - what courses are the prereqs for the course [Discrete Mathematics](Courses) 
+    - what courses are the prereqs for the [CS1200](Courses) course 
+    - what courses are the prereqs for the [Discrete Mathematics](Courses) course 
+    - what courses are the requirements for the course [CS1200](Courses) 
+    - what courses are the requirements for the course [Discrete Mathematics](Courses) 
+    - what courses are the requirements for the [CS1200](Courses) course 
+    - what courses are the requirements for the [Discrete Mathematics](Courses) course 
+    - what courses are the prerequisite for the course [CS1200](Courses) 
+    - what courses are the prerequisite for the course [Discrete Mathematics](Courses) 
+    - what courses are the prerequisite for the [CS1200](Courses) course 
+    - what courses are the prerequisite for the [Discrete Mathematics](Courses) course 
+    - what courses have to be completed before the [Discrete Mathematics](Courses) course 
+    - what courses have to be completed before the [CS1200](Courses) course 
+    - what prerequisite courses does the [Discrete Mathematics](Courses) course have 
+    - what prerequisite courses does the [CS1200](Courses) course have 
+    - what prerequisite courses does [that](ObjectPronoun) have 
+    - what are [that](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [this](ObjectPronoun) have 
+    - what are [this](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [it](ObjectPronoun) have 
+    - what are [it](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [the](ObjectPronoun) have 
+    - what are [the](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [it's](ObjectPronoun) have 
+    - what are [it's](ObjectPronoun) prerequisite courses 
+    - what prerequisite courses does [its](ObjectPronoun) have 
+    - what are [its](ObjectPronoun) prerequisite courses 
+- intent: prof_research_info 
+  examples: | 
+    - what are [abishek sinha's](Professors) research interests ?
+    - what are [abishek sinha's](Professors) research areas ?
+    - what are [abishek sinha's](Professors) research specialities ?
+    - what are [abishek sinha's](Professors) areas of interests ?
+    - what field is [abishek sinha](Professors) interested in ?
+    - what research field is [abishek sinha](Professors) working in ?
+    - what research field does [abishek sinha](Professors) specialize in ?
+    - what are [arun rajkumar's](Professors) research interests ?
+    - what are [arun rajkumar's](Professors) research areas ?
+    - what are [arun rajkumar's](Professors) research specialities ?
+    - what are [arun rajkumar's](Professors) areas of interests ?
+    - what field is [arun rajkumar](Professors) interested in ?
+    - what research field is [arun rajkumar](Professors) working in ?
+    - what research field does [arun rajkumar](Professors) specialize in ?
+    - what are [himanshu goyal's](Professors) research interests ?
+    - what are [himanshu goyal's](Professors) research areas ?
+    - what are [himanshu goyal's](Professors) research specialities ?
+    - what are [himanshu goyal's](Professors) areas of interests ?
+    - what field is [himanshu goyal](Professors) interested in ?
+    - what research field is [himanshu goyal](Professors) working in ?
+    - what research field does [himanshu goyal](Professors) specialize in ?
+    - what are [piyush shakya's](Professors) research interests ?
+    - what are [piyush shakya's](Professors) research areas ?
+    - what are [piyush shakya's](Professors) research specialities ?
+    - what are [piyush shakya's](Professors) areas of interests ?
+    - what field is [piyush shakya](Professors) interested in ?
+    - what research field is [piyush shakya](Professors) working in ?
+    - what research field does [piyush shakya](Professors) specialize in ?
+    - what are [krishna jagannathan's](Professors) research interests ?
+    - what are [krishna jagannathan's](Professors) research areas ?
+    - what are [krishna jagannathan's](Professors) research specialities ?
+    - what are [krishna jagannathan's](Professors) areas of interests ?
+    - what field is [krishna jagannathan](Professors) interested in ?
+    - what research field is [krishna jagannathan](Professors) working in ?
+    - what research field does [krishna jagannathan](Professors) specialize in ?
+    - what are [r ravi krishna's](Professors) research interests ?
+    - what are [r ravi krishna's](Professors) research areas ?
+    - what are [r ravi krishna's](Professors) research specialities ?
+    - what are [r ravi krishna's](Professors) areas of interests ?
+    - what field is [r ravi krishna](Professors) interested in ?
+    - what research field is [r ravi krishna](Professors) working in ?
+    - what research field does [r ravi krishna](Professors) specialize in ?
+    - what are [rupesh nasre's](Professors) research interests ?
+    - what are [rupesh nasre's](Professors) research areas ?
+    - what are [rupesh nasre's](Professors) research specialities ?
+    - what are [rupesh nasre's](Professors) areas of interests ?
+    - what field is [rupesh nasre](Professors) interested in ?
+    - what research field is [rupesh nasre](Professors) working in ?
+    - what research field does [rupesh nasre](Professors) specialize in ?
+    - what are [s aniruddhan's](Professors) research interests ?
+    - what are [s aniruddhan's](Professors) research areas ?
+    - what are [s aniruddhan's](Professors) research specialities ?
+    - what are [s aniruddhan's](Professors) areas of interests ?
+    - what field is [s aniruddhan](Professors) interested in ?
+    - what research field is [s aniruddhan](Professors) working in ?
+    - what research field does [s aniruddhan](Professors) specialize in ?
+    - what are [shweta agarwal's](Professors) research interests ?
+    - what are [shweta agarwal's](Professors) research areas ?
+    - what are [shweta agarwal's](Professors) research specialities ?
+    - what are [shweta agarwal's](Professors) areas of interests ?
+    - what field is [shweta agarwal](Professors) interested in ?
+    - what research field is [shweta agarwal](Professors) working in ?
+    - what research field does [shweta agarwal](Professors) specialize in ?
+    - what are [a seshadri sekhar's](Professors) research interests ?
+    - what are [a seshadri sekhar's](Professors) research areas ?
+    - what are [a seshadri sekhar's](Professors) research specialities ?
+    - what are [a seshadri sekhar's](Professors) areas of interests ?
+    - what field is [a seshadri sekhar](Professors) interested in ?
+    - what research field is [a seshadri sekhar](Professors) working in ?
+    - what research field does [a seshadri sekhar](Professors) specialize in ?
+    - what are [balaram ravindran's](Professors) research interests ?
+    - what are [balaram ravindran's](Professors) research areas ?
+    - what are [balaram ravindran's](Professors) research specialities ?
+    - what are [balaram ravindran's](Professors) areas of interests ?
+    - what field is [balaram ravindran](Professors) interested in ?
+    - what research field is [balaram ravindran](Professors) working in ?
+    - what research field does [balaram ravindran](Professors) specialize in ?
+    - what are [preeti aghalayam's](Professors) research interests ?
+    - what are [preeti aghalayam's](Professors) research areas ?
+    - what are [preeti aghalayam's](Professors) research specialities ?
+    - what are [preeti aghalayam's](Professors) areas of interests ?
+    - what field is [preeti aghalayam](Professors) interested in ?
+    - what research field is [preeti aghalayam](Professors) working in ?
+    - what research field does [preeti aghalayam](Professors) specialize in ?
+    - what are [c chandra sekhar's](Professors) research interests ?
+    - what are [c chandra sekhar's](Professors) research areas ?
+    - what are [c chandra sekhar's](Professors) research specialities ?
+    - what are [c chandra sekhar's](Professors) areas of interests ?
+    - what field is [c chandra sekhar](Professors) interested in ?
+    - what research field is [c chandra sekhar](Professors) working in ?
+    - what research field does [c chandra sekhar](Professors) specialize in ?
+    - what are [dhiman chatterjee's](Professors) research interests ?
+    - what are [dhiman chatterjee's](Professors) research areas ?
+    - what are [dhiman chatterjee's](Professors) research specialities ?
+    - what are [dhiman chatterjee's](Professors) areas of interests ?
+    - what field is [dhiman chatterjee](Professors) interested in ?
+    - what research field is [dhiman chatterjee](Professors) working in ?
+    - what research field does [dhiman chatterjee](Professors) specialize in ?
+    - what are [n.s. narayanaswamy's](Professors) research interests ?
+    - what are [n.s. narayanaswamy's](Professors) research areas ?
+    - what are [n.s. narayanaswamy's](Professors) research specialities ?
+    - what are [n.s. narayanaswamy's](Professors) areas of interests ?
+    - what field is [n.s. narayanaswamy](Professors) interested in ?
+    - what research field is [n.s. narayanaswamy](Professors) working in ?
+    - what research field does [n.s. narayanaswamy](Professors) specialize in ?
+    - what are [rajagopalan srinivasan's](Professors) research interests ?
+    - what are [rajagopalan srinivasan's](Professors) research areas ?
+    - what are [rajagopalan srinivasan's](Professors) research specialities ?
+    - what are [rajagopalan srinivasan's](Professors) areas of interests ?
+    - what field is [rajagopalan srinivasan](Professors) interested in ?
+    - what research field is [rajagopalan srinivasan](Professors) working in ?
+    - what research field does [rajagopalan srinivasan](Professors) specialize in ?
+    - what are [sathyan subbiah's](Professors) research interests ?
+    - what are [sathyan subbiah's](Professors) research areas ?
+    - what are [sathyan subbiah's](Professors) research specialities ?
+    - what are [sathyan subbiah's](Professors) areas of interests ?
+    - what field is [sathyan subbiah](Professors) interested in ?
+    - what research field is [sathyan subbiah](Professors) working in ?
+    - what research field does [sathyan subbiah](Professors) specialize in ?
+    - what are [p sreenivasa kumar's](Professors) research interests ?
+    - what are [p sreenivasa kumar's](Professors) research areas ?
+    - what are [p sreenivasa kumar's](Professors) research specialities ?
+    - what are [p sreenivasa kumar's](Professors) areas of interests ?
+    - what field is [p sreenivasa kumar](Professors) interested in ?
+    - what research field is [p sreenivasa kumar](Professors) working in ?
+    - what research field does [p sreenivasa kumar](Professors) specialize in ?
