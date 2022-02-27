@@ -2527,3 +2527,1139 @@
     - what field is [p sreenivasa kumar](Professors) interested in ?
     - what research field is [p sreenivasa kumar](Professors) working in ?
     - what research field does [p sreenivasa kumar](Professors) specialize in ?
+- intent: dept_facilities_info 
+  examples: | 
+    - what labs are offered by the Computer Science department 
+    - what labs are in the Computer Science department 
+    - what labs are in the department of Computer Science  
+    - what are the facilities in the department of Computer Science  
+    - what facilities are offered by the Computer Science department 
+    - Computer Science department facilities 
+    - what labs are offered by the CS department 
+    - what labs are in the CS department 
+    - what labs are in the department of CS  
+    - what are the facilities in the department of CS  
+    - what facilities are offered by the CS department 
+    - CS department facilities 
+    - what labs are offered by the CSE department 
+    - what labs are in the CSE department 
+    - what labs are in the department of CSE  
+    - what are the facilities in the department of CSE  
+    - what facilities are offered by the CSE department 
+    - CSE department facilities 
+    - what labs are offered by the CSE. department 
+    - what labs are in the CSE. department 
+    - what labs are in the department of CSE.  
+    - what are the facilities in the department of CSE.  
+    - what facilities are offered by the CSE. department 
+    - CSE. department facilities 
+    - what labs are offered by the Comp. Sci department 
+    - what labs are in the Comp. Sci department 
+    - what labs are in the department of Comp. Sci  
+    - what are the facilities in the department of Comp. Sci  
+    - what facilities are offered by the Comp. Sci department 
+    - Comp. Sci department facilities 
+    - what labs are offered by the Comp. Science department 
+    - what labs are in the Comp. Science department 
+    - what labs are in the department of Comp. Science  
+    - what are the facilities in the department of Comp. Science  
+    - what facilities are offered by the Comp. Science department 
+    - Comp. Science department facilities 
+    - what labs are offered by the Computer Science Engineering department 
+    - what labs are in the Computer Science Engineering department 
+    - what labs are in the department of Computer Science Engineering  
+    - what are the facilities in the department of Computer Science Engineering  
+    - what facilities are offered by the Computer Science Engineering department 
+    - Computer Science Engineering department facilities 
+    - what labs are offered by the Electrical Engineering department 
+    - what labs are in the Electrical Engineering department 
+    - what labs are in the department of Electrical Engineering  
+    - what are the facilities in the department of Electrical Engineering  
+    - what facilities are offered by the Electrical Engineering department 
+    - Electrical Engineering department facilities 
+    - what labs are offered by the EEE department 
+    - what labs are in the EEE department 
+    - what labs are in the department of EEE  
+    - what are the facilities in the department of EEE  
+    - what facilities are offered by the EEE department 
+    - EEE department facilities 
+    - what labs are offered by the Elec. Engg department 
+    - what labs are in the Elec. Engg department 
+    - what labs are in the department of Elec. Engg  
+    - what are the facilities in the department of Elec. Engg  
+    - what facilities are offered by the Elec. Engg department 
+    - Elec. Engg department facilities 
+    - what labs are offered by the Elec department 
+    - what labs are in the Elec department 
+    - what labs are in the department of Elec  
+    - what are the facilities in the department of Elec  
+    - what facilities are offered by the Elec department 
+    - Elec department facilities 
+    - what labs are offered by the Electrical department 
+    - what labs are in the Electrical department 
+    - what labs are in the department of Electrical  
+    - what are the facilities in the department of Electrical  
+    - what facilities are offered by the Electrical department 
+    - Electrical department facilities 
+    - what labs are offered by the Electronics department 
+    - what labs are in the Electronics department 
+    - what labs are in the department of Electronics  
+    - what are the facilities in the department of Electronics  
+    - what facilities are offered by the Electronics department 
+    - Electronics department facilities 
+    - what labs are offered by the ECE department 
+    - what labs are in the ECE department 
+    - what labs are in the department of ECE  
+    - what are the facilities in the department of ECE  
+    - what facilities are offered by the ECE department 
+    - ECE department facilities 
+    - what labs are offered by the EE department 
+    - what labs are in the EE department 
+    - what labs are in the department of EE  
+    - what are the facilities in the department of EE  
+    - what facilities are offered by the EE department 
+    - EE department facilities 
+    - what labs are offered by the Mechanical Engineering department 
+    - what labs are in the Mechanical Engineering department 
+    - what labs are in the department of Mechanical Engineering  
+    - what are the facilities in the department of Mechanical Engineering  
+    - what facilities are offered by the Mechanical Engineering department 
+    - Mechanical Engineering department facilities 
+    - what labs are offered by the Mechanical department 
+    - what labs are in the Mechanical department 
+    - what labs are in the department of Mechanical  
+    - what are the facilities in the department of Mechanical  
+    - what facilities are offered by the Mechanical department 
+    - Mechanical department facilities 
+    - what labs are offered by the Mech department 
+    - what labs are in the Mech department 
+    - what labs are in the department of Mech  
+    - what are the facilities in the department of Mech  
+    - what facilities are offered by the Mech department 
+    - Mech department facilities 
+    - what labs are offered by the Mech. department 
+    - what labs are in the Mech. department 
+    - what labs are in the department of Mech.  
+    - what are the facilities in the department of Mech.  
+    - what facilities are offered by the Mech. department 
+    - Mech. department facilities 
+    - what labs are offered by the Mechatronics department 
+    - what labs are in the Mechatronics department 
+    - what labs are in the department of Mechatronics  
+    - what are the facilities in the department of Mechatronics  
+    - what facilities are offered by the Mechatronics department 
+    - Mechatronics department facilities 
+    - what labs are offered by the ME department 
+    - what labs are in the ME department 
+    - what labs are in the department of ME  
+    - what are the facilities in the department of ME  
+    - what facilities are offered by the ME department 
+    - ME department facilities 
+    - what labs are offered by the Mech. Engg department 
+    - what labs are in the Mech. Engg department 
+    - what labs are in the department of Mech. Engg  
+    - what are the facilities in the department of Mech. Engg  
+    - what facilities are offered by the Mech. Engg department 
+    - Mech. Engg department facilities 
+    - what labs are offered by the Mechanical Engg department 
+    - what labs are in the Mechanical Engg department 
+    - what labs are in the department of Mechanical Engg  
+    - what are the facilities in the department of Mechanical Engg  
+    - what facilities are offered by the Mechanical Engg department 
+    - Mechanical Engg department facilities 
+    - what labs are offered by the Chemical Engineering department 
+    - what labs are in the Chemical Engineering department 
+    - what labs are in the department of Chemical Engineering  
+    - what are the facilities in the department of Chemical Engineering  
+    - what facilities are offered by the Chemical Engineering department 
+    - Chemical Engineering department facilities 
+    - what labs are offered by the Chemical department 
+    - what labs are in the Chemical department 
+    - what labs are in the department of Chemical  
+    - what are the facilities in the department of Chemical  
+    - what facilities are offered by the Chemical department 
+    - Chemical department facilities 
+    - what labs are offered by the Chem Engineering department 
+    - what labs are in the Chem Engineering department 
+    - what labs are in the department of Chem Engineering  
+    - what are the facilities in the department of Chem Engineering  
+    - what facilities are offered by the Chem Engineering department 
+    - Chem Engineering department facilities 
+    - what labs are offered by the Chem Engg department 
+    - what labs are in the Chem Engg department 
+    - what labs are in the department of Chem Engg  
+    - what are the facilities in the department of Chem Engg  
+    - what facilities are offered by the Chem Engg department 
+    - Chem Engg department facilities 
+    - what labs are offered by the Chem department 
+    - what labs are in the Chem department 
+    - what labs are in the department of Chem  
+    - what are the facilities in the department of Chem  
+    - what facilities are offered by the Chem department 
+    - Chem department facilities 
+    - what labs are offered by the ChemE department 
+    - what labs are in the ChemE department 
+    - what labs are in the department of ChemE  
+    - what are the facilities in the department of ChemE  
+    - what facilities are offered by the ChemE department 
+    - ChemE department facilities 
+- intent: dept_facilities_info 
+  examples: | 
+    - what labs are offered by the [Computer Science](Department) department 
+    - what labs are in the [Computer Science](Department) department 
+    - what labs are in the department of [Computer Science](Department)  
+    - what are the facilities in the department of [Computer Science](Department)  
+    - what facilities are offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department facilities 
+    - what labs are offered by the [CS](Department) department 
+    - what labs are in the [CS](Department) department 
+    - what labs are in the department of [CS](Department)  
+    - what are the facilities in the department of [CS](Department)  
+    - what facilities are offered by the [CS](Department) department 
+    - [CS](Department) department facilities 
+    - what labs are offered by the [CSE](Department) department 
+    - what labs are in the [CSE](Department) department 
+    - what labs are in the department of [CSE](Department)  
+    - what are the facilities in the department of [CSE](Department)  
+    - what facilities are offered by the [CSE](Department) department 
+    - [CSE](Department) department facilities 
+    - what labs are offered by the [CSE.](Department) department 
+    - what labs are in the [CSE.](Department) department 
+    - what labs are in the department of [CSE.](Department)  
+    - what are the facilities in the department of [CSE.](Department)  
+    - what facilities are offered by the [CSE.](Department) department 
+    - [CSE.](Department) department facilities 
+    - what labs are offered by the [Comp. Sci](Department) department 
+    - what labs are in the [Comp. Sci](Department) department 
+    - what labs are in the department of [Comp. Sci](Department)  
+    - what are the facilities in the department of [Comp. Sci](Department)  
+    - what facilities are offered by the [Comp. Sci](Department) department 
+    - [Comp. Sci](Department) department facilities 
+    - what labs are offered by the [Comp. Science](Department) department 
+    - what labs are in the [Comp. Science](Department) department 
+    - what labs are in the department of [Comp. Science](Department)  
+    - what are the facilities in the department of [Comp. Science](Department)  
+    - what facilities are offered by the [Comp. Science](Department) department 
+    - [Comp. Science](Department) department facilities 
+    - what labs are offered by the [Computer Science Engineering](Department) department 
+    - what labs are in the [Computer Science Engineering](Department) department 
+    - what labs are in the department of [Computer Science Engineering](Department)  
+    - what are the facilities in the department of [Computer Science Engineering](Department)  
+    - what facilities are offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department facilities 
+    - what labs are offered by the [Electrical Engineering](Department) department 
+    - what labs are in the [Electrical Engineering](Department) department 
+    - what labs are in the department of [Electrical Engineering](Department)  
+    - what are the facilities in the department of [Electrical Engineering](Department)  
+    - what facilities are offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department facilities 
+    - what labs are offered by the [EEE](Department) department 
+    - what labs are in the [EEE](Department) department 
+    - what labs are in the department of [EEE](Department)  
+    - what are the facilities in the department of [EEE](Department)  
+    - what facilities are offered by the [EEE](Department) department 
+    - [EEE](Department) department facilities 
+    - what labs are offered by the [Elec. Engg](Department) department 
+    - what labs are in the [Elec. Engg](Department) department 
+    - what labs are in the department of [Elec. Engg](Department)  
+    - what are the facilities in the department of [Elec. Engg](Department)  
+    - what facilities are offered by the [Elec. Engg](Department) department 
+    - [Elec. Engg](Department) department facilities 
+    - what labs are offered by the [Elec](Department) department 
+    - what labs are in the [Elec](Department) department 
+    - what labs are in the department of [Elec](Department)  
+    - what are the facilities in the department of [Elec](Department)  
+    - what facilities are offered by the [Elec](Department) department 
+    - [Elec](Department) department facilities 
+    - what labs are offered by the [Electrical](Department) department 
+    - what labs are in the [Electrical](Department) department 
+    - what labs are in the department of [Electrical](Department)  
+    - what are the facilities in the department of [Electrical](Department)  
+    - what facilities are offered by the [Electrical](Department) department 
+    - [Electrical](Department) department facilities 
+    - what labs are offered by the [Electronics](Department) department 
+    - what labs are in the [Electronics](Department) department 
+    - what labs are in the department of [Electronics](Department)  
+    - what are the facilities in the department of [Electronics](Department)  
+    - what facilities are offered by the [Electronics](Department) department 
+    - [Electronics](Department) department facilities 
+    - what labs are offered by the [ECE](Department) department 
+    - what labs are in the [ECE](Department) department 
+    - what labs are in the department of [ECE](Department)  
+    - what are the facilities in the department of [ECE](Department)  
+    - what facilities are offered by the [ECE](Department) department 
+    - [ECE](Department) department facilities 
+    - what labs are offered by the [EE](Department) department 
+    - what labs are in the [EE](Department) department 
+    - what labs are in the department of [EE](Department)  
+    - what are the facilities in the department of [EE](Department)  
+    - what facilities are offered by the [EE](Department) department 
+    - [EE](Department) department facilities 
+    - what labs are offered by the [Mechanical Engineering](Department) department 
+    - what labs are in the [Mechanical Engineering](Department) department 
+    - what labs are in the department of [Mechanical Engineering](Department)  
+    - what are the facilities in the department of [Mechanical Engineering](Department)  
+    - what facilities are offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department facilities 
+    - what labs are offered by the [Mechanical](Department) department 
+    - what labs are in the [Mechanical](Department) department 
+    - what labs are in the department of [Mechanical](Department)  
+    - what are the facilities in the department of [Mechanical](Department)  
+    - what facilities are offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department facilities 
+    - what labs are offered by the [Mech](Department) department 
+    - what labs are in the [Mech](Department) department 
+    - what labs are in the department of [Mech](Department)  
+    - what are the facilities in the department of [Mech](Department)  
+    - what facilities are offered by the [Mech](Department) department 
+    - [Mech](Department) department facilities 
+    - what labs are offered by the [Mech.](Department) department 
+    - what labs are in the [Mech.](Department) department 
+    - what labs are in the department of [Mech.](Department)  
+    - what are the facilities in the department of [Mech.](Department)  
+    - what facilities are offered by the [Mech.](Department) department 
+    - [Mech.](Department) department facilities 
+    - what labs are offered by the [Mechatronics](Department) department 
+    - what labs are in the [Mechatronics](Department) department 
+    - what labs are in the department of [Mechatronics](Department)  
+    - what are the facilities in the department of [Mechatronics](Department)  
+    - what facilities are offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department facilities 
+    - what labs are offered by the [ME](Department) department 
+    - what labs are in the [ME](Department) department 
+    - what labs are in the department of [ME](Department)  
+    - what are the facilities in the department of [ME](Department)  
+    - what facilities are offered by the [ME](Department) department 
+    - [ME](Department) department facilities 
+    - what labs are offered by the [Mech. Engg](Department) department 
+    - what labs are in the [Mech. Engg](Department) department 
+    - what labs are in the department of [Mech. Engg](Department)  
+    - what are the facilities in the department of [Mech. Engg](Department)  
+    - what facilities are offered by the [Mech. Engg](Department) department 
+    - [Mech. Engg](Department) department facilities 
+    - what labs are offered by the [Mechanical Engg](Department) department 
+    - what labs are in the [Mechanical Engg](Department) department 
+    - what labs are in the department of [Mechanical Engg](Department)  
+    - what are the facilities in the department of [Mechanical Engg](Department)  
+    - what facilities are offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department facilities 
+    - what labs are offered by the [Chemical Engineering](Department) department 
+    - what labs are in the [Chemical Engineering](Department) department 
+    - what labs are in the department of [Chemical Engineering](Department)  
+    - what are the facilities in the department of [Chemical Engineering](Department)  
+    - what facilities are offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department facilities 
+    - what labs are offered by the [Chemical](Department) department 
+    - what labs are in the [Chemical](Department) department 
+    - what labs are in the department of [Chemical](Department)  
+    - what are the facilities in the department of [Chemical](Department)  
+    - what facilities are offered by the [Chemical](Department) department 
+    - [Chemical](Department) department facilities 
+    - what labs are offered by the [Chem Engineering](Department) department 
+    - what labs are in the [Chem Engineering](Department) department 
+    - what labs are in the department of [Chem Engineering](Department)  
+    - what are the facilities in the department of [Chem Engineering](Department)  
+    - what facilities are offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department facilities 
+    - what labs are offered by the [Chem Engg](Department) department 
+    - what labs are in the [Chem Engg](Department) department 
+    - what labs are in the department of [Chem Engg](Department)  
+    - what are the facilities in the department of [Chem Engg](Department)  
+    - what facilities are offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department facilities 
+    - what labs are offered by the [Chem](Department) department 
+    - what labs are in the [Chem](Department) department 
+    - what labs are in the department of [Chem](Department)  
+    - what are the facilities in the department of [Chem](Department)  
+    - what facilities are offered by the [Chem](Department) department 
+    - [Chem](Department) department facilities 
+    - what labs are offered by the [ChemE](Department) department 
+    - what labs are in the [ChemE](Department) department 
+    - what labs are in the department of [ChemE](Department)  
+    - what are the facilities in the department of [ChemE](Department)  
+    - what facilities are offered by the [ChemE](Department) department 
+    - [ChemE](Department) department facilities 
+- intent: dept_facilities_info 
+  examples: | 
+    - what labs are offered by the [Computer Science](Department) department 
+    - what labs are in the [Computer Science](Department) department 
+    - what labs are in the department of [Computer Science](Department)  
+    - what are the facilities in the department of [Computer Science](Department)  
+    - what facilities are offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department facilities 
+    - what labs are offered by the [CS](Department) department 
+    - what labs are in the [CS](Department) department 
+    - what labs are in the department of [CS](Department)  
+    - what are the facilities in the department of [CS](Department)  
+    - what facilities are offered by the [CS](Department) department 
+    - [CS](Department) department facilities 
+    - what labs are offered by the [CSE](Department) department 
+    - what labs are in the [CSE](Department) department 
+    - what labs are in the department of [CSE](Department)  
+    - what are the facilities in the department of [CSE](Department)  
+    - what facilities are offered by the [CSE](Department) department 
+    - [CSE](Department) department facilities 
+    - what labs are offered by the [Comp Sci](Department) department 
+    - what labs are in the [Comp Sci](Department) department 
+    - what labs are in the department of [Comp Sci](Department)  
+    - what are the facilities in the department of [Comp Sci](Department)  
+    - what facilities are offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department facilities 
+    - what labs are offered by the [Comp Science](Department) department 
+    - what labs are in the [Comp Science](Department) department 
+    - what labs are in the department of [Comp Science](Department)  
+    - what are the facilities in the department of [Comp Science](Department)  
+    - what facilities are offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department facilities 
+    - what labs are offered by the [Computer Science Engineering](Department) department 
+    - what labs are in the [Computer Science Engineering](Department) department 
+    - what labs are in the department of [Computer Science Engineering](Department)  
+    - what are the facilities in the department of [Computer Science Engineering](Department)  
+    - what facilities are offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department facilities 
+    - what labs are offered by the [Electrical Engineering](Department) department 
+    - what labs are in the [Electrical Engineering](Department) department 
+    - what labs are in the department of [Electrical Engineering](Department)  
+    - what are the facilities in the department of [Electrical Engineering](Department)  
+    - what facilities are offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department facilities 
+    - what labs are offered by the [EEE](Department) department 
+    - what labs are in the [EEE](Department) department 
+    - what labs are in the department of [EEE](Department)  
+    - what are the facilities in the department of [EEE](Department)  
+    - what facilities are offered by the [EEE](Department) department 
+    - [EEE](Department) department facilities 
+    - what labs are offered by the [Elec Engg](Department) department 
+    - what labs are in the [Elec Engg](Department) department 
+    - what labs are in the department of [Elec Engg](Department)  
+    - what are the facilities in the department of [Elec Engg](Department)  
+    - what facilities are offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department facilities 
+    - what labs are offered by the [Elec](Department) department 
+    - what labs are in the [Elec](Department) department 
+    - what labs are in the department of [Elec](Department)  
+    - what are the facilities in the department of [Elec](Department)  
+    - what facilities are offered by the [Elec](Department) department 
+    - [Elec](Department) department facilities 
+    - what labs are offered by the [Electrical](Department) department 
+    - what labs are in the [Electrical](Department) department 
+    - what labs are in the department of [Electrical](Department)  
+    - what are the facilities in the department of [Electrical](Department)  
+    - what facilities are offered by the [Electrical](Department) department 
+    - [Electrical](Department) department facilities 
+    - what labs are offered by the [Electronics](Department) department 
+    - what labs are in the [Electronics](Department) department 
+    - what labs are in the department of [Electronics](Department)  
+    - what are the facilities in the department of [Electronics](Department)  
+    - what facilities are offered by the [Electronics](Department) department 
+    - [Electronics](Department) department facilities 
+    - what labs are offered by the [ECE](Department) department 
+    - what labs are in the [ECE](Department) department 
+    - what labs are in the department of [ECE](Department)  
+    - what are the facilities in the department of [ECE](Department)  
+    - what facilities are offered by the [ECE](Department) department 
+    - [ECE](Department) department facilities 
+    - what labs are offered by the [EE](Department) department 
+    - what labs are in the [EE](Department) department 
+    - what labs are in the department of [EE](Department)  
+    - what are the facilities in the department of [EE](Department)  
+    - what facilities are offered by the [EE](Department) department 
+    - [EE](Department) department facilities 
+    - what labs are offered by the [Mechanical Engineering](Department) department 
+    - what labs are in the [Mechanical Engineering](Department) department 
+    - what labs are in the department of [Mechanical Engineering](Department)  
+    - what are the facilities in the department of [Mechanical Engineering](Department)  
+    - what facilities are offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department facilities 
+    - what labs are offered by the [Mechanical](Department) department 
+    - what labs are in the [Mechanical](Department) department 
+    - what labs are in the department of [Mechanical](Department)  
+    - what are the facilities in the department of [Mechanical](Department)  
+    - what facilities are offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department facilities 
+    - what labs are offered by the [Mech](Department) department 
+    - what labs are in the [Mech](Department) department 
+    - what labs are in the department of [Mech](Department)  
+    - what are the facilities in the department of [Mech](Department)  
+    - what facilities are offered by the [Mech](Department) department 
+    - [Mech](Department) department facilities 
+    - what labs are offered by the [Mechatronics](Department) department 
+    - what labs are in the [Mechatronics](Department) department 
+    - what labs are in the department of [Mechatronics](Department)  
+    - what are the facilities in the department of [Mechatronics](Department)  
+    - what facilities are offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department facilities 
+    - what labs are offered by the [ME](Department) department 
+    - what labs are in the [ME](Department) department 
+    - what labs are in the department of [ME](Department)  
+    - what are the facilities in the department of [ME](Department)  
+    - what facilities are offered by the [ME](Department) department 
+    - [ME](Department) department facilities 
+    - what labs are offered by the [Mech Engg](Department) department 
+    - what labs are in the [Mech Engg](Department) department 
+    - what labs are in the department of [Mech Engg](Department)  
+    - what are the facilities in the department of [Mech Engg](Department)  
+    - what facilities are offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department facilities 
+    - what labs are offered by the [Mechanical Engg](Department) department 
+    - what labs are in the [Mechanical Engg](Department) department 
+    - what labs are in the department of [Mechanical Engg](Department)  
+    - what are the facilities in the department of [Mechanical Engg](Department)  
+    - what facilities are offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department facilities 
+    - what labs are offered by the [Chemical Engineering](Department) department 
+    - what labs are in the [Chemical Engineering](Department) department 
+    - what labs are in the department of [Chemical Engineering](Department)  
+    - what are the facilities in the department of [Chemical Engineering](Department)  
+    - what facilities are offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department facilities 
+    - what labs are offered by the [Chemical](Department) department 
+    - what labs are in the [Chemical](Department) department 
+    - what labs are in the department of [Chemical](Department)  
+    - what are the facilities in the department of [Chemical](Department)  
+    - what facilities are offered by the [Chemical](Department) department 
+    - [Chemical](Department) department facilities 
+    - what labs are offered by the [Chem Engineering](Department) department 
+    - what labs are in the [Chem Engineering](Department) department 
+    - what labs are in the department of [Chem Engineering](Department)  
+    - what are the facilities in the department of [Chem Engineering](Department)  
+    - what facilities are offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department facilities 
+    - what labs are offered by the [Chem Engg](Department) department 
+    - what labs are in the [Chem Engg](Department) department 
+    - what labs are in the department of [Chem Engg](Department)  
+    - what are the facilities in the department of [Chem Engg](Department)  
+    - what facilities are offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department facilities 
+    - what labs are offered by the [Chem](Department) department 
+    - what labs are in the [Chem](Department) department 
+    - what labs are in the department of [Chem](Department)  
+    - what are the facilities in the department of [Chem](Department)  
+    - what facilities are offered by the [Chem](Department) department 
+    - [Chem](Department) department facilities 
+    - what labs are offered by the [ChemE](Department) department 
+    - what labs are in the [ChemE](Department) department 
+    - what labs are in the department of [ChemE](Department)  
+    - what are the facilities in the department of [ChemE](Department)  
+    - what facilities are offered by the [ChemE](Department) department 
+    - [ChemE](Department) department facilities 
+- intent: dept_facilities_info 
+  examples: | 
+    - what labs are offered by the [Computer Science](Department) department 
+    - what labs are in the [Computer Science](Department) department 
+    - what labs are in the department of [Computer Science](Department)  
+    - what are the facilities in the department of [Computer Science](Department)  
+    - what facilities are offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department facilities 
+    - what labs are offered by the [CS](Department) department 
+    - what labs are in the [CS](Department) department 
+    - what labs are in the department of [CS](Department)  
+    - what are the facilities in the department of [CS](Department)  
+    - what facilities are offered by the [CS](Department) department 
+    - [CS](Department) department facilities 
+    - what labs are offered by the [CSE](Department) department 
+    - what labs are in the [CSE](Department) department 
+    - what labs are in the department of [CSE](Department)  
+    - what are the facilities in the department of [CSE](Department)  
+    - what facilities are offered by the [CSE](Department) department 
+    - [CSE](Department) department facilities 
+    - what labs are offered by the [Comp Sci](Department) department 
+    - what labs are in the [Comp Sci](Department) department 
+    - what labs are in the department of [Comp Sci](Department)  
+    - what are the facilities in the department of [Comp Sci](Department)  
+    - what facilities are offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department facilities 
+    - what labs are offered by the [Comp Science](Department) department 
+    - what labs are in the [Comp Science](Department) department 
+    - what labs are in the department of [Comp Science](Department)  
+    - what are the facilities in the department of [Comp Science](Department)  
+    - what facilities are offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department facilities 
+    - what labs are offered by the [Computer Science Engineering](Department) department 
+    - what labs are in the [Computer Science Engineering](Department) department 
+    - what labs are in the department of [Computer Science Engineering](Department)  
+    - what are the facilities in the department of [Computer Science Engineering](Department)  
+    - what facilities are offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department facilities 
+    - what labs are offered by the [Electrical Engineering](Department) department 
+    - what labs are in the [Electrical Engineering](Department) department 
+    - what labs are in the department of [Electrical Engineering](Department)  
+    - what are the facilities in the department of [Electrical Engineering](Department)  
+    - what facilities are offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department facilities 
+    - what labs are offered by the [EEE](Department) department 
+    - what labs are in the [EEE](Department) department 
+    - what labs are in the department of [EEE](Department)  
+    - what are the facilities in the department of [EEE](Department)  
+    - what facilities are offered by the [EEE](Department) department 
+    - [EEE](Department) department facilities 
+    - what labs are offered by the [Elec Engg](Department) department 
+    - what labs are in the [Elec Engg](Department) department 
+    - what labs are in the department of [Elec Engg](Department)  
+    - what are the facilities in the department of [Elec Engg](Department)  
+    - what facilities are offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department facilities 
+    - what labs are offered by the [Elec](Department) department 
+    - what labs are in the [Elec](Department) department 
+    - what labs are in the department of [Elec](Department)  
+    - what are the facilities in the department of [Elec](Department)  
+    - what facilities are offered by the [Elec](Department) department 
+    - [Elec](Department) department facilities 
+    - what labs are offered by the [Electrical](Department) department 
+    - what labs are in the [Electrical](Department) department 
+    - what labs are in the department of [Electrical](Department)  
+    - what are the facilities in the department of [Electrical](Department)  
+    - what facilities are offered by the [Electrical](Department) department 
+    - [Electrical](Department) department facilities 
+    - what labs are offered by the [Electronics](Department) department 
+    - what labs are in the [Electronics](Department) department 
+    - what labs are in the department of [Electronics](Department)  
+    - what are the facilities in the department of [Electronics](Department)  
+    - what facilities are offered by the [Electronics](Department) department 
+    - [Electronics](Department) department facilities 
+    - what labs are offered by the [ECE](Department) department 
+    - what labs are in the [ECE](Department) department 
+    - what labs are in the department of [ECE](Department)  
+    - what are the facilities in the department of [ECE](Department)  
+    - what facilities are offered by the [ECE](Department) department 
+    - [ECE](Department) department facilities 
+    - what labs are offered by the [EE](Department) department 
+    - what labs are in the [EE](Department) department 
+    - what labs are in the department of [EE](Department)  
+    - what are the facilities in the department of [EE](Department)  
+    - what facilities are offered by the [EE](Department) department 
+    - [EE](Department) department facilities 
+    - what labs are offered by the [Mechanical Engineering](Department) department 
+    - what labs are in the [Mechanical Engineering](Department) department 
+    - what labs are in the department of [Mechanical Engineering](Department)  
+    - what are the facilities in the department of [Mechanical Engineering](Department)  
+    - what facilities are offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department facilities 
+    - what labs are offered by the [Mechanical](Department) department 
+    - what labs are in the [Mechanical](Department) department 
+    - what labs are in the department of [Mechanical](Department)  
+    - what are the facilities in the department of [Mechanical](Department)  
+    - what facilities are offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department facilities 
+    - what labs are offered by the [Mech](Department) department 
+    - what labs are in the [Mech](Department) department 
+    - what labs are in the department of [Mech](Department)  
+    - what are the facilities in the department of [Mech](Department)  
+    - what facilities are offered by the [Mech](Department) department 
+    - [Mech](Department) department facilities 
+    - what labs are offered by the [Mechatronics](Department) department 
+    - what labs are in the [Mechatronics](Department) department 
+    - what labs are in the department of [Mechatronics](Department)  
+    - what are the facilities in the department of [Mechatronics](Department)  
+    - what facilities are offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department facilities 
+    - what labs are offered by the [ME](Department) department 
+    - what labs are in the [ME](Department) department 
+    - what labs are in the department of [ME](Department)  
+    - what are the facilities in the department of [ME](Department)  
+    - what facilities are offered by the [ME](Department) department 
+    - [ME](Department) department facilities 
+    - what labs are offered by the [Mech Engg](Department) department 
+    - what labs are in the [Mech Engg](Department) department 
+    - what labs are in the department of [Mech Engg](Department)  
+    - what are the facilities in the department of [Mech Engg](Department)  
+    - what facilities are offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department facilities 
+    - what labs are offered by the [Mechanical Engg](Department) department 
+    - what labs are in the [Mechanical Engg](Department) department 
+    - what labs are in the department of [Mechanical Engg](Department)  
+    - what are the facilities in the department of [Mechanical Engg](Department)  
+    - what facilities are offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department facilities 
+    - what labs are offered by the [Chemical Engineering](Department) department 
+    - what labs are in the [Chemical Engineering](Department) department 
+    - what labs are in the department of [Chemical Engineering](Department)  
+    - what are the facilities in the department of [Chemical Engineering](Department)  
+    - what facilities are offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department facilities 
+    - what labs are offered by the [Chemical](Department) department 
+    - what labs are in the [Chemical](Department) department 
+    - what labs are in the department of [Chemical](Department)  
+    - what are the facilities in the department of [Chemical](Department)  
+    - what facilities are offered by the [Chemical](Department) department 
+    - [Chemical](Department) department facilities 
+    - what labs are offered by the [Chem Engineering](Department) department 
+    - what labs are in the [Chem Engineering](Department) department 
+    - what labs are in the department of [Chem Engineering](Department)  
+    - what are the facilities in the department of [Chem Engineering](Department)  
+    - what facilities are offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department facilities 
+    - what labs are offered by the [Chem Engg](Department) department 
+    - what labs are in the [Chem Engg](Department) department 
+    - what labs are in the department of [Chem Engg](Department)  
+    - what are the facilities in the department of [Chem Engg](Department)  
+    - what facilities are offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department facilities 
+    - what labs are offered by the [Chem](Department) department 
+    - what labs are in the [Chem](Department) department 
+    - what labs are in the department of [Chem](Department)  
+    - what are the facilities in the department of [Chem](Department)  
+    - what facilities are offered by the [Chem](Department) department 
+    - [Chem](Department) department facilities 
+    - what labs are offered by the [ChemE](Department) department 
+    - what labs are in the [ChemE](Department) department 
+    - what labs are in the department of [ChemE](Department)  
+    - what are the facilities in the department of [ChemE](Department)  
+    - what facilities are offered by the [ChemE](Department) department 
+    - [ChemE](Department) department facilities 
+    - what are the facilities offered by [that](ObjectPronoun) department 
+    - what are the facilities in [that](ObjectPronoun) department 
+    - what are the labs in [that](ObjectPronoun) department 
+    - what are the facilities offered by [this](ObjectPronoun) department 
+    - what are the facilities in [this](ObjectPronoun) department 
+    - what are the labs in [this](ObjectPronoun) department 
+    - what are the facilities offered by [it](ObjectPronoun) department 
+    - what are the facilities in [it](ObjectPronoun) department 
+    - what are the labs in [it](ObjectPronoun) department 
+    - what are the facilities offered by [the](ObjectPronoun) department 
+    - what are the facilities in [the](ObjectPronoun) department 
+    - what are the labs in [the](ObjectPronoun) department 
+    - what are the facilities offered by [it's](ObjectPronoun) department 
+    - what are the facilities in [it's](ObjectPronoun) department 
+    - what are the labs in [it's](ObjectPronoun) department 
+    - what are the facilities offered by [its](ObjectPronoun) department 
+    - what are the facilities in [its](ObjectPronoun) department 
+    - what are the labs in [its](ObjectPronoun) department 
+- intent: dept_facilities_info 
+  examples: | 
+    - what labs are offered by the [Computer Science](Department) department 
+    - what labs are in the [Computer Science](Department) department 
+    - what labs are in the department of [Computer Science](Department)  
+    - what are the facilities in the department of [Computer Science](Department)  
+    - what facilities are offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department facilities 
+    - what labs are offered by the [CS](Department) department 
+    - what labs are in the [CS](Department) department 
+    - what labs are in the department of [CS](Department)  
+    - what are the facilities in the department of [CS](Department)  
+    - what facilities are offered by the [CS](Department) department 
+    - [CS](Department) department facilities 
+    - what labs are offered by the [CSE](Department) department 
+    - what labs are in the [CSE](Department) department 
+    - what labs are in the department of [CSE](Department)  
+    - what are the facilities in the department of [CSE](Department)  
+    - what facilities are offered by the [CSE](Department) department 
+    - [CSE](Department) department facilities 
+    - what labs are offered by the [Comp Sci](Department) department 
+    - what labs are in the [Comp Sci](Department) department 
+    - what labs are in the department of [Comp Sci](Department)  
+    - what are the facilities in the department of [Comp Sci](Department)  
+    - what facilities are offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department facilities 
+    - what labs are offered by the [Comp Science](Department) department 
+    - what labs are in the [Comp Science](Department) department 
+    - what labs are in the department of [Comp Science](Department)  
+    - what are the facilities in the department of [Comp Science](Department)  
+    - what facilities are offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department facilities 
+    - what labs are offered by the [Computer Science Engineering](Department) department 
+    - what labs are in the [Computer Science Engineering](Department) department 
+    - what labs are in the department of [Computer Science Engineering](Department)  
+    - what are the facilities in the department of [Computer Science Engineering](Department)  
+    - what facilities are offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department facilities 
+    - what labs are offered by the [Electrical Engineering](Department) department 
+    - what labs are in the [Electrical Engineering](Department) department 
+    - what labs are in the department of [Electrical Engineering](Department)  
+    - what are the facilities in the department of [Electrical Engineering](Department)  
+    - what facilities are offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department facilities 
+    - what labs are offered by the [EEE](Department) department 
+    - what labs are in the [EEE](Department) department 
+    - what labs are in the department of [EEE](Department)  
+    - what are the facilities in the department of [EEE](Department)  
+    - what facilities are offered by the [EEE](Department) department 
+    - [EEE](Department) department facilities 
+    - what labs are offered by the [Elec Engg](Department) department 
+    - what labs are in the [Elec Engg](Department) department 
+    - what labs are in the department of [Elec Engg](Department)  
+    - what are the facilities in the department of [Elec Engg](Department)  
+    - what facilities are offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department facilities 
+    - what labs are offered by the [Elec](Department) department 
+    - what labs are in the [Elec](Department) department 
+    - what labs are in the department of [Elec](Department)  
+    - what are the facilities in the department of [Elec](Department)  
+    - what facilities are offered by the [Elec](Department) department 
+    - [Elec](Department) department facilities 
+    - what labs are offered by the [Electrical](Department) department 
+    - what labs are in the [Electrical](Department) department 
+    - what labs are in the department of [Electrical](Department)  
+    - what are the facilities in the department of [Electrical](Department)  
+    - what facilities are offered by the [Electrical](Department) department 
+    - [Electrical](Department) department facilities 
+    - what labs are offered by the [Electronics](Department) department 
+    - what labs are in the [Electronics](Department) department 
+    - what labs are in the department of [Electronics](Department)  
+    - what are the facilities in the department of [Electronics](Department)  
+    - what facilities are offered by the [Electronics](Department) department 
+    - [Electronics](Department) department facilities 
+    - what labs are offered by the [ECE](Department) department 
+    - what labs are in the [ECE](Department) department 
+    - what labs are in the department of [ECE](Department)  
+    - what are the facilities in the department of [ECE](Department)  
+    - what facilities are offered by the [ECE](Department) department 
+    - [ECE](Department) department facilities 
+    - what labs are offered by the [EE](Department) department 
+    - what labs are in the [EE](Department) department 
+    - what labs are in the department of [EE](Department)  
+    - what are the facilities in the department of [EE](Department)  
+    - what facilities are offered by the [EE](Department) department 
+    - [EE](Department) department facilities 
+    - what labs are offered by the [Mechanical Engineering](Department) department 
+    - what labs are in the [Mechanical Engineering](Department) department 
+    - what labs are in the department of [Mechanical Engineering](Department)  
+    - what are the facilities in the department of [Mechanical Engineering](Department)  
+    - what facilities are offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department facilities 
+    - what labs are offered by the [Mechanical](Department) department 
+    - what labs are in the [Mechanical](Department) department 
+    - what labs are in the department of [Mechanical](Department)  
+    - what are the facilities in the department of [Mechanical](Department)  
+    - what facilities are offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department facilities 
+    - what labs are offered by the [Mech](Department) department 
+    - what labs are in the [Mech](Department) department 
+    - what labs are in the department of [Mech](Department)  
+    - what are the facilities in the department of [Mech](Department)  
+    - what facilities are offered by the [Mech](Department) department 
+    - [Mech](Department) department facilities 
+    - what labs are offered by the [Mechatronics](Department) department 
+    - what labs are in the [Mechatronics](Department) department 
+    - what labs are in the department of [Mechatronics](Department)  
+    - what are the facilities in the department of [Mechatronics](Department)  
+    - what facilities are offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department facilities 
+    - what labs are offered by the [ME](Department) department 
+    - what labs are in the [ME](Department) department 
+    - what labs are in the department of [ME](Department)  
+    - what are the facilities in the department of [ME](Department)  
+    - what facilities are offered by the [ME](Department) department 
+    - [ME](Department) department facilities 
+    - what labs are offered by the [Mech Engg](Department) department 
+    - what labs are in the [Mech Engg](Department) department 
+    - what labs are in the department of [Mech Engg](Department)  
+    - what are the facilities in the department of [Mech Engg](Department)  
+    - what facilities are offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department facilities 
+    - what labs are offered by the [Mechanical Engg](Department) department 
+    - what labs are in the [Mechanical Engg](Department) department 
+    - what labs are in the department of [Mechanical Engg](Department)  
+    - what are the facilities in the department of [Mechanical Engg](Department)  
+    - what facilities are offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department facilities 
+    - what labs are offered by the [Chemical Engineering](Department) department 
+    - what labs are in the [Chemical Engineering](Department) department 
+    - what labs are in the department of [Chemical Engineering](Department)  
+    - what are the facilities in the department of [Chemical Engineering](Department)  
+    - what facilities are offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department facilities 
+    - what labs are offered by the [Chemical](Department) department 
+    - what labs are in the [Chemical](Department) department 
+    - what labs are in the department of [Chemical](Department)  
+    - what are the facilities in the department of [Chemical](Department)  
+    - what facilities are offered by the [Chemical](Department) department 
+    - [Chemical](Department) department facilities 
+    - what labs are offered by the [Chem Engineering](Department) department 
+    - what labs are in the [Chem Engineering](Department) department 
+    - what labs are in the department of [Chem Engineering](Department)  
+    - what are the facilities in the department of [Chem Engineering](Department)  
+    - what facilities are offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department facilities 
+    - what labs are offered by the [Chem Engg](Department) department 
+    - what labs are in the [Chem Engg](Department) department 
+    - what labs are in the department of [Chem Engg](Department)  
+    - what are the facilities in the department of [Chem Engg](Department)  
+    - what facilities are offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department facilities 
+    - what labs are offered by the [Chem](Department) department 
+    - what labs are in the [Chem](Department) department 
+    - what labs are in the department of [Chem](Department)  
+    - what are the facilities in the department of [Chem](Department)  
+    - what facilities are offered by the [Chem](Department) department 
+    - [Chem](Department) department facilities 
+    - what labs are offered by the [ChemE](Department) department 
+    - what labs are in the [ChemE](Department) department 
+    - what labs are in the department of [ChemE](Department)  
+    - what are the facilities in the department of [ChemE](Department)  
+    - what facilities are offered by the [ChemE](Department) department 
+    - [ChemE](Department) department facilities 
+    - what are the facilities offered by [that](ObjectPronoun) department 
+    - what are the facilities in [that](ObjectPronoun) department 
+    - what are the labs in [that](ObjectPronoun) department 
+    - what are the facilities offered by [this](ObjectPronoun) department 
+    - what are the facilities in [this](ObjectPronoun) department 
+    - what are the labs in [this](ObjectPronoun) department 
+    - what are the facilities offered by [it](ObjectPronoun) department 
+    - what are the facilities in [it](ObjectPronoun) department 
+    - what are the labs in [it](ObjectPronoun) department 
+    - what are the facilities offered by [the](ObjectPronoun) department 
+    - what are the facilities in [the](ObjectPronoun) department 
+    - what are the labs in [the](ObjectPronoun) department 
+    - what are the facilities offered by [it's](ObjectPronoun) department 
+    - what are the facilities in [it's](ObjectPronoun) department 
+    - what are the labs in [it's](ObjectPronoun) department 
+    - what are the facilities offered by [its](ObjectPronoun) department 
+    - what are the facilities in [its](ObjectPronoun) department 
+    - what are the labs in [its](ObjectPronoun) department 
+- intent: dept_courses_info 
+  examples: | 
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [that](Object) department courses 
+    - courses in [that](Object) department  
+    - courses offered by [that](Object) department  
+    - [this](Object) department courses 
+    - courses in [this](Object) department  
+    - courses offered by [this](Object) department  
+    - [it](Object) department courses 
+    - courses in [it](Object) department  
+    - courses offered by [it](Object) department  
+    - [the](Object) department courses 
+    - courses in [the](Object) department  
+    - courses offered by [the](Object) department  
+    - [it's](Object) department courses 
+    - courses in [it's](Object) department  
+    - courses offered by [it's](Object) department  
+    - [its](Object) department courses 
+    - courses in [its](Object) department  
+    - courses offered by [its](Object) department  
+- intent: dept_courses_info 
+  examples: | 
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [that](ObjectPronoun) department courses 
+    - courses in [that](ObjectPronoun) department  
+    - courses offered by [that](ObjectPronoun) department  
+    - [this](ObjectPronoun) department courses 
+    - courses in [this](ObjectPronoun) department  
+    - courses offered by [this](ObjectPronoun) department  
+    - [it](ObjectPronoun) department courses 
+    - courses in [it](ObjectPronoun) department  
+    - courses offered by [it](ObjectPronoun) department  
+    - [the](ObjectPronoun) department courses 
+    - courses in [the](ObjectPronoun) department  
+    - courses offered by [the](ObjectPronoun) department  
+    - [it's](ObjectPronoun) department courses 
+    - courses in [it's](ObjectPronoun) department  
+    - courses offered by [it's](ObjectPronoun) department  
+    - [its](ObjectPronoun) department courses 
+    - courses in [its](ObjectPronoun) department  
+    - courses offered by [its](ObjectPronoun) department  

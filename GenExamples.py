@@ -13,6 +13,18 @@ pronouns = ["he", "him", "his", "she", "her", "hers", "they","them", "theirs"]
 ObjectPronouns = ["that", "this", "it", "the","it's", "its"]
 profs = ["prof", "profs","teacher", "instructor", "lecturer","professor"]
 
+CS_syns = ["Computer Science", "CS","CSE", "Comp Sci", "Comp Science", "Computer Science Engineering"]
+Elec_syns = ["Electrical Engineering", "EEE", "Elec Engg", "Elec", "Electrical", "Electronics", "ECE", "EE"]
+Mech_syns = ["Mechanical Engineering", "Mechanical", "Mech", "Mechatronics", "ME", "Mech Engg", "Mechanical Engg"]
+Chem_syns = ["Chemical Engineering","Chemical", "Chem Engineering", "Chem Engg", "Chem", "ChemE"]
+
+dept_names = {}
+dept_names["Computer Science"] = CS_syns
+dept_names["Electrical Engg."] = Elec_syns
+dept_names["Mechanical Engg."] = Mech_syns
+dept_names["Chemical Engg."] = Chem_syns
+
+
 
 
 def prof_lookup_examples():
@@ -223,13 +235,61 @@ def get_course_prereqs_examples():
     f1.close()
     f2.close()   
 
+def get_dept_facilities_examples():
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_facilities_info \n  examples: | \n"
+
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - what labs are offered by the [{}](Department) department \n".format(syn)
+            res_str += "    - what labs are in the [{}](Department) department \n".format(syn)
+            res_str += "    - what labs are in the department of [{}](Department)  \n".format(syn)
+            res_str += "    - what are the facilities in the department of [{}](Department)  \n".format(syn)
+            res_str += "    - what facilities are offered by the [{}](Department) department \n".format(syn)
+            res_str += "    - [{}](Department) department facilities \n".format(syn)
+    
+    for objPro in ObjectPronouns:
+        res_str += "    - what are the facilities offered by [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    - what are the facilities in [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    - what are the labs in [{}](ObjectPronoun) department \n".format(objPro)
+    
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close()   
+
+def get_dept_courses_examples():
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_courses_info \n  examples: | \n"
+
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - what courses are offered by the [{}](Department) department this year \n".format(syn)
+            res_str += "    - what courses are offered by the department  [{}](Department) this year \n".format(syn)
+            res_str += "    - courses offered by the [{}](Department) department \n".format(syn)
+            res_str += "    - [{}](Department) department courses \n".format(syn)
+    
+    for objPro in ObjectPronouns:
+        res_str += "    - [{}](ObjectPronoun) department courses \n".format(objPro)
+        res_str += "    - courses in [{}](ObjectPronoun) department  \n".format(objPro)
+        res_str += "    - courses offered by [{}](ObjectPronoun) department  \n".format(objPro)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close()   
+
 def get_main_name(name):
     s = sorted(name.split(" "), key=len)
     return s[-1]
 
 
 def main():
-    get_prof_research_examples()
+    get_dept_courses_examples()
     pass
 
 if __name__ == "__main__":

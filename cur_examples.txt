@@ -1,128 +1,128 @@
-- intent: prof_research_info 
+- intent: dept_courses_info 
   examples: | 
-    - what are [abishek sinha's](Professors) research interests ?
-    - what are [abishek sinha's](Professors) research areas ?
-    - what are [abishek sinha's](Professors) research specialities ?
-    - what are [abishek sinha's](Professors) areas of interests ?
-    - what field is [abishek sinha](Professors) interested in ?
-    - what research field is [abishek sinha](Professors) working in ?
-    - what research field does [abishek sinha](Professors) specialize in ?
-    - what are [arun rajkumar's](Professors) research interests ?
-    - what are [arun rajkumar's](Professors) research areas ?
-    - what are [arun rajkumar's](Professors) research specialities ?
-    - what are [arun rajkumar's](Professors) areas of interests ?
-    - what field is [arun rajkumar](Professors) interested in ?
-    - what research field is [arun rajkumar](Professors) working in ?
-    - what research field does [arun rajkumar](Professors) specialize in ?
-    - what are [himanshu goyal's](Professors) research interests ?
-    - what are [himanshu goyal's](Professors) research areas ?
-    - what are [himanshu goyal's](Professors) research specialities ?
-    - what are [himanshu goyal's](Professors) areas of interests ?
-    - what field is [himanshu goyal](Professors) interested in ?
-    - what research field is [himanshu goyal](Professors) working in ?
-    - what research field does [himanshu goyal](Professors) specialize in ?
-    - what are [piyush shakya's](Professors) research interests ?
-    - what are [piyush shakya's](Professors) research areas ?
-    - what are [piyush shakya's](Professors) research specialities ?
-    - what are [piyush shakya's](Professors) areas of interests ?
-    - what field is [piyush shakya](Professors) interested in ?
-    - what research field is [piyush shakya](Professors) working in ?
-    - what research field does [piyush shakya](Professors) specialize in ?
-    - what are [krishna jagannathan's](Professors) research interests ?
-    - what are [krishna jagannathan's](Professors) research areas ?
-    - what are [krishna jagannathan's](Professors) research specialities ?
-    - what are [krishna jagannathan's](Professors) areas of interests ?
-    - what field is [krishna jagannathan](Professors) interested in ?
-    - what research field is [krishna jagannathan](Professors) working in ?
-    - what research field does [krishna jagannathan](Professors) specialize in ?
-    - what are [r ravi krishna's](Professors) research interests ?
-    - what are [r ravi krishna's](Professors) research areas ?
-    - what are [r ravi krishna's](Professors) research specialities ?
-    - what are [r ravi krishna's](Professors) areas of interests ?
-    - what field is [r ravi krishna](Professors) interested in ?
-    - what research field is [r ravi krishna](Professors) working in ?
-    - what research field does [r ravi krishna](Professors) specialize in ?
-    - what are [rupesh nasre's](Professors) research interests ?
-    - what are [rupesh nasre's](Professors) research areas ?
-    - what are [rupesh nasre's](Professors) research specialities ?
-    - what are [rupesh nasre's](Professors) areas of interests ?
-    - what field is [rupesh nasre](Professors) interested in ?
-    - what research field is [rupesh nasre](Professors) working in ?
-    - what research field does [rupesh nasre](Professors) specialize in ?
-    - what are [s aniruddhan's](Professors) research interests ?
-    - what are [s aniruddhan's](Professors) research areas ?
-    - what are [s aniruddhan's](Professors) research specialities ?
-    - what are [s aniruddhan's](Professors) areas of interests ?
-    - what field is [s aniruddhan](Professors) interested in ?
-    - what research field is [s aniruddhan](Professors) working in ?
-    - what research field does [s aniruddhan](Professors) specialize in ?
-    - what are [shweta agarwal's](Professors) research interests ?
-    - what are [shweta agarwal's](Professors) research areas ?
-    - what are [shweta agarwal's](Professors) research specialities ?
-    - what are [shweta agarwal's](Professors) areas of interests ?
-    - what field is [shweta agarwal](Professors) interested in ?
-    - what research field is [shweta agarwal](Professors) working in ?
-    - what research field does [shweta agarwal](Professors) specialize in ?
-    - what are [a seshadri sekhar's](Professors) research interests ?
-    - what are [a seshadri sekhar's](Professors) research areas ?
-    - what are [a seshadri sekhar's](Professors) research specialities ?
-    - what are [a seshadri sekhar's](Professors) areas of interests ?
-    - what field is [a seshadri sekhar](Professors) interested in ?
-    - what research field is [a seshadri sekhar](Professors) working in ?
-    - what research field does [a seshadri sekhar](Professors) specialize in ?
-    - what are [balaram ravindran's](Professors) research interests ?
-    - what are [balaram ravindran's](Professors) research areas ?
-    - what are [balaram ravindran's](Professors) research specialities ?
-    - what are [balaram ravindran's](Professors) areas of interests ?
-    - what field is [balaram ravindran](Professors) interested in ?
-    - what research field is [balaram ravindran](Professors) working in ?
-    - what research field does [balaram ravindran](Professors) specialize in ?
-    - what are [preeti aghalayam's](Professors) research interests ?
-    - what are [preeti aghalayam's](Professors) research areas ?
-    - what are [preeti aghalayam's](Professors) research specialities ?
-    - what are [preeti aghalayam's](Professors) areas of interests ?
-    - what field is [preeti aghalayam](Professors) interested in ?
-    - what research field is [preeti aghalayam](Professors) working in ?
-    - what research field does [preeti aghalayam](Professors) specialize in ?
-    - what are [c chandra sekhar's](Professors) research interests ?
-    - what are [c chandra sekhar's](Professors) research areas ?
-    - what are [c chandra sekhar's](Professors) research specialities ?
-    - what are [c chandra sekhar's](Professors) areas of interests ?
-    - what field is [c chandra sekhar](Professors) interested in ?
-    - what research field is [c chandra sekhar](Professors) working in ?
-    - what research field does [c chandra sekhar](Professors) specialize in ?
-    - what are [dhiman chatterjee's](Professors) research interests ?
-    - what are [dhiman chatterjee's](Professors) research areas ?
-    - what are [dhiman chatterjee's](Professors) research specialities ?
-    - what are [dhiman chatterjee's](Professors) areas of interests ?
-    - what field is [dhiman chatterjee](Professors) interested in ?
-    - what research field is [dhiman chatterjee](Professors) working in ?
-    - what research field does [dhiman chatterjee](Professors) specialize in ?
-    - what are [n.s. narayanaswamy's](Professors) research interests ?
-    - what are [n.s. narayanaswamy's](Professors) research areas ?
-    - what are [n.s. narayanaswamy's](Professors) research specialities ?
-    - what are [n.s. narayanaswamy's](Professors) areas of interests ?
-    - what field is [n.s. narayanaswamy](Professors) interested in ?
-    - what research field is [n.s. narayanaswamy](Professors) working in ?
-    - what research field does [n.s. narayanaswamy](Professors) specialize in ?
-    - what are [rajagopalan srinivasan's](Professors) research interests ?
-    - what are [rajagopalan srinivasan's](Professors) research areas ?
-    - what are [rajagopalan srinivasan's](Professors) research specialities ?
-    - what are [rajagopalan srinivasan's](Professors) areas of interests ?
-    - what field is [rajagopalan srinivasan](Professors) interested in ?
-    - what research field is [rajagopalan srinivasan](Professors) working in ?
-    - what research field does [rajagopalan srinivasan](Professors) specialize in ?
-    - what are [sathyan subbiah's](Professors) research interests ?
-    - what are [sathyan subbiah's](Professors) research areas ?
-    - what are [sathyan subbiah's](Professors) research specialities ?
-    - what are [sathyan subbiah's](Professors) areas of interests ?
-    - what field is [sathyan subbiah](Professors) interested in ?
-    - what research field is [sathyan subbiah](Professors) working in ?
-    - what research field does [sathyan subbiah](Professors) specialize in ?
-    - what are [p sreenivasa kumar's](Professors) research interests ?
-    - what are [p sreenivasa kumar's](Professors) research areas ?
-    - what are [p sreenivasa kumar's](Professors) research specialities ?
-    - what are [p sreenivasa kumar's](Professors) areas of interests ?
-    - what field is [p sreenivasa kumar](Professors) interested in ?
-    - what research field is [p sreenivasa kumar](Professors) working in ?
-    - what research field does [p sreenivasa kumar](Professors) specialize in ?
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [that](ObjectPronoun) department courses 
+    - courses in [that](ObjectPronoun) department  
+    - courses offered by [that](ObjectPronoun) department  
+    - [this](ObjectPronoun) department courses 
+    - courses in [this](ObjectPronoun) department  
+    - courses offered by [this](ObjectPronoun) department  
+    - [it](ObjectPronoun) department courses 
+    - courses in [it](ObjectPronoun) department  
+    - courses offered by [it](ObjectPronoun) department  
+    - [the](ObjectPronoun) department courses 
+    - courses in [the](ObjectPronoun) department  
+    - courses offered by [the](ObjectPronoun) department  
+    - [it's](ObjectPronoun) department courses 
+    - courses in [it's](ObjectPronoun) department  
+    - courses offered by [it's](ObjectPronoun) department  
+    - [its](ObjectPronoun) department courses 
+    - courses in [its](ObjectPronoun) department  
+    - courses offered by [its](ObjectPronoun) department  
