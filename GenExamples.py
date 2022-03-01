@@ -272,6 +272,8 @@ def get_dept_courses_examples():
             res_str += "    - what courses are offered by the department  [{}](Department) this year \n".format(syn)
             res_str += "    - courses offered by the [{}](Department) department \n".format(syn)
             res_str += "    - [{}](Department) department courses \n".format(syn)
+            res_str += "    - [{}](Department) courses \n".format(syn)
+            res_str += "    - courses in [{}](Department) \n".format(syn)
     
     for objPro in ObjectPronouns:
         res_str += "    - [{}](ObjectPronoun) department courses \n".format(objPro)
@@ -283,13 +285,141 @@ def get_dept_courses_examples():
     f1.close()
     f2.close()   
 
+def get_dept_profs_examples():
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_profs_info \n  examples: | \n"
+
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - professors in the [{}](Department) department \n".format(syn)
+            res_str += "    - list all the profs in the [{}](Department) department \n".format(syn)
+            res_str += "    - list all the teachers in the [{}](Department) dept\n".format(syn)
+            res_str += "    - [{}](Department) department professors\n".format(syn)
+            res_str += "    - [{}](Department) department profs\n".format(syn)
+            res_str += "    - lecturers teaching in [{}](Department) department \n".format(syn)
+            res_str += "    - teachers teaching in [{}](Department) department \n".format(syn)
+    
+    for objPro in ObjectPronouns:
+        res_str += "    - teachers teaching in [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    - professors in [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    - [{}](ObjectPronoun) department profs\n".format(objPro)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close()  
+
+def get_dept_ug_progs_examples():
+
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_ug_programs_info \n  examples: | \n"
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - undergrad programs in [{}](Department) department \n".format(syn)
+            res_str += "    - undergraduate programs in [{}](Department) department \n".format(syn)
+            res_str += "    - undergraduate programs in [{}](Department) department \n".format(syn)
+            res_str += "    - [{}](Department) department undergraduate programs \n".format(syn)
+            res_str += "    - [{}](Department) department ug programs \n".format(syn)
+            res_str += "    - undergrad programs offered by [{}](Department) department \n".format(syn)
+            res_str += "    - what programs does [{}](Department) department offer for undergraduates \n".format(syn)
+
+    for objPro in ObjectPronouns:
+            res_str += "    - undergrad programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - ug programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - undergraduate programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department undergraduate programs \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department ug programs \n".format(objPro)
+            res_str += "    - undergrad programs offered by [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - what programs does [{}](ObjectPronoun) department offer for undergraduates \n".format(objPro)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close() 
+
+def get_dept_pg_progs_examples():
+
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_pg_programs_info \n  examples: | \n"
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - postgrad programs in [{}](Department) department \n".format(syn)
+            res_str += "    - postgraduate programs in [{}](Department) department \n".format(syn)
+            res_str += "    - postgraduate programs in [{}](Department) department \n".format(syn)
+            res_str += "    - [{}](Department) department postgraduate programs \n".format(syn)
+            res_str += "    - [{}](Department) department pg programs \n".format(syn)
+            res_str += "    - postgrad programs offered by [{}](Department) department \n".format(syn)
+            res_str += "    - what programs does [{}](Department) department offer for postgraduates \n".format(syn)
+
+    for objPro in ObjectPronouns:
+            res_str += "    - postgrad programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - pg programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - postgraduate programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department postgraduate programs \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department pg programs \n".format(objPro)
+            res_str += "    - postgrad programs offered by [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - what programs does [{}](ObjectPronoun) department offer for postgraduates \n".format(objPro)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close() 
+
+def get_dept_progs_examples():
+
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_programs_info \n  examples: | \n"
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - programs in [{}](Department) department \n".format(syn)
+            res_str += "    - programs offered by [{}](Department) department \n".format(syn)
+            res_str += "    - what program does [{}](Department) department offer \n".format(syn)
+            res_str += "    - what program does [{}](Department) offer \n".format(syn)
+            res_str += "    - [{}](Department) programs \n".format(syn)
+            res_str += "    - [{}](Department) degrees \n".format(syn)
+
+
+
+    for objPro in ObjectPronouns:
+            res_str += "    - programs in [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - programs offered by [{}](ObjectPronoun) department \n".format(objPro)
+            res_str += "    - what program does [{}](ObjectPronoun) department offer \n".format(objPro)
+            res_str += "    - what program does [{}](ObjectPronoun) offer \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department programs \n".format(objPro)
+            res_str += "    - [{}](ObjectPronoun) department degrees \n".format(objPro)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close() 
+
+def get_dept_info_examples():
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: dept_info \n  examples: | \n"
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            res_str += "    - tell me about the [{}](Department) department \n".format(syn)
+            res_str += "    - information about [{}](Department) department \n".format(syn)
+            res_str += "    -  [{}](Department) department description \n".format(syn)
+            res_str += "    -  [{}](Department) dept description \n".format(syn)
+            
 def get_main_name(name):
     s = sorted(name.split(" "), key=len)
     return s[-1]
 
 
 def main():
-    get_dept_courses_examples()
+    get_dept_progs_examples()
     pass
 
 if __name__ == "__main__":

@@ -3663,3 +3663,1737 @@
     - [its](ObjectPronoun) department courses 
     - courses in [its](ObjectPronoun) department  
     - courses offered by [its](ObjectPronoun) department  
+- intent: dept_courses_info 
+  examples: | 
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [that](ObjectPronoun) department courses 
+    - courses in [that](ObjectPronoun) department  
+    - courses offered by [that](ObjectPronoun) department  
+    - [this](ObjectPronoun) department courses 
+    - courses in [this](ObjectPronoun) department  
+    - courses offered by [this](ObjectPronoun) department  
+    - [it](ObjectPronoun) department courses 
+    - courses in [it](ObjectPronoun) department  
+    - courses offered by [it](ObjectPronoun) department  
+    - [the](ObjectPronoun) department courses 
+    - courses in [the](ObjectPronoun) department  
+    - courses offered by [the](ObjectPronoun) department  
+    - [it's](ObjectPronoun) department courses 
+    - courses in [it's](ObjectPronoun) department  
+    - courses offered by [it's](ObjectPronoun) department  
+    - [its](ObjectPronoun) department courses 
+    - courses in [its](ObjectPronoun) department  
+    - courses offered by [its](ObjectPronoun) department  
+- intent: dept_profs_info 
+  examples: | 
+    - professors in the [Computer Science](Department) department 
+    - list all the profs in the [Computer Science](Department) department 
+    - list all the teachers in the [Computer Science](Department) dept
+    - [Computer Science](Department) department professors
+    - [Computer Science](Department) department profs
+    - lectureres teaching in [Computer Science](Department) department 
+    - teachers teaching in [Computer Science](Department) department 
+    - professors in the [CS](Department) department 
+    - list all the profs in the [CS](Department) department 
+    - list all the teachers in the [CS](Department) dept
+    - [CS](Department) department professors
+    - [CS](Department) department profs
+    - lectureres teaching in [CS](Department) department 
+    - teachers teaching in [CS](Department) department 
+    - professors in the [CSE](Department) department 
+    - list all the profs in the [CSE](Department) department 
+    - list all the teachers in the [CSE](Department) dept
+    - [CSE](Department) department professors
+    - [CSE](Department) department profs
+    - lectureres teaching in [CSE](Department) department 
+    - teachers teaching in [CSE](Department) department 
+    - professors in the [Comp Sci](Department) department 
+    - list all the profs in the [Comp Sci](Department) department 
+    - list all the teachers in the [Comp Sci](Department) dept
+    - [Comp Sci](Department) department professors
+    - [Comp Sci](Department) department profs
+    - lectureres teaching in [Comp Sci](Department) department 
+    - teachers teaching in [Comp Sci](Department) department 
+    - professors in the [Comp Science](Department) department 
+    - list all the profs in the [Comp Science](Department) department 
+    - list all the teachers in the [Comp Science](Department) dept
+    - [Comp Science](Department) department professors
+    - [Comp Science](Department) department profs
+    - lectureres teaching in [Comp Science](Department) department 
+    - teachers teaching in [Comp Science](Department) department 
+    - professors in the [Computer Science Engineering](Department) department 
+    - list all the profs in the [Computer Science Engineering](Department) department 
+    - list all the teachers in the [Computer Science Engineering](Department) dept
+    - [Computer Science Engineering](Department) department professors
+    - [Computer Science Engineering](Department) department profs
+    - lectureres teaching in [Computer Science Engineering](Department) department 
+    - teachers teaching in [Computer Science Engineering](Department) department 
+    - professors in the [Electrical Engineering](Department) department 
+    - list all the profs in the [Electrical Engineering](Department) department 
+    - list all the teachers in the [Electrical Engineering](Department) dept
+    - [Electrical Engineering](Department) department professors
+    - [Electrical Engineering](Department) department profs
+    - lectureres teaching in [Electrical Engineering](Department) department 
+    - teachers teaching in [Electrical Engineering](Department) department 
+    - professors in the [EEE](Department) department 
+    - list all the profs in the [EEE](Department) department 
+    - list all the teachers in the [EEE](Department) dept
+    - [EEE](Department) department professors
+    - [EEE](Department) department profs
+    - lectureres teaching in [EEE](Department) department 
+    - teachers teaching in [EEE](Department) department 
+    - professors in the [Elec Engg](Department) department 
+    - list all the profs in the [Elec Engg](Department) department 
+    - list all the teachers in the [Elec Engg](Department) dept
+    - [Elec Engg](Department) department professors
+    - [Elec Engg](Department) department profs
+    - lectureres teaching in [Elec Engg](Department) department 
+    - teachers teaching in [Elec Engg](Department) department 
+    - professors in the [Elec](Department) department 
+    - list all the profs in the [Elec](Department) department 
+    - list all the teachers in the [Elec](Department) dept
+    - [Elec](Department) department professors
+    - [Elec](Department) department profs
+    - lectureres teaching in [Elec](Department) department 
+    - teachers teaching in [Elec](Department) department 
+    - professors in the [Electrical](Department) department 
+    - list all the profs in the [Electrical](Department) department 
+    - list all the teachers in the [Electrical](Department) dept
+    - [Electrical](Department) department professors
+    - [Electrical](Department) department profs
+    - lectureres teaching in [Electrical](Department) department 
+    - teachers teaching in [Electrical](Department) department 
+    - professors in the [Electronics](Department) department 
+    - list all the profs in the [Electronics](Department) department 
+    - list all the teachers in the [Electronics](Department) dept
+    - [Electronics](Department) department professors
+    - [Electronics](Department) department profs
+    - lectureres teaching in [Electronics](Department) department 
+    - teachers teaching in [Electronics](Department) department 
+    - professors in the [ECE](Department) department 
+    - list all the profs in the [ECE](Department) department 
+    - list all the teachers in the [ECE](Department) dept
+    - [ECE](Department) department professors
+    - [ECE](Department) department profs
+    - lectureres teaching in [ECE](Department) department 
+    - teachers teaching in [ECE](Department) department 
+    - professors in the [EE](Department) department 
+    - list all the profs in the [EE](Department) department 
+    - list all the teachers in the [EE](Department) dept
+    - [EE](Department) department professors
+    - [EE](Department) department profs
+    - lectureres teaching in [EE](Department) department 
+    - teachers teaching in [EE](Department) department 
+    - professors in the [Mechanical Engineering](Department) department 
+    - list all the profs in the [Mechanical Engineering](Department) department 
+    - list all the teachers in the [Mechanical Engineering](Department) dept
+    - [Mechanical Engineering](Department) department professors
+    - [Mechanical Engineering](Department) department profs
+    - lectureres teaching in [Mechanical Engineering](Department) department 
+    - teachers teaching in [Mechanical Engineering](Department) department 
+    - professors in the [Mechanical](Department) department 
+    - list all the profs in the [Mechanical](Department) department 
+    - list all the teachers in the [Mechanical](Department) dept
+    - [Mechanical](Department) department professors
+    - [Mechanical](Department) department profs
+    - lectureres teaching in [Mechanical](Department) department 
+    - teachers teaching in [Mechanical](Department) department 
+    - professors in the [Mech](Department) department 
+    - list all the profs in the [Mech](Department) department 
+    - list all the teachers in the [Mech](Department) dept
+    - [Mech](Department) department professors
+    - [Mech](Department) department profs
+    - lectureres teaching in [Mech](Department) department 
+    - teachers teaching in [Mech](Department) department 
+    - professors in the [Mechatronics](Department) department 
+    - list all the profs in the [Mechatronics](Department) department 
+    - list all the teachers in the [Mechatronics](Department) dept
+    - [Mechatronics](Department) department professors
+    - [Mechatronics](Department) department profs
+    - lectureres teaching in [Mechatronics](Department) department 
+    - teachers teaching in [Mechatronics](Department) department 
+    - professors in the [ME](Department) department 
+    - list all the profs in the [ME](Department) department 
+    - list all the teachers in the [ME](Department) dept
+    - [ME](Department) department professors
+    - [ME](Department) department profs
+    - lectureres teaching in [ME](Department) department 
+    - teachers teaching in [ME](Department) department 
+    - professors in the [Mech Engg](Department) department 
+    - list all the profs in the [Mech Engg](Department) department 
+    - list all the teachers in the [Mech Engg](Department) dept
+    - [Mech Engg](Department) department professors
+    - [Mech Engg](Department) department profs
+    - lectureres teaching in [Mech Engg](Department) department 
+    - teachers teaching in [Mech Engg](Department) department 
+    - professors in the [Mechanical Engg](Department) department 
+    - list all the profs in the [Mechanical Engg](Department) department 
+    - list all the teachers in the [Mechanical Engg](Department) dept
+    - [Mechanical Engg](Department) department professors
+    - [Mechanical Engg](Department) department profs
+    - lectureres teaching in [Mechanical Engg](Department) department 
+    - teachers teaching in [Mechanical Engg](Department) department 
+    - professors in the [Chemical Engineering](Department) department 
+    - list all the profs in the [Chemical Engineering](Department) department 
+    - list all the teachers in the [Chemical Engineering](Department) dept
+    - [Chemical Engineering](Department) department professors
+    - [Chemical Engineering](Department) department profs
+    - lectureres teaching in [Chemical Engineering](Department) department 
+    - teachers teaching in [Chemical Engineering](Department) department 
+    - professors in the [Chemical](Department) department 
+    - list all the profs in the [Chemical](Department) department 
+    - list all the teachers in the [Chemical](Department) dept
+    - [Chemical](Department) department professors
+    - [Chemical](Department) department profs
+    - lectureres teaching in [Chemical](Department) department 
+    - teachers teaching in [Chemical](Department) department 
+    - professors in the [Chem Engineering](Department) department 
+    - list all the profs in the [Chem Engineering](Department) department 
+    - list all the teachers in the [Chem Engineering](Department) dept
+    - [Chem Engineering](Department) department professors
+    - [Chem Engineering](Department) department profs
+    - lectureres teaching in [Chem Engineering](Department) department 
+    - teachers teaching in [Chem Engineering](Department) department 
+    - professors in the [Chem Engg](Department) department 
+    - list all the profs in the [Chem Engg](Department) department 
+    - list all the teachers in the [Chem Engg](Department) dept
+    - [Chem Engg](Department) department professors
+    - [Chem Engg](Department) department profs
+    - lectureres teaching in [Chem Engg](Department) department 
+    - teachers teaching in [Chem Engg](Department) department 
+    - professors in the [Chem](Department) department 
+    - list all the profs in the [Chem](Department) department 
+    - list all the teachers in the [Chem](Department) dept
+    - [Chem](Department) department professors
+    - [Chem](Department) department profs
+    - lectureres teaching in [Chem](Department) department 
+    - teachers teaching in [Chem](Department) department 
+    - professors in the [ChemE](Department) department 
+    - list all the profs in the [ChemE](Department) department 
+    - list all the teachers in the [ChemE](Department) dept
+    - [ChemE](Department) department professors
+    - [ChemE](Department) department profs
+    - lectureres teaching in [ChemE](Department) department 
+    - teachers teaching in [ChemE](Department) department 
+    - teachers teaching in [that](ObjectPronoun) department 
+    - professors in [that](ObjectPronoun) department 
+    - [that](ObjectPronoun) department profs
+    - teachers teaching in [this](ObjectPronoun) department 
+    - professors in [this](ObjectPronoun) department 
+    - [this](ObjectPronoun) department profs
+    - teachers teaching in [it](ObjectPronoun) department 
+    - professors in [it](ObjectPronoun) department 
+    - [it](ObjectPronoun) department profs
+    - teachers teaching in [the](ObjectPronoun) department 
+    - professors in [the](ObjectPronoun) department 
+    - [the](ObjectPronoun) department profs
+    - teachers teaching in [it's](ObjectPronoun) department 
+    - professors in [it's](ObjectPronoun) department 
+    - [it's](ObjectPronoun) department profs
+    - teachers teaching in [its](ObjectPronoun) department 
+    - professors in [its](ObjectPronoun) department 
+    - [its](ObjectPronoun) department profs
+- intent: dept_courses_info 
+  examples: | 
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - [Computer Science](Department) courses 
+    - courses in [Computer Science](Department) 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - [CS](Department) courses 
+    - courses in [CS](Department) 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - [CSE](Department) courses 
+    - courses in [CSE](Department) 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - [Comp Sci](Department) courses 
+    - courses in [Comp Sci](Department) 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - [Comp Science](Department) courses 
+    - courses in [Comp Science](Department) 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - [Computer Science Engineering](Department) courses 
+    - courses in [Computer Science Engineering](Department) 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - [Electrical Engineering](Department) courses 
+    - courses in [Electrical Engineering](Department) 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - [EEE](Department) courses 
+    - courses in [EEE](Department) 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - [Elec Engg](Department) courses 
+    - courses in [Elec Engg](Department) 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - [Elec](Department) courses 
+    - courses in [Elec](Department) 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - [Electrical](Department) courses 
+    - courses in [Electrical](Department) 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - [Electronics](Department) courses 
+    - courses in [Electronics](Department) 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - [ECE](Department) courses 
+    - courses in [ECE](Department) 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - [EE](Department) courses 
+    - courses in [EE](Department) 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - [Mechanical Engineering](Department) courses 
+    - courses in [Mechanical Engineering](Department) 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - [Mechanical](Department) courses 
+    - courses in [Mechanical](Department) 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - [Mech](Department) courses 
+    - courses in [Mech](Department) 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - [Mechatronics](Department) courses 
+    - courses in [Mechatronics](Department) 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - [ME](Department) courses 
+    - courses in [ME](Department) 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - [Mech Engg](Department) courses 
+    - courses in [Mech Engg](Department) 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - [Mechanical Engg](Department) courses 
+    - courses in [Mechanical Engg](Department) 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - [Chemical Engineering](Department) courses 
+    - courses in [Chemical Engineering](Department) 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - [Chemical](Department) courses 
+    - courses in [Chemical](Department) 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - [Chem Engineering](Department) courses 
+    - courses in [Chem Engineering](Department) 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - [Chem Engg](Department) courses 
+    - courses in [Chem Engg](Department) 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - [Chem](Department) courses 
+    - courses in [Chem](Department) 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [ChemE](Department) courses 
+    - courses in [ChemE](Department) 
+    - [that](ObjectPronoun) department courses 
+    - courses in [that](ObjectPronoun) department  
+    - courses offered by [that](ObjectPronoun) department  
+    - [this](ObjectPronoun) department courses 
+    - courses in [this](ObjectPronoun) department  
+    - courses offered by [this](ObjectPronoun) department  
+    - [it](ObjectPronoun) department courses 
+    - courses in [it](ObjectPronoun) department  
+    - courses offered by [it](ObjectPronoun) department  
+    - [the](ObjectPronoun) department courses 
+    - courses in [the](ObjectPronoun) department  
+    - courses offered by [the](ObjectPronoun) department  
+    - [it's](ObjectPronoun) department courses 
+    - courses in [it's](ObjectPronoun) department  
+    - courses offered by [it's](ObjectPronoun) department  
+    - [its](ObjectPronoun) department courses 
+    - courses in [its](ObjectPronoun) department  
+    - courses offered by [its](ObjectPronoun) department  
+- intent: dept_courses_info 
+  examples: | 
+    - what courses are offered by the [Computer Science](Department) department this year 
+    - what courses are offered by the department  [Computer Science](Department) this year 
+    - courses offered by the [Computer Science](Department) department 
+    - [Computer Science](Department) department courses 
+    - [Computer Science](Department) courses 
+    - courses in [Computer Science](Department) 
+    - what courses are offered by the [CS](Department) department this year 
+    - what courses are offered by the department  [CS](Department) this year 
+    - courses offered by the [CS](Department) department 
+    - [CS](Department) department courses 
+    - [CS](Department) courses 
+    - courses in [CS](Department) 
+    - what courses are offered by the [CSE](Department) department this year 
+    - what courses are offered by the department  [CSE](Department) this year 
+    - courses offered by the [CSE](Department) department 
+    - [CSE](Department) department courses 
+    - [CSE](Department) courses 
+    - courses in [CSE](Department) 
+    - what courses are offered by the [Comp Sci](Department) department this year 
+    - what courses are offered by the department  [Comp Sci](Department) this year 
+    - courses offered by the [Comp Sci](Department) department 
+    - [Comp Sci](Department) department courses 
+    - [Comp Sci](Department) courses 
+    - courses in [Comp Sci](Department) 
+    - what courses are offered by the [Comp Science](Department) department this year 
+    - what courses are offered by the department  [Comp Science](Department) this year 
+    - courses offered by the [Comp Science](Department) department 
+    - [Comp Science](Department) department courses 
+    - [Comp Science](Department) courses 
+    - courses in [Comp Science](Department) 
+    - what courses are offered by the [Computer Science Engineering](Department) department this year 
+    - what courses are offered by the department  [Computer Science Engineering](Department) this year 
+    - courses offered by the [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department courses 
+    - [Computer Science Engineering](Department) courses 
+    - courses in [Computer Science Engineering](Department) 
+    - what courses are offered by the [Electrical Engineering](Department) department this year 
+    - what courses are offered by the department  [Electrical Engineering](Department) this year 
+    - courses offered by the [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department courses 
+    - [Electrical Engineering](Department) courses 
+    - courses in [Electrical Engineering](Department) 
+    - what courses are offered by the [EEE](Department) department this year 
+    - what courses are offered by the department  [EEE](Department) this year 
+    - courses offered by the [EEE](Department) department 
+    - [EEE](Department) department courses 
+    - [EEE](Department) courses 
+    - courses in [EEE](Department) 
+    - what courses are offered by the [Elec Engg](Department) department this year 
+    - what courses are offered by the department  [Elec Engg](Department) this year 
+    - courses offered by the [Elec Engg](Department) department 
+    - [Elec Engg](Department) department courses 
+    - [Elec Engg](Department) courses 
+    - courses in [Elec Engg](Department) 
+    - what courses are offered by the [Elec](Department) department this year 
+    - what courses are offered by the department  [Elec](Department) this year 
+    - courses offered by the [Elec](Department) department 
+    - [Elec](Department) department courses 
+    - [Elec](Department) courses 
+    - courses in [Elec](Department) 
+    - what courses are offered by the [Electrical](Department) department this year 
+    - what courses are offered by the department  [Electrical](Department) this year 
+    - courses offered by the [Electrical](Department) department 
+    - [Electrical](Department) department courses 
+    - [Electrical](Department) courses 
+    - courses in [Electrical](Department) 
+    - what courses are offered by the [Electronics](Department) department this year 
+    - what courses are offered by the department  [Electronics](Department) this year 
+    - courses offered by the [Electronics](Department) department 
+    - [Electronics](Department) department courses 
+    - [Electronics](Department) courses 
+    - courses in [Electronics](Department) 
+    - what courses are offered by the [ECE](Department) department this year 
+    - what courses are offered by the department  [ECE](Department) this year 
+    - courses offered by the [ECE](Department) department 
+    - [ECE](Department) department courses 
+    - [ECE](Department) courses 
+    - courses in [ECE](Department) 
+    - what courses are offered by the [EE](Department) department this year 
+    - what courses are offered by the department  [EE](Department) this year 
+    - courses offered by the [EE](Department) department 
+    - [EE](Department) department courses 
+    - [EE](Department) courses 
+    - courses in [EE](Department) 
+    - what courses are offered by the [Mechanical Engineering](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engineering](Department) this year 
+    - courses offered by the [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department courses 
+    - [Mechanical Engineering](Department) courses 
+    - courses in [Mechanical Engineering](Department) 
+    - what courses are offered by the [Mechanical](Department) department this year 
+    - what courses are offered by the department  [Mechanical](Department) this year 
+    - courses offered by the [Mechanical](Department) department 
+    - [Mechanical](Department) department courses 
+    - [Mechanical](Department) courses 
+    - courses in [Mechanical](Department) 
+    - what courses are offered by the [Mech](Department) department this year 
+    - what courses are offered by the department  [Mech](Department) this year 
+    - courses offered by the [Mech](Department) department 
+    - [Mech](Department) department courses 
+    - [Mech](Department) courses 
+    - courses in [Mech](Department) 
+    - what courses are offered by the [Mechatronics](Department) department this year 
+    - what courses are offered by the department  [Mechatronics](Department) this year 
+    - courses offered by the [Mechatronics](Department) department 
+    - [Mechatronics](Department) department courses 
+    - [Mechatronics](Department) courses 
+    - courses in [Mechatronics](Department) 
+    - what courses are offered by the [ME](Department) department this year 
+    - what courses are offered by the department  [ME](Department) this year 
+    - courses offered by the [ME](Department) department 
+    - [ME](Department) department courses 
+    - [ME](Department) courses 
+    - courses in [ME](Department) 
+    - what courses are offered by the [Mech Engg](Department) department this year 
+    - what courses are offered by the department  [Mech Engg](Department) this year 
+    - courses offered by the [Mech Engg](Department) department 
+    - [Mech Engg](Department) department courses 
+    - [Mech Engg](Department) courses 
+    - courses in [Mech Engg](Department) 
+    - what courses are offered by the [Mechanical Engg](Department) department this year 
+    - what courses are offered by the department  [Mechanical Engg](Department) this year 
+    - courses offered by the [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department courses 
+    - [Mechanical Engg](Department) courses 
+    - courses in [Mechanical Engg](Department) 
+    - what courses are offered by the [Chemical Engineering](Department) department this year 
+    - what courses are offered by the department  [Chemical Engineering](Department) this year 
+    - courses offered by the [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department courses 
+    - [Chemical Engineering](Department) courses 
+    - courses in [Chemical Engineering](Department) 
+    - what courses are offered by the [Chemical](Department) department this year 
+    - what courses are offered by the department  [Chemical](Department) this year 
+    - courses offered by the [Chemical](Department) department 
+    - [Chemical](Department) department courses 
+    - [Chemical](Department) courses 
+    - courses in [Chemical](Department) 
+    - what courses are offered by the [Chem Engineering](Department) department this year 
+    - what courses are offered by the department  [Chem Engineering](Department) this year 
+    - courses offered by the [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department courses 
+    - [Chem Engineering](Department) courses 
+    - courses in [Chem Engineering](Department) 
+    - what courses are offered by the [Chem Engg](Department) department this year 
+    - what courses are offered by the department  [Chem Engg](Department) this year 
+    - courses offered by the [Chem Engg](Department) department 
+    - [Chem Engg](Department) department courses 
+    - [Chem Engg](Department) courses 
+    - courses in [Chem Engg](Department) 
+    - what courses are offered by the [Chem](Department) department this year 
+    - what courses are offered by the department  [Chem](Department) this year 
+    - courses offered by the [Chem](Department) department 
+    - [Chem](Department) department courses 
+    - [Chem](Department) courses 
+    - courses in [Chem](Department) 
+    - what courses are offered by the [ChemE](Department) department this year 
+    - what courses are offered by the department  [ChemE](Department) this year 
+    - courses offered by the [ChemE](Department) department 
+    - [ChemE](Department) department courses 
+    - [ChemE](Department) courses 
+    - courses in [ChemE](Department) 
+    - [that](ObjectPronoun) department courses 
+    - courses in [that](ObjectPronoun) department  
+    - courses offered by [that](ObjectPronoun) department  
+    - [this](ObjectPronoun) department courses 
+    - courses in [this](ObjectPronoun) department  
+    - courses offered by [this](ObjectPronoun) department  
+    - [it](ObjectPronoun) department courses 
+    - courses in [it](ObjectPronoun) department  
+    - courses offered by [it](ObjectPronoun) department  
+    - [the](ObjectPronoun) department courses 
+    - courses in [the](ObjectPronoun) department  
+    - courses offered by [the](ObjectPronoun) department  
+    - [it's](ObjectPronoun) department courses 
+    - courses in [it's](ObjectPronoun) department  
+    - courses offered by [it's](ObjectPronoun) department  
+    - [its](ObjectPronoun) department courses 
+    - courses in [its](ObjectPronoun) department  
+    - courses offered by [its](ObjectPronoun) department  
+- intent: dept_ug_programs_info 
+  examples: | 
+    - undergrad programs in [Computer Science](Department) department 
+    - undergraduate programs in [Computer Science](Department) department 
+    - undergraduate programs in [Computer Science](Department) department 
+    - [Computer Science](Department) department undergraduate programs 
+    - [Computer Science](Department) department ug programs 
+    - undergrad programs offered by [Computer Science](Department) department 
+    - what programs does [Computer Science](Department) department offer for undergraduates 
+    - undergrad programs in [CS](Department) department 
+    - undergraduate programs in [CS](Department) department 
+    - undergraduate programs in [CS](Department) department 
+    - [CS](Department) department undergraduate programs 
+    - [CS](Department) department ug programs 
+    - undergrad programs offered by [CS](Department) department 
+    - what programs does [CS](Department) department offer for undergraduates 
+    - undergrad programs in [CSE](Department) department 
+    - undergraduate programs in [CSE](Department) department 
+    - undergraduate programs in [CSE](Department) department 
+    - [CSE](Department) department undergraduate programs 
+    - [CSE](Department) department ug programs 
+    - undergrad programs offered by [CSE](Department) department 
+    - what programs does [CSE](Department) department offer for undergraduates 
+    - undergrad programs in [Comp Sci](Department) department 
+    - undergraduate programs in [Comp Sci](Department) department 
+    - undergraduate programs in [Comp Sci](Department) department 
+    - [Comp Sci](Department) department undergraduate programs 
+    - [Comp Sci](Department) department ug programs 
+    - undergrad programs offered by [Comp Sci](Department) department 
+    - what programs does [Comp Sci](Department) department offer for undergraduates 
+    - undergrad programs in [Comp Science](Department) department 
+    - undergraduate programs in [Comp Science](Department) department 
+    - undergraduate programs in [Comp Science](Department) department 
+    - [Comp Science](Department) department undergraduate programs 
+    - [Comp Science](Department) department ug programs 
+    - undergrad programs offered by [Comp Science](Department) department 
+    - what programs does [Comp Science](Department) department offer for undergraduates 
+    - undergrad programs in [Computer Science Engineering](Department) department 
+    - undergraduate programs in [Computer Science Engineering](Department) department 
+    - undergraduate programs in [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department undergraduate programs 
+    - [Computer Science Engineering](Department) department ug programs 
+    - undergrad programs offered by [Computer Science Engineering](Department) department 
+    - what programs does [Computer Science Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Electrical Engineering](Department) department 
+    - undergraduate programs in [Electrical Engineering](Department) department 
+    - undergraduate programs in [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department undergraduate programs 
+    - [Electrical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Electrical Engineering](Department) department 
+    - what programs does [Electrical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [EEE](Department) department 
+    - undergraduate programs in [EEE](Department) department 
+    - undergraduate programs in [EEE](Department) department 
+    - [EEE](Department) department undergraduate programs 
+    - [EEE](Department) department ug programs 
+    - undergrad programs offered by [EEE](Department) department 
+    - what programs does [EEE](Department) department offer for undergraduates 
+    - undergrad programs in [Elec Engg](Department) department 
+    - undergraduate programs in [Elec Engg](Department) department 
+    - undergraduate programs in [Elec Engg](Department) department 
+    - [Elec Engg](Department) department undergraduate programs 
+    - [Elec Engg](Department) department ug programs 
+    - undergrad programs offered by [Elec Engg](Department) department 
+    - what programs does [Elec Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Elec](Department) department 
+    - undergraduate programs in [Elec](Department) department 
+    - undergraduate programs in [Elec](Department) department 
+    - [Elec](Department) department undergraduate programs 
+    - [Elec](Department) department ug programs 
+    - undergrad programs offered by [Elec](Department) department 
+    - what programs does [Elec](Department) department offer for undergraduates 
+    - undergrad programs in [Electrical](Department) department 
+    - undergraduate programs in [Electrical](Department) department 
+    - undergraduate programs in [Electrical](Department) department 
+    - [Electrical](Department) department undergraduate programs 
+    - [Electrical](Department) department ug programs 
+    - undergrad programs offered by [Electrical](Department) department 
+    - what programs does [Electrical](Department) department offer for undergraduates 
+    - undergrad programs in [Electronics](Department) department 
+    - undergraduate programs in [Electronics](Department) department 
+    - undergraduate programs in [Electronics](Department) department 
+    - [Electronics](Department) department undergraduate programs 
+    - [Electronics](Department) department ug programs 
+    - undergrad programs offered by [Electronics](Department) department 
+    - what programs does [Electronics](Department) department offer for undergraduates 
+    - undergrad programs in [ECE](Department) department 
+    - undergraduate programs in [ECE](Department) department 
+    - undergraduate programs in [ECE](Department) department 
+    - [ECE](Department) department undergraduate programs 
+    - [ECE](Department) department ug programs 
+    - undergrad programs offered by [ECE](Department) department 
+    - what programs does [ECE](Department) department offer for undergraduates 
+    - undergrad programs in [EE](Department) department 
+    - undergraduate programs in [EE](Department) department 
+    - undergraduate programs in [EE](Department) department 
+    - [EE](Department) department undergraduate programs 
+    - [EE](Department) department ug programs 
+    - undergrad programs offered by [EE](Department) department 
+    - what programs does [EE](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical Engineering](Department) department 
+    - undergraduate programs in [Mechanical Engineering](Department) department 
+    - undergraduate programs in [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department undergraduate programs 
+    - [Mechanical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Mechanical Engineering](Department) department 
+    - what programs does [Mechanical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical](Department) department 
+    - undergraduate programs in [Mechanical](Department) department 
+    - undergraduate programs in [Mechanical](Department) department 
+    - [Mechanical](Department) department undergraduate programs 
+    - [Mechanical](Department) department ug programs 
+    - undergrad programs offered by [Mechanical](Department) department 
+    - what programs does [Mechanical](Department) department offer for undergraduates 
+    - undergrad programs in [Mech](Department) department 
+    - undergraduate programs in [Mech](Department) department 
+    - undergraduate programs in [Mech](Department) department 
+    - [Mech](Department) department undergraduate programs 
+    - [Mech](Department) department ug programs 
+    - undergrad programs offered by [Mech](Department) department 
+    - what programs does [Mech](Department) department offer for undergraduates 
+    - undergrad programs in [Mechatronics](Department) department 
+    - undergraduate programs in [Mechatronics](Department) department 
+    - undergraduate programs in [Mechatronics](Department) department 
+    - [Mechatronics](Department) department undergraduate programs 
+    - [Mechatronics](Department) department ug programs 
+    - undergrad programs offered by [Mechatronics](Department) department 
+    - what programs does [Mechatronics](Department) department offer for undergraduates 
+    - undergrad programs in [ME](Department) department 
+    - undergraduate programs in [ME](Department) department 
+    - undergraduate programs in [ME](Department) department 
+    - [ME](Department) department undergraduate programs 
+    - [ME](Department) department ug programs 
+    - undergrad programs offered by [ME](Department) department 
+    - what programs does [ME](Department) department offer for undergraduates 
+    - undergrad programs in [Mech Engg](Department) department 
+    - undergraduate programs in [Mech Engg](Department) department 
+    - undergraduate programs in [Mech Engg](Department) department 
+    - [Mech Engg](Department) department undergraduate programs 
+    - [Mech Engg](Department) department ug programs 
+    - undergrad programs offered by [Mech Engg](Department) department 
+    - what programs does [Mech Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical Engg](Department) department 
+    - undergraduate programs in [Mechanical Engg](Department) department 
+    - undergraduate programs in [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department undergraduate programs 
+    - [Mechanical Engg](Department) department ug programs 
+    - undergrad programs offered by [Mechanical Engg](Department) department 
+    - what programs does [Mechanical Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Chemical Engineering](Department) department 
+    - undergraduate programs in [Chemical Engineering](Department) department 
+    - undergraduate programs in [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department undergraduate programs 
+    - [Chemical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Chemical Engineering](Department) department 
+    - what programs does [Chemical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Chemical](Department) department 
+    - undergraduate programs in [Chemical](Department) department 
+    - undergraduate programs in [Chemical](Department) department 
+    - [Chemical](Department) department undergraduate programs 
+    - [Chemical](Department) department ug programs 
+    - undergrad programs offered by [Chemical](Department) department 
+    - what programs does [Chemical](Department) department offer for undergraduates 
+    - undergrad programs in [Chem Engineering](Department) department 
+    - undergraduate programs in [Chem Engineering](Department) department 
+    - undergraduate programs in [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department undergraduate programs 
+    - [Chem Engineering](Department) department ug programs 
+    - undergrad programs offered by [Chem Engineering](Department) department 
+    - what programs does [Chem Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Chem Engg](Department) department 
+    - undergraduate programs in [Chem Engg](Department) department 
+    - undergraduate programs in [Chem Engg](Department) department 
+    - [Chem Engg](Department) department undergraduate programs 
+    - [Chem Engg](Department) department ug programs 
+    - undergrad programs offered by [Chem Engg](Department) department 
+    - what programs does [Chem Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Chem](Department) department 
+    - undergraduate programs in [Chem](Department) department 
+    - undergraduate programs in [Chem](Department) department 
+    - [Chem](Department) department undergraduate programs 
+    - [Chem](Department) department ug programs 
+    - undergrad programs offered by [Chem](Department) department 
+    - what programs does [Chem](Department) department offer for undergraduates 
+    - undergrad programs in [ChemE](Department) department 
+    - undergraduate programs in [ChemE](Department) department 
+    - undergraduate programs in [ChemE](Department) department 
+    - [ChemE](Department) department undergraduate programs 
+    - [ChemE](Department) department ug programs 
+    - undergrad programs offered by [ChemE](Department) department 
+    - what programs does [ChemE](Department) department offer for undergraduates 
+    - undergrad programs in [that](Department) department 
+    - ug programs in [that](Department) department 
+    - undergraduate programs in [that](Department) department 
+    - [that](Department) department undergraduate programs 
+    - [that](Department) department ug programs 
+    - undergrad programs offered by [that](Department) department 
+    - what programs does [that](Department) department offer for undergraduates 
+    - undergrad programs in [this](Department) department 
+    - ug programs in [this](Department) department 
+    - undergraduate programs in [this](Department) department 
+    - [this](Department) department undergraduate programs 
+    - [this](Department) department ug programs 
+    - undergrad programs offered by [this](Department) department 
+    - what programs does [this](Department) department offer for undergraduates 
+    - undergrad programs in [it](Department) department 
+    - ug programs in [it](Department) department 
+    - undergraduate programs in [it](Department) department 
+    - [it](Department) department undergraduate programs 
+    - [it](Department) department ug programs 
+    - undergrad programs offered by [it](Department) department 
+    - what programs does [it](Department) department offer for undergraduates 
+    - undergrad programs in [the](Department) department 
+    - ug programs in [the](Department) department 
+    - undergraduate programs in [the](Department) department 
+    - [the](Department) department undergraduate programs 
+    - [the](Department) department ug programs 
+    - undergrad programs offered by [the](Department) department 
+    - what programs does [the](Department) department offer for undergraduates 
+    - undergrad programs in [it's](Department) department 
+    - ug programs in [it's](Department) department 
+    - undergraduate programs in [it's](Department) department 
+    - [it's](Department) department undergraduate programs 
+    - [it's](Department) department ug programs 
+    - undergrad programs offered by [it's](Department) department 
+    - what programs does [it's](Department) department offer for undergraduates 
+    - undergrad programs in [its](Department) department 
+    - ug programs in [its](Department) department 
+    - undergraduate programs in [its](Department) department 
+    - [its](Department) department undergraduate programs 
+    - [its](Department) department ug programs 
+    - undergrad programs offered by [its](Department) department 
+    - what programs does [its](Department) department offer for undergraduates 
+- intent: dept_ug_programs_info 
+  examples: | 
+    - undergrad programs in [Computer Science](Department) department 
+    - undergraduate programs in [Computer Science](Department) department 
+    - undergraduate programs in [Computer Science](Department) department 
+    - [Computer Science](Department) department undergraduate programs 
+    - [Computer Science](Department) department ug programs 
+    - undergrad programs offered by [Computer Science](Department) department 
+    - what programs does [Computer Science](Department) department offer for undergraduates 
+    - undergrad programs in [CS](Department) department 
+    - undergraduate programs in [CS](Department) department 
+    - undergraduate programs in [CS](Department) department 
+    - [CS](Department) department undergraduate programs 
+    - [CS](Department) department ug programs 
+    - undergrad programs offered by [CS](Department) department 
+    - what programs does [CS](Department) department offer for undergraduates 
+    - undergrad programs in [CSE](Department) department 
+    - undergraduate programs in [CSE](Department) department 
+    - undergraduate programs in [CSE](Department) department 
+    - [CSE](Department) department undergraduate programs 
+    - [CSE](Department) department ug programs 
+    - undergrad programs offered by [CSE](Department) department 
+    - what programs does [CSE](Department) department offer for undergraduates 
+    - undergrad programs in [Comp Sci](Department) department 
+    - undergraduate programs in [Comp Sci](Department) department 
+    - undergraduate programs in [Comp Sci](Department) department 
+    - [Comp Sci](Department) department undergraduate programs 
+    - [Comp Sci](Department) department ug programs 
+    - undergrad programs offered by [Comp Sci](Department) department 
+    - what programs does [Comp Sci](Department) department offer for undergraduates 
+    - undergrad programs in [Comp Science](Department) department 
+    - undergraduate programs in [Comp Science](Department) department 
+    - undergraduate programs in [Comp Science](Department) department 
+    - [Comp Science](Department) department undergraduate programs 
+    - [Comp Science](Department) department ug programs 
+    - undergrad programs offered by [Comp Science](Department) department 
+    - what programs does [Comp Science](Department) department offer for undergraduates 
+    - undergrad programs in [Computer Science Engineering](Department) department 
+    - undergraduate programs in [Computer Science Engineering](Department) department 
+    - undergraduate programs in [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department undergraduate programs 
+    - [Computer Science Engineering](Department) department ug programs 
+    - undergrad programs offered by [Computer Science Engineering](Department) department 
+    - what programs does [Computer Science Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Electrical Engineering](Department) department 
+    - undergraduate programs in [Electrical Engineering](Department) department 
+    - undergraduate programs in [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department undergraduate programs 
+    - [Electrical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Electrical Engineering](Department) department 
+    - what programs does [Electrical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [EEE](Department) department 
+    - undergraduate programs in [EEE](Department) department 
+    - undergraduate programs in [EEE](Department) department 
+    - [EEE](Department) department undergraduate programs 
+    - [EEE](Department) department ug programs 
+    - undergrad programs offered by [EEE](Department) department 
+    - what programs does [EEE](Department) department offer for undergraduates 
+    - undergrad programs in [Elec Engg](Department) department 
+    - undergraduate programs in [Elec Engg](Department) department 
+    - undergraduate programs in [Elec Engg](Department) department 
+    - [Elec Engg](Department) department undergraduate programs 
+    - [Elec Engg](Department) department ug programs 
+    - undergrad programs offered by [Elec Engg](Department) department 
+    - what programs does [Elec Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Elec](Department) department 
+    - undergraduate programs in [Elec](Department) department 
+    - undergraduate programs in [Elec](Department) department 
+    - [Elec](Department) department undergraduate programs 
+    - [Elec](Department) department ug programs 
+    - undergrad programs offered by [Elec](Department) department 
+    - what programs does [Elec](Department) department offer for undergraduates 
+    - undergrad programs in [Electrical](Department) department 
+    - undergraduate programs in [Electrical](Department) department 
+    - undergraduate programs in [Electrical](Department) department 
+    - [Electrical](Department) department undergraduate programs 
+    - [Electrical](Department) department ug programs 
+    - undergrad programs offered by [Electrical](Department) department 
+    - what programs does [Electrical](Department) department offer for undergraduates 
+    - undergrad programs in [Electronics](Department) department 
+    - undergraduate programs in [Electronics](Department) department 
+    - undergraduate programs in [Electronics](Department) department 
+    - [Electronics](Department) department undergraduate programs 
+    - [Electronics](Department) department ug programs 
+    - undergrad programs offered by [Electronics](Department) department 
+    - what programs does [Electronics](Department) department offer for undergraduates 
+    - undergrad programs in [ECE](Department) department 
+    - undergraduate programs in [ECE](Department) department 
+    - undergraduate programs in [ECE](Department) department 
+    - [ECE](Department) department undergraduate programs 
+    - [ECE](Department) department ug programs 
+    - undergrad programs offered by [ECE](Department) department 
+    - what programs does [ECE](Department) department offer for undergraduates 
+    - undergrad programs in [EE](Department) department 
+    - undergraduate programs in [EE](Department) department 
+    - undergraduate programs in [EE](Department) department 
+    - [EE](Department) department undergraduate programs 
+    - [EE](Department) department ug programs 
+    - undergrad programs offered by [EE](Department) department 
+    - what programs does [EE](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical Engineering](Department) department 
+    - undergraduate programs in [Mechanical Engineering](Department) department 
+    - undergraduate programs in [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department undergraduate programs 
+    - [Mechanical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Mechanical Engineering](Department) department 
+    - what programs does [Mechanical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical](Department) department 
+    - undergraduate programs in [Mechanical](Department) department 
+    - undergraduate programs in [Mechanical](Department) department 
+    - [Mechanical](Department) department undergraduate programs 
+    - [Mechanical](Department) department ug programs 
+    - undergrad programs offered by [Mechanical](Department) department 
+    - what programs does [Mechanical](Department) department offer for undergraduates 
+    - undergrad programs in [Mech](Department) department 
+    - undergraduate programs in [Mech](Department) department 
+    - undergraduate programs in [Mech](Department) department 
+    - [Mech](Department) department undergraduate programs 
+    - [Mech](Department) department ug programs 
+    - undergrad programs offered by [Mech](Department) department 
+    - what programs does [Mech](Department) department offer for undergraduates 
+    - undergrad programs in [Mechatronics](Department) department 
+    - undergraduate programs in [Mechatronics](Department) department 
+    - undergraduate programs in [Mechatronics](Department) department 
+    - [Mechatronics](Department) department undergraduate programs 
+    - [Mechatronics](Department) department ug programs 
+    - undergrad programs offered by [Mechatronics](Department) department 
+    - what programs does [Mechatronics](Department) department offer for undergraduates 
+    - undergrad programs in [ME](Department) department 
+    - undergraduate programs in [ME](Department) department 
+    - undergraduate programs in [ME](Department) department 
+    - [ME](Department) department undergraduate programs 
+    - [ME](Department) department ug programs 
+    - undergrad programs offered by [ME](Department) department 
+    - what programs does [ME](Department) department offer for undergraduates 
+    - undergrad programs in [Mech Engg](Department) department 
+    - undergraduate programs in [Mech Engg](Department) department 
+    - undergraduate programs in [Mech Engg](Department) department 
+    - [Mech Engg](Department) department undergraduate programs 
+    - [Mech Engg](Department) department ug programs 
+    - undergrad programs offered by [Mech Engg](Department) department 
+    - what programs does [Mech Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Mechanical Engg](Department) department 
+    - undergraduate programs in [Mechanical Engg](Department) department 
+    - undergraduate programs in [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department undergraduate programs 
+    - [Mechanical Engg](Department) department ug programs 
+    - undergrad programs offered by [Mechanical Engg](Department) department 
+    - what programs does [Mechanical Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Chemical Engineering](Department) department 
+    - undergraduate programs in [Chemical Engineering](Department) department 
+    - undergraduate programs in [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department undergraduate programs 
+    - [Chemical Engineering](Department) department ug programs 
+    - undergrad programs offered by [Chemical Engineering](Department) department 
+    - what programs does [Chemical Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Chemical](Department) department 
+    - undergraduate programs in [Chemical](Department) department 
+    - undergraduate programs in [Chemical](Department) department 
+    - [Chemical](Department) department undergraduate programs 
+    - [Chemical](Department) department ug programs 
+    - undergrad programs offered by [Chemical](Department) department 
+    - what programs does [Chemical](Department) department offer for undergraduates 
+    - undergrad programs in [Chem Engineering](Department) department 
+    - undergraduate programs in [Chem Engineering](Department) department 
+    - undergraduate programs in [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department undergraduate programs 
+    - [Chem Engineering](Department) department ug programs 
+    - undergrad programs offered by [Chem Engineering](Department) department 
+    - what programs does [Chem Engineering](Department) department offer for undergraduates 
+    - undergrad programs in [Chem Engg](Department) department 
+    - undergraduate programs in [Chem Engg](Department) department 
+    - undergraduate programs in [Chem Engg](Department) department 
+    - [Chem Engg](Department) department undergraduate programs 
+    - [Chem Engg](Department) department ug programs 
+    - undergrad programs offered by [Chem Engg](Department) department 
+    - what programs does [Chem Engg](Department) department offer for undergraduates 
+    - undergrad programs in [Chem](Department) department 
+    - undergraduate programs in [Chem](Department) department 
+    - undergraduate programs in [Chem](Department) department 
+    - [Chem](Department) department undergraduate programs 
+    - [Chem](Department) department ug programs 
+    - undergrad programs offered by [Chem](Department) department 
+    - what programs does [Chem](Department) department offer for undergraduates 
+    - undergrad programs in [ChemE](Department) department 
+    - undergraduate programs in [ChemE](Department) department 
+    - undergraduate programs in [ChemE](Department) department 
+    - [ChemE](Department) department undergraduate programs 
+    - [ChemE](Department) department ug programs 
+    - undergrad programs offered by [ChemE](Department) department 
+    - what programs does [ChemE](Department) department offer for undergraduates 
+    - undergrad programs in [that](ObjectPronoun) department 
+    - ug programs in [that](ObjectPronoun) department 
+    - undergraduate programs in [that](ObjectPronoun) department 
+    - [that](ObjectPronoun) department undergraduate programs 
+    - [that](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [that](ObjectPronoun) department 
+    - what programs does [that](ObjectPronoun) department offer for undergraduates 
+    - undergrad programs in [this](ObjectPronoun) department 
+    - ug programs in [this](ObjectPronoun) department 
+    - undergraduate programs in [this](ObjectPronoun) department 
+    - [this](ObjectPronoun) department undergraduate programs 
+    - [this](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [this](ObjectPronoun) department 
+    - what programs does [this](ObjectPronoun) department offer for undergraduates 
+    - undergrad programs in [it](ObjectPronoun) department 
+    - ug programs in [it](ObjectPronoun) department 
+    - undergraduate programs in [it](ObjectPronoun) department 
+    - [it](ObjectPronoun) department undergraduate programs 
+    - [it](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [it](ObjectPronoun) department 
+    - what programs does [it](ObjectPronoun) department offer for undergraduates 
+    - undergrad programs in [the](ObjectPronoun) department 
+    - ug programs in [the](ObjectPronoun) department 
+    - undergraduate programs in [the](ObjectPronoun) department 
+    - [the](ObjectPronoun) department undergraduate programs 
+    - [the](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [the](ObjectPronoun) department 
+    - what programs does [the](ObjectPronoun) department offer for undergraduates 
+    - undergrad programs in [it's](ObjectPronoun) department 
+    - ug programs in [it's](ObjectPronoun) department 
+    - undergraduate programs in [it's](ObjectPronoun) department 
+    - [it's](ObjectPronoun) department undergraduate programs 
+    - [it's](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [it's](ObjectPronoun) department 
+    - what programs does [it's](ObjectPronoun) department offer for undergraduates 
+    - undergrad programs in [its](ObjectPronoun) department 
+    - ug programs in [its](ObjectPronoun) department 
+    - undergraduate programs in [its](ObjectPronoun) department 
+    - [its](ObjectPronoun) department undergraduate programs 
+    - [its](ObjectPronoun) department ug programs 
+    - undergrad programs offered by [its](ObjectPronoun) department 
+    - what programs does [its](ObjectPronoun) department offer for undergraduates 
+- intent: dept_pg_programs_info 
+  examples: | 
+    - postgrad programs in [Computer Science](Department) department 
+    - postgraduate programs in [Computer Science](Department) department 
+    - postgraduate programs in [Computer Science](Department) department 
+    - [Computer Science](Department) department postgraduate programs 
+    - [Computer Science](Department) department pg programs 
+    - postgrad programs offered by [Computer Science](Department) department 
+    - what programs does [Computer Science](Department) department offer for postgraduates 
+    - postgrad programs in [CS](Department) department 
+    - postgraduate programs in [CS](Department) department 
+    - postgraduate programs in [CS](Department) department 
+    - [CS](Department) department postgraduate programs 
+    - [CS](Department) department pg programs 
+    - postgrad programs offered by [CS](Department) department 
+    - what programs does [CS](Department) department offer for postgraduates 
+    - postgrad programs in [CSE](Department) department 
+    - postgraduate programs in [CSE](Department) department 
+    - postgraduate programs in [CSE](Department) department 
+    - [CSE](Department) department postgraduate programs 
+    - [CSE](Department) department pg programs 
+    - postgrad programs offered by [CSE](Department) department 
+    - what programs does [CSE](Department) department offer for postgraduates 
+    - postgrad programs in [Comp Sci](Department) department 
+    - postgraduate programs in [Comp Sci](Department) department 
+    - postgraduate programs in [Comp Sci](Department) department 
+    - [Comp Sci](Department) department postgraduate programs 
+    - [Comp Sci](Department) department pg programs 
+    - postgrad programs offered by [Comp Sci](Department) department 
+    - what programs does [Comp Sci](Department) department offer for postgraduates 
+    - postgrad programs in [Comp Science](Department) department 
+    - postgraduate programs in [Comp Science](Department) department 
+    - postgraduate programs in [Comp Science](Department) department 
+    - [Comp Science](Department) department postgraduate programs 
+    - [Comp Science](Department) department pg programs 
+    - postgrad programs offered by [Comp Science](Department) department 
+    - what programs does [Comp Science](Department) department offer for postgraduates 
+    - postgrad programs in [Computer Science Engineering](Department) department 
+    - postgraduate programs in [Computer Science Engineering](Department) department 
+    - postgraduate programs in [Computer Science Engineering](Department) department 
+    - [Computer Science Engineering](Department) department postgraduate programs 
+    - [Computer Science Engineering](Department) department pg programs 
+    - postgrad programs offered by [Computer Science Engineering](Department) department 
+    - what programs does [Computer Science Engineering](Department) department offer for postgraduates 
+    - postgrad programs in [Electrical Engineering](Department) department 
+    - postgraduate programs in [Electrical Engineering](Department) department 
+    - postgraduate programs in [Electrical Engineering](Department) department 
+    - [Electrical Engineering](Department) department postgraduate programs 
+    - [Electrical Engineering](Department) department pg programs 
+    - postgrad programs offered by [Electrical Engineering](Department) department 
+    - what programs does [Electrical Engineering](Department) department offer for postgraduates 
+    - postgrad programs in [EEE](Department) department 
+    - postgraduate programs in [EEE](Department) department 
+    - postgraduate programs in [EEE](Department) department 
+    - [EEE](Department) department postgraduate programs 
+    - [EEE](Department) department pg programs 
+    - postgrad programs offered by [EEE](Department) department 
+    - what programs does [EEE](Department) department offer for postgraduates 
+    - postgrad programs in [Elec Engg](Department) department 
+    - postgraduate programs in [Elec Engg](Department) department 
+    - postgraduate programs in [Elec Engg](Department) department 
+    - [Elec Engg](Department) department postgraduate programs 
+    - [Elec Engg](Department) department pg programs 
+    - postgrad programs offered by [Elec Engg](Department) department 
+    - what programs does [Elec Engg](Department) department offer for postgraduates 
+    - postgrad programs in [Elec](Department) department 
+    - postgraduate programs in [Elec](Department) department 
+    - postgraduate programs in [Elec](Department) department 
+    - [Elec](Department) department postgraduate programs 
+    - [Elec](Department) department pg programs 
+    - postgrad programs offered by [Elec](Department) department 
+    - what programs does [Elec](Department) department offer for postgraduates 
+    - postgrad programs in [Electrical](Department) department 
+    - postgraduate programs in [Electrical](Department) department 
+    - postgraduate programs in [Electrical](Department) department 
+    - [Electrical](Department) department postgraduate programs 
+    - [Electrical](Department) department pg programs 
+    - postgrad programs offered by [Electrical](Department) department 
+    - what programs does [Electrical](Department) department offer for postgraduates 
+    - postgrad programs in [Electronics](Department) department 
+    - postgraduate programs in [Electronics](Department) department 
+    - postgraduate programs in [Electronics](Department) department 
+    - [Electronics](Department) department postgraduate programs 
+    - [Electronics](Department) department pg programs 
+    - postgrad programs offered by [Electronics](Department) department 
+    - what programs does [Electronics](Department) department offer for postgraduates 
+    - postgrad programs in [ECE](Department) department 
+    - postgraduate programs in [ECE](Department) department 
+    - postgraduate programs in [ECE](Department) department 
+    - [ECE](Department) department postgraduate programs 
+    - [ECE](Department) department pg programs 
+    - postgrad programs offered by [ECE](Department) department 
+    - what programs does [ECE](Department) department offer for postgraduates 
+    - postgrad programs in [EE](Department) department 
+    - postgraduate programs in [EE](Department) department 
+    - postgraduate programs in [EE](Department) department 
+    - [EE](Department) department postgraduate programs 
+    - [EE](Department) department pg programs 
+    - postgrad programs offered by [EE](Department) department 
+    - what programs does [EE](Department) department offer for postgraduates 
+    - postgrad programs in [Mechanical Engineering](Department) department 
+    - postgraduate programs in [Mechanical Engineering](Department) department 
+    - postgraduate programs in [Mechanical Engineering](Department) department 
+    - [Mechanical Engineering](Department) department postgraduate programs 
+    - [Mechanical Engineering](Department) department pg programs 
+    - postgrad programs offered by [Mechanical Engineering](Department) department 
+    - what programs does [Mechanical Engineering](Department) department offer for postgraduates 
+    - postgrad programs in [Mechanical](Department) department 
+    - postgraduate programs in [Mechanical](Department) department 
+    - postgraduate programs in [Mechanical](Department) department 
+    - [Mechanical](Department) department postgraduate programs 
+    - [Mechanical](Department) department pg programs 
+    - postgrad programs offered by [Mechanical](Department) department 
+    - what programs does [Mechanical](Department) department offer for postgraduates 
+    - postgrad programs in [Mech](Department) department 
+    - postgraduate programs in [Mech](Department) department 
+    - postgraduate programs in [Mech](Department) department 
+    - [Mech](Department) department postgraduate programs 
+    - [Mech](Department) department pg programs 
+    - postgrad programs offered by [Mech](Department) department 
+    - what programs does [Mech](Department) department offer for postgraduates 
+    - postgrad programs in [Mechatronics](Department) department 
+    - postgraduate programs in [Mechatronics](Department) department 
+    - postgraduate programs in [Mechatronics](Department) department 
+    - [Mechatronics](Department) department postgraduate programs 
+    - [Mechatronics](Department) department pg programs 
+    - postgrad programs offered by [Mechatronics](Department) department 
+    - what programs does [Mechatronics](Department) department offer for postgraduates 
+    - postgrad programs in [ME](Department) department 
+    - postgraduate programs in [ME](Department) department 
+    - postgraduate programs in [ME](Department) department 
+    - [ME](Department) department postgraduate programs 
+    - [ME](Department) department pg programs 
+    - postgrad programs offered by [ME](Department) department 
+    - what programs does [ME](Department) department offer for postgraduates 
+    - postgrad programs in [Mech Engg](Department) department 
+    - postgraduate programs in [Mech Engg](Department) department 
+    - postgraduate programs in [Mech Engg](Department) department 
+    - [Mech Engg](Department) department postgraduate programs 
+    - [Mech Engg](Department) department pg programs 
+    - postgrad programs offered by [Mech Engg](Department) department 
+    - what programs does [Mech Engg](Department) department offer for postgraduates 
+    - postgrad programs in [Mechanical Engg](Department) department 
+    - postgraduate programs in [Mechanical Engg](Department) department 
+    - postgraduate programs in [Mechanical Engg](Department) department 
+    - [Mechanical Engg](Department) department postgraduate programs 
+    - [Mechanical Engg](Department) department pg programs 
+    - postgrad programs offered by [Mechanical Engg](Department) department 
+    - what programs does [Mechanical Engg](Department) department offer for postgraduates 
+    - postgrad programs in [Chemical Engineering](Department) department 
+    - postgraduate programs in [Chemical Engineering](Department) department 
+    - postgraduate programs in [Chemical Engineering](Department) department 
+    - [Chemical Engineering](Department) department postgraduate programs 
+    - [Chemical Engineering](Department) department pg programs 
+    - postgrad programs offered by [Chemical Engineering](Department) department 
+    - what programs does [Chemical Engineering](Department) department offer for postgraduates 
+    - postgrad programs in [Chemical](Department) department 
+    - postgraduate programs in [Chemical](Department) department 
+    - postgraduate programs in [Chemical](Department) department 
+    - [Chemical](Department) department postgraduate programs 
+    - [Chemical](Department) department pg programs 
+    - postgrad programs offered by [Chemical](Department) department 
+    - what programs does [Chemical](Department) department offer for postgraduates 
+    - postgrad programs in [Chem Engineering](Department) department 
+    - postgraduate programs in [Chem Engineering](Department) department 
+    - postgraduate programs in [Chem Engineering](Department) department 
+    - [Chem Engineering](Department) department postgraduate programs 
+    - [Chem Engineering](Department) department pg programs 
+    - postgrad programs offered by [Chem Engineering](Department) department 
+    - what programs does [Chem Engineering](Department) department offer for postgraduates 
+    - postgrad programs in [Chem Engg](Department) department 
+    - postgraduate programs in [Chem Engg](Department) department 
+    - postgraduate programs in [Chem Engg](Department) department 
+    - [Chem Engg](Department) department postgraduate programs 
+    - [Chem Engg](Department) department pg programs 
+    - postgrad programs offered by [Chem Engg](Department) department 
+    - what programs does [Chem Engg](Department) department offer for postgraduates 
+    - postgrad programs in [Chem](Department) department 
+    - postgraduate programs in [Chem](Department) department 
+    - postgraduate programs in [Chem](Department) department 
+    - [Chem](Department) department postgraduate programs 
+    - [Chem](Department) department pg programs 
+    - postgrad programs offered by [Chem](Department) department 
+    - what programs does [Chem](Department) department offer for postgraduates 
+    - postgrad programs in [ChemE](Department) department 
+    - postgraduate programs in [ChemE](Department) department 
+    - postgraduate programs in [ChemE](Department) department 
+    - [ChemE](Department) department postgraduate programs 
+    - [ChemE](Department) department pg programs 
+    - postgrad programs offered by [ChemE](Department) department 
+    - what programs does [ChemE](Department) department offer for postgraduates 
+    - postgrad programs in [that](ObjectPronoun) department 
+    - pg programs in [that](ObjectPronoun) department 
+    - postgraduate programs in [that](ObjectPronoun) department 
+    - [that](ObjectPronoun) department postgraduate programs 
+    - [that](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [that](ObjectPronoun) department 
+    - what programs does [that](ObjectPronoun) department offer for postgraduates 
+    - postgrad programs in [this](ObjectPronoun) department 
+    - pg programs in [this](ObjectPronoun) department 
+    - postgraduate programs in [this](ObjectPronoun) department 
+    - [this](ObjectPronoun) department postgraduate programs 
+    - [this](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [this](ObjectPronoun) department 
+    - what programs does [this](ObjectPronoun) department offer for postgraduates 
+    - postgrad programs in [it](ObjectPronoun) department 
+    - pg programs in [it](ObjectPronoun) department 
+    - postgraduate programs in [it](ObjectPronoun) department 
+    - [it](ObjectPronoun) department postgraduate programs 
+    - [it](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [it](ObjectPronoun) department 
+    - what programs does [it](ObjectPronoun) department offer for postgraduates 
+    - postgrad programs in [the](ObjectPronoun) department 
+    - pg programs in [the](ObjectPronoun) department 
+    - postgraduate programs in [the](ObjectPronoun) department 
+    - [the](ObjectPronoun) department postgraduate programs 
+    - [the](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [the](ObjectPronoun) department 
+    - what programs does [the](ObjectPronoun) department offer for postgraduates 
+    - postgrad programs in [it's](ObjectPronoun) department 
+    - pg programs in [it's](ObjectPronoun) department 
+    - postgraduate programs in [it's](ObjectPronoun) department 
+    - [it's](ObjectPronoun) department postgraduate programs 
+    - [it's](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [it's](ObjectPronoun) department 
+    - what programs does [it's](ObjectPronoun) department offer for postgraduates 
+    - postgrad programs in [its](ObjectPronoun) department 
+    - pg programs in [its](ObjectPronoun) department 
+    - postgraduate programs in [its](ObjectPronoun) department 
+    - [its](ObjectPronoun) department postgraduate programs 
+    - [its](ObjectPronoun) department pg programs 
+    - postgrad programs offered by [its](ObjectPronoun) department 
+    - what programs does [its](ObjectPronoun) department offer for postgraduates 
+- intent: dept_programs_info 
+  examples: | 
+    - programs in [Computer Science](Department) department 
+    - programs offered by [Computer Science](Department) department 
+    - what program does [Computer Science](Department) department offer 
+    - what program does [Computer Science](Department) offer 
+    - [Computer Science](Department) programs    - [Computer Science](Department) degrees    - programs in [CS](Department) department 
+    - programs offered by [CS](Department) department 
+    - what program does [CS](Department) department offer 
+    - what program does [CS](Department) offer 
+    - [CS](Department) programs    - [CS](Department) degrees    - programs in [CSE](Department) department 
+    - programs offered by [CSE](Department) department 
+    - what program does [CSE](Department) department offer 
+    - what program does [CSE](Department) offer 
+    - [CSE](Department) programs    - [CSE](Department) degrees    - programs in [Comp Sci](Department) department 
+    - programs offered by [Comp Sci](Department) department 
+    - what program does [Comp Sci](Department) department offer 
+    - what program does [Comp Sci](Department) offer 
+    - [Comp Sci](Department) programs    - [Comp Sci](Department) degrees    - programs in [Comp Science](Department) department 
+    - programs offered by [Comp Science](Department) department 
+    - what program does [Comp Science](Department) department offer 
+    - what program does [Comp Science](Department) offer 
+    - [Comp Science](Department) programs    - [Comp Science](Department) degrees    - programs in [Computer Science Engineering](Department) department 
+    - programs offered by [Computer Science Engineering](Department) department 
+    - what program does [Computer Science Engineering](Department) department offer 
+    - what program does [Computer Science Engineering](Department) offer 
+    - [Computer Science Engineering](Department) programs    - [Computer Science Engineering](Department) degrees    - programs in [Electrical Engineering](Department) department 
+    - programs offered by [Electrical Engineering](Department) department 
+    - what program does [Electrical Engineering](Department) department offer 
+    - what program does [Electrical Engineering](Department) offer 
+    - [Electrical Engineering](Department) programs    - [Electrical Engineering](Department) degrees    - programs in [EEE](Department) department 
+    - programs offered by [EEE](Department) department 
+    - what program does [EEE](Department) department offer 
+    - what program does [EEE](Department) offer 
+    - [EEE](Department) programs    - [EEE](Department) degrees    - programs in [Elec Engg](Department) department 
+    - programs offered by [Elec Engg](Department) department 
+    - what program does [Elec Engg](Department) department offer 
+    - what program does [Elec Engg](Department) offer 
+    - [Elec Engg](Department) programs    - [Elec Engg](Department) degrees    - programs in [Elec](Department) department 
+    - programs offered by [Elec](Department) department 
+    - what program does [Elec](Department) department offer 
+    - what program does [Elec](Department) offer 
+    - [Elec](Department) programs    - [Elec](Department) degrees    - programs in [Electrical](Department) department 
+    - programs offered by [Electrical](Department) department 
+    - what program does [Electrical](Department) department offer 
+    - what program does [Electrical](Department) offer 
+    - [Electrical](Department) programs    - [Electrical](Department) degrees    - programs in [Electronics](Department) department 
+    - programs offered by [Electronics](Department) department 
+    - what program does [Electronics](Department) department offer 
+    - what program does [Electronics](Department) offer 
+    - [Electronics](Department) programs    - [Electronics](Department) degrees    - programs in [ECE](Department) department 
+    - programs offered by [ECE](Department) department 
+    - what program does [ECE](Department) department offer 
+    - what program does [ECE](Department) offer 
+    - [ECE](Department) programs    - [ECE](Department) degrees    - programs in [EE](Department) department 
+    - programs offered by [EE](Department) department 
+    - what program does [EE](Department) department offer 
+    - what program does [EE](Department) offer 
+    - [EE](Department) programs    - [EE](Department) degrees    - programs in [Mechanical Engineering](Department) department 
+    - programs offered by [Mechanical Engineering](Department) department 
+    - what program does [Mechanical Engineering](Department) department offer 
+    - what program does [Mechanical Engineering](Department) offer 
+    - [Mechanical Engineering](Department) programs    - [Mechanical Engineering](Department) degrees    - programs in [Mechanical](Department) department 
+    - programs offered by [Mechanical](Department) department 
+    - what program does [Mechanical](Department) department offer 
+    - what program does [Mechanical](Department) offer 
+    - [Mechanical](Department) programs    - [Mechanical](Department) degrees    - programs in [Mech](Department) department 
+    - programs offered by [Mech](Department) department 
+    - what program does [Mech](Department) department offer 
+    - what program does [Mech](Department) offer 
+    - [Mech](Department) programs    - [Mech](Department) degrees    - programs in [Mechatronics](Department) department 
+    - programs offered by [Mechatronics](Department) department 
+    - what program does [Mechatronics](Department) department offer 
+    - what program does [Mechatronics](Department) offer 
+    - [Mechatronics](Department) programs    - [Mechatronics](Department) degrees    - programs in [ME](Department) department 
+    - programs offered by [ME](Department) department 
+    - what program does [ME](Department) department offer 
+    - what program does [ME](Department) offer 
+    - [ME](Department) programs    - [ME](Department) degrees    - programs in [Mech Engg](Department) department 
+    - programs offered by [Mech Engg](Department) department 
+    - what program does [Mech Engg](Department) department offer 
+    - what program does [Mech Engg](Department) offer 
+    - [Mech Engg](Department) programs    - [Mech Engg](Department) degrees    - programs in [Mechanical Engg](Department) department 
+    - programs offered by [Mechanical Engg](Department) department 
+    - what program does [Mechanical Engg](Department) department offer 
+    - what program does [Mechanical Engg](Department) offer 
+    - [Mechanical Engg](Department) programs    - [Mechanical Engg](Department) degrees    - programs in [Chemical Engineering](Department) department 
+    - programs offered by [Chemical Engineering](Department) department 
+    - what program does [Chemical Engineering](Department) department offer 
+    - what program does [Chemical Engineering](Department) offer 
+    - [Chemical Engineering](Department) programs    - [Chemical Engineering](Department) degrees    - programs in [Chemical](Department) department 
+    - programs offered by [Chemical](Department) department 
+    - what program does [Chemical](Department) department offer 
+    - what program does [Chemical](Department) offer 
+    - [Chemical](Department) programs    - [Chemical](Department) degrees    - programs in [Chem Engineering](Department) department 
+    - programs offered by [Chem Engineering](Department) department 
+    - what program does [Chem Engineering](Department) department offer 
+    - what program does [Chem Engineering](Department) offer 
+    - [Chem Engineering](Department) programs    - [Chem Engineering](Department) degrees    - programs in [Chem Engg](Department) department 
+    - programs offered by [Chem Engg](Department) department 
+    - what program does [Chem Engg](Department) department offer 
+    - what program does [Chem Engg](Department) offer 
+    - [Chem Engg](Department) programs    - [Chem Engg](Department) degrees    - programs in [Chem](Department) department 
+    - programs offered by [Chem](Department) department 
+    - what program does [Chem](Department) department offer 
+    - what program does [Chem](Department) offer 
+    - [Chem](Department) programs    - [Chem](Department) degrees    - programs in [ChemE](Department) department 
+    - programs offered by [ChemE](Department) department 
+    - what program does [ChemE](Department) department offer 
+    - what program does [ChemE](Department) offer 
+    - [ChemE](Department) programs    - [ChemE](Department) degrees    - programs in [that](ObjectPronoun) department 
+    - programs offered by [that](ObjectPronoun) department 
+    - what program does [that](ObjectPronoun) department offer 
+    - what program does [that](ObjectPronoun) offer 
+    - [that](ObjectPronoun) department programs    - [that](ObjectPronoun) department degrees    - programs in [this](ObjectPronoun) department 
+    - programs offered by [this](ObjectPronoun) department 
+    - what program does [this](ObjectPronoun) department offer 
+    - what program does [this](ObjectPronoun) offer 
+    - [this](ObjectPronoun) department programs    - [this](ObjectPronoun) department degrees    - programs in [it](ObjectPronoun) department 
+    - programs offered by [it](ObjectPronoun) department 
+    - what program does [it](ObjectPronoun) department offer 
+    - what program does [it](ObjectPronoun) offer 
+    - [it](ObjectPronoun) department programs    - [it](ObjectPronoun) department degrees    - programs in [the](ObjectPronoun) department 
+    - programs offered by [the](ObjectPronoun) department 
+    - what program does [the](ObjectPronoun) department offer 
+    - what program does [the](ObjectPronoun) offer 
+    - [the](ObjectPronoun) department programs    - [the](ObjectPronoun) department degrees    - programs in [it's](ObjectPronoun) department 
+    - programs offered by [it's](ObjectPronoun) department 
+    - what program does [it's](ObjectPronoun) department offer 
+    - what program does [it's](ObjectPronoun) offer 
+    - [it's](ObjectPronoun) department programs    - [it's](ObjectPronoun) department degrees    - programs in [its](ObjectPronoun) department 
+    - programs offered by [its](ObjectPronoun) department 
+    - what program does [its](ObjectPronoun) department offer 
+    - what program does [its](ObjectPronoun) offer 
+    - [its](ObjectPronoun) department programs    - [its](ObjectPronoun) department degrees- intent: dept_programs_info 
+  examples: | 
+    - programs in [Computer Science](Department) department 
+    - programs offered by [Computer Science](Department) department 
+    - what program does [Computer Science](Department) department offer 
+    - what program does [Computer Science](Department) offer 
+    - [Computer Science](Department) programs 
+    - [Computer Science](Department) degrees 
+    - programs in [CS](Department) department 
+    - programs offered by [CS](Department) department 
+    - what program does [CS](Department) department offer 
+    - what program does [CS](Department) offer 
+    - [CS](Department) programs 
+    - [CS](Department) degrees 
+    - programs in [CSE](Department) department 
+    - programs offered by [CSE](Department) department 
+    - what program does [CSE](Department) department offer 
+    - what program does [CSE](Department) offer 
+    - [CSE](Department) programs 
+    - [CSE](Department) degrees 
+    - programs in [Comp Sci](Department) department 
+    - programs offered by [Comp Sci](Department) department 
+    - what program does [Comp Sci](Department) department offer 
+    - what program does [Comp Sci](Department) offer 
+    - [Comp Sci](Department) programs 
+    - [Comp Sci](Department) degrees 
+    - programs in [Comp Science](Department) department 
+    - programs offered by [Comp Science](Department) department 
+    - what program does [Comp Science](Department) department offer 
+    - what program does [Comp Science](Department) offer 
+    - [Comp Science](Department) programs 
+    - [Comp Science](Department) degrees 
+    - programs in [Computer Science Engineering](Department) department 
+    - programs offered by [Computer Science Engineering](Department) department 
+    - what program does [Computer Science Engineering](Department) department offer 
+    - what program does [Computer Science Engineering](Department) offer 
+    - [Computer Science Engineering](Department) programs 
+    - [Computer Science Engineering](Department) degrees 
+    - programs in [Electrical Engineering](Department) department 
+    - programs offered by [Electrical Engineering](Department) department 
+    - what program does [Electrical Engineering](Department) department offer 
+    - what program does [Electrical Engineering](Department) offer 
+    - [Electrical Engineering](Department) programs 
+    - [Electrical Engineering](Department) degrees 
+    - programs in [EEE](Department) department 
+    - programs offered by [EEE](Department) department 
+    - what program does [EEE](Department) department offer 
+    - what program does [EEE](Department) offer 
+    - [EEE](Department) programs 
+    - [EEE](Department) degrees 
+    - programs in [Elec Engg](Department) department 
+    - programs offered by [Elec Engg](Department) department 
+    - what program does [Elec Engg](Department) department offer 
+    - what program does [Elec Engg](Department) offer 
+    - [Elec Engg](Department) programs 
+    - [Elec Engg](Department) degrees 
+    - programs in [Elec](Department) department 
+    - programs offered by [Elec](Department) department 
+    - what program does [Elec](Department) department offer 
+    - what program does [Elec](Department) offer 
+    - [Elec](Department) programs 
+    - [Elec](Department) degrees 
+    - programs in [Electrical](Department) department 
+    - programs offered by [Electrical](Department) department 
+    - what program does [Electrical](Department) department offer 
+    - what program does [Electrical](Department) offer 
+    - [Electrical](Department) programs 
+    - [Electrical](Department) degrees 
+    - programs in [Electronics](Department) department 
+    - programs offered by [Electronics](Department) department 
+    - what program does [Electronics](Department) department offer 
+    - what program does [Electronics](Department) offer 
+    - [Electronics](Department) programs 
+    - [Electronics](Department) degrees 
+    - programs in [ECE](Department) department 
+    - programs offered by [ECE](Department) department 
+    - what program does [ECE](Department) department offer 
+    - what program does [ECE](Department) offer 
+    - [ECE](Department) programs 
+    - [ECE](Department) degrees 
+    - programs in [EE](Department) department 
+    - programs offered by [EE](Department) department 
+    - what program does [EE](Department) department offer 
+    - what program does [EE](Department) offer 
+    - [EE](Department) programs 
+    - [EE](Department) degrees 
+    - programs in [Mechanical Engineering](Department) department 
+    - programs offered by [Mechanical Engineering](Department) department 
+    - what program does [Mechanical Engineering](Department) department offer 
+    - what program does [Mechanical Engineering](Department) offer 
+    - [Mechanical Engineering](Department) programs 
+    - [Mechanical Engineering](Department) degrees 
+    - programs in [Mechanical](Department) department 
+    - programs offered by [Mechanical](Department) department 
+    - what program does [Mechanical](Department) department offer 
+    - what program does [Mechanical](Department) offer 
+    - [Mechanical](Department) programs 
+    - [Mechanical](Department) degrees 
+    - programs in [Mech](Department) department 
+    - programs offered by [Mech](Department) department 
+    - what program does [Mech](Department) department offer 
+    - what program does [Mech](Department) offer 
+    - [Mech](Department) programs 
+    - [Mech](Department) degrees 
+    - programs in [Mechatronics](Department) department 
+    - programs offered by [Mechatronics](Department) department 
+    - what program does [Mechatronics](Department) department offer 
+    - what program does [Mechatronics](Department) offer 
+    - [Mechatronics](Department) programs 
+    - [Mechatronics](Department) degrees 
+    - programs in [ME](Department) department 
+    - programs offered by [ME](Department) department 
+    - what program does [ME](Department) department offer 
+    - what program does [ME](Department) offer 
+    - [ME](Department) programs 
+    - [ME](Department) degrees 
+    - programs in [Mech Engg](Department) department 
+    - programs offered by [Mech Engg](Department) department 
+    - what program does [Mech Engg](Department) department offer 
+    - what program does [Mech Engg](Department) offer 
+    - [Mech Engg](Department) programs 
+    - [Mech Engg](Department) degrees 
+    - programs in [Mechanical Engg](Department) department 
+    - programs offered by [Mechanical Engg](Department) department 
+    - what program does [Mechanical Engg](Department) department offer 
+    - what program does [Mechanical Engg](Department) offer 
+    - [Mechanical Engg](Department) programs 
+    - [Mechanical Engg](Department) degrees 
+    - programs in [Chemical Engineering](Department) department 
+    - programs offered by [Chemical Engineering](Department) department 
+    - what program does [Chemical Engineering](Department) department offer 
+    - what program does [Chemical Engineering](Department) offer 
+    - [Chemical Engineering](Department) programs 
+    - [Chemical Engineering](Department) degrees 
+    - programs in [Chemical](Department) department 
+    - programs offered by [Chemical](Department) department 
+    - what program does [Chemical](Department) department offer 
+    - what program does [Chemical](Department) offer 
+    - [Chemical](Department) programs 
+    - [Chemical](Department) degrees 
+    - programs in [Chem Engineering](Department) department 
+    - programs offered by [Chem Engineering](Department) department 
+    - what program does [Chem Engineering](Department) department offer 
+    - what program does [Chem Engineering](Department) offer 
+    - [Chem Engineering](Department) programs 
+    - [Chem Engineering](Department) degrees 
+    - programs in [Chem Engg](Department) department 
+    - programs offered by [Chem Engg](Department) department 
+    - what program does [Chem Engg](Department) department offer 
+    - what program does [Chem Engg](Department) offer 
+    - [Chem Engg](Department) programs 
+    - [Chem Engg](Department) degrees 
+    - programs in [Chem](Department) department 
+    - programs offered by [Chem](Department) department 
+    - what program does [Chem](Department) department offer 
+    - what program does [Chem](Department) offer 
+    - [Chem](Department) programs 
+    - [Chem](Department) degrees 
+    - programs in [ChemE](Department) department 
+    - programs offered by [ChemE](Department) department 
+    - what program does [ChemE](Department) department offer 
+    - what program does [ChemE](Department) offer 
+    - [ChemE](Department) programs 
+    - [ChemE](Department) degrees 
+    - programs in [that](ObjectPronoun) department 
+    - programs offered by [that](ObjectPronoun) department 
+    - what program does [that](ObjectPronoun) department offer 
+    - what program does [that](ObjectPronoun) offer 
+    - [that](ObjectPronoun) department programs 
+    - [that](ObjectPronoun) department degrees 
+    - programs in [this](ObjectPronoun) department 
+    - programs offered by [this](ObjectPronoun) department 
+    - what program does [this](ObjectPronoun) department offer 
+    - what program does [this](ObjectPronoun) offer 
+    - [this](ObjectPronoun) department programs 
+    - [this](ObjectPronoun) department degrees 
+    - programs in [it](ObjectPronoun) department 
+    - programs offered by [it](ObjectPronoun) department 
+    - what program does [it](ObjectPronoun) department offer 
+    - what program does [it](ObjectPronoun) offer 
+    - [it](ObjectPronoun) department programs 
+    - [it](ObjectPronoun) department degrees 
+    - programs in [the](ObjectPronoun) department 
+    - programs offered by [the](ObjectPronoun) department 
+    - what program does [the](ObjectPronoun) department offer 
+    - what program does [the](ObjectPronoun) offer 
+    - [the](ObjectPronoun) department programs 
+    - [the](ObjectPronoun) department degrees 
+    - programs in [it's](ObjectPronoun) department 
+    - programs offered by [it's](ObjectPronoun) department 
+    - what program does [it's](ObjectPronoun) department offer 
+    - what program does [it's](ObjectPronoun) offer 
+    - [it's](ObjectPronoun) department programs 
+    - [it's](ObjectPronoun) department degrees 
+    - programs in [its](ObjectPronoun) department 
+    - programs offered by [its](ObjectPronoun) department 
+    - what program does [its](ObjectPronoun) department offer 
+    - what program does [its](ObjectPronoun) offer 
+    - [its](ObjectPronoun) department programs 
+    - [its](ObjectPronoun) department degrees 
