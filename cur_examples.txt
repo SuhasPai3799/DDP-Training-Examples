@@ -1,200 +1,2297 @@
-- intent: dept_programs_info 
+- intent: program_info 
   examples: | 
-    - programs in [Computer Science](Department) department 
-    - programs offered by [Computer Science](Department) department 
-    - what program does [Computer Science](Department) department offer 
-    - what program does [Computer Science](Department) offer 
-    - [Computer Science](Department) programs 
-    - [Computer Science](Department) degrees 
-    - programs in [CS](Department) department 
-    - programs offered by [CS](Department) department 
-    - what program does [CS](Department) department offer 
-    - what program does [CS](Department) offer 
-    - [CS](Department) programs 
-    - [CS](Department) degrees 
-    - programs in [CSE](Department) department 
-    - programs offered by [CSE](Department) department 
-    - what program does [CSE](Department) department offer 
-    - what program does [CSE](Department) offer 
-    - [CSE](Department) programs 
-    - [CSE](Department) degrees 
-    - programs in [Comp Sci](Department) department 
-    - programs offered by [Comp Sci](Department) department 
-    - what program does [Comp Sci](Department) department offer 
-    - what program does [Comp Sci](Department) offer 
-    - [Comp Sci](Department) programs 
-    - [Comp Sci](Department) degrees 
-    - programs in [Comp Science](Department) department 
-    - programs offered by [Comp Science](Department) department 
-    - what program does [Comp Science](Department) department offer 
-    - what program does [Comp Science](Department) offer 
-    - [Comp Science](Department) programs 
-    - [Comp Science](Department) degrees 
-    - programs in [Computer Science Engineering](Department) department 
-    - programs offered by [Computer Science Engineering](Department) department 
-    - what program does [Computer Science Engineering](Department) department offer 
-    - what program does [Computer Science Engineering](Department) offer 
-    - [Computer Science Engineering](Department) programs 
-    - [Computer Science Engineering](Department) degrees 
-    - programs in [Electrical Engineering](Department) department 
-    - programs offered by [Electrical Engineering](Department) department 
-    - what program does [Electrical Engineering](Department) department offer 
-    - what program does [Electrical Engineering](Department) offer 
-    - [Electrical Engineering](Department) programs 
-    - [Electrical Engineering](Department) degrees 
-    - programs in [EEE](Department) department 
-    - programs offered by [EEE](Department) department 
-    - what program does [EEE](Department) department offer 
-    - what program does [EEE](Department) offer 
-    - [EEE](Department) programs 
-    - [EEE](Department) degrees 
-    - programs in [Elec Engg](Department) department 
-    - programs offered by [Elec Engg](Department) department 
-    - what program does [Elec Engg](Department) department offer 
-    - what program does [Elec Engg](Department) offer 
-    - [Elec Engg](Department) programs 
-    - [Elec Engg](Department) degrees 
-    - programs in [Elec](Department) department 
-    - programs offered by [Elec](Department) department 
-    - what program does [Elec](Department) department offer 
-    - what program does [Elec](Department) offer 
-    - [Elec](Department) programs 
-    - [Elec](Department) degrees 
-    - programs in [Electrical](Department) department 
-    - programs offered by [Electrical](Department) department 
-    - what program does [Electrical](Department) department offer 
-    - what program does [Electrical](Department) offer 
-    - [Electrical](Department) programs 
-    - [Electrical](Department) degrees 
-    - programs in [Electronics](Department) department 
-    - programs offered by [Electronics](Department) department 
-    - what program does [Electronics](Department) department offer 
-    - what program does [Electronics](Department) offer 
-    - [Electronics](Department) programs 
-    - [Electronics](Department) degrees 
-    - programs in [ECE](Department) department 
-    - programs offered by [ECE](Department) department 
-    - what program does [ECE](Department) department offer 
-    - what program does [ECE](Department) offer 
-    - [ECE](Department) programs 
-    - [ECE](Department) degrees 
-    - programs in [EE](Department) department 
-    - programs offered by [EE](Department) department 
-    - what program does [EE](Department) department offer 
-    - what program does [EE](Department) offer 
-    - [EE](Department) programs 
-    - [EE](Department) degrees 
-    - programs in [Mechanical Engineering](Department) department 
-    - programs offered by [Mechanical Engineering](Department) department 
-    - what program does [Mechanical Engineering](Department) department offer 
-    - what program does [Mechanical Engineering](Department) offer 
-    - [Mechanical Engineering](Department) programs 
-    - [Mechanical Engineering](Department) degrees 
-    - programs in [Mechanical](Department) department 
-    - programs offered by [Mechanical](Department) department 
-    - what program does [Mechanical](Department) department offer 
-    - what program does [Mechanical](Department) offer 
-    - [Mechanical](Department) programs 
-    - [Mechanical](Department) degrees 
-    - programs in [Mech](Department) department 
-    - programs offered by [Mech](Department) department 
-    - what program does [Mech](Department) department offer 
-    - what program does [Mech](Department) offer 
-    - [Mech](Department) programs 
-    - [Mech](Department) degrees 
-    - programs in [Mechatronics](Department) department 
-    - programs offered by [Mechatronics](Department) department 
-    - what program does [Mechatronics](Department) department offer 
-    - what program does [Mechatronics](Department) offer 
-    - [Mechatronics](Department) programs 
-    - [Mechatronics](Department) degrees 
-    - programs in [ME](Department) department 
-    - programs offered by [ME](Department) department 
-    - what program does [ME](Department) department offer 
-    - what program does [ME](Department) offer 
-    - [ME](Department) programs 
-    - [ME](Department) degrees 
-    - programs in [Mech Engg](Department) department 
-    - programs offered by [Mech Engg](Department) department 
-    - what program does [Mech Engg](Department) department offer 
-    - what program does [Mech Engg](Department) offer 
-    - [Mech Engg](Department) programs 
-    - [Mech Engg](Department) degrees 
-    - programs in [Mechanical Engg](Department) department 
-    - programs offered by [Mechanical Engg](Department) department 
-    - what program does [Mechanical Engg](Department) department offer 
-    - what program does [Mechanical Engg](Department) offer 
-    - [Mechanical Engg](Department) programs 
-    - [Mechanical Engg](Department) degrees 
-    - programs in [Chemical Engineering](Department) department 
-    - programs offered by [Chemical Engineering](Department) department 
-    - what program does [Chemical Engineering](Department) department offer 
-    - what program does [Chemical Engineering](Department) offer 
-    - [Chemical Engineering](Department) programs 
-    - [Chemical Engineering](Department) degrees 
-    - programs in [Chemical](Department) department 
-    - programs offered by [Chemical](Department) department 
-    - what program does [Chemical](Department) department offer 
-    - what program does [Chemical](Department) offer 
-    - [Chemical](Department) programs 
-    - [Chemical](Department) degrees 
-    - programs in [Chem Engineering](Department) department 
-    - programs offered by [Chem Engineering](Department) department 
-    - what program does [Chem Engineering](Department) department offer 
-    - what program does [Chem Engineering](Department) offer 
-    - [Chem Engineering](Department) programs 
-    - [Chem Engineering](Department) degrees 
-    - programs in [Chem Engg](Department) department 
-    - programs offered by [Chem Engg](Department) department 
-    - what program does [Chem Engg](Department) department offer 
-    - what program does [Chem Engg](Department) offer 
-    - [Chem Engg](Department) programs 
-    - [Chem Engg](Department) degrees 
-    - programs in [Chem](Department) department 
-    - programs offered by [Chem](Department) department 
-    - what program does [Chem](Department) department offer 
-    - what program does [Chem](Department) offer 
-    - [Chem](Department) programs 
-    - [Chem](Department) degrees 
-    - programs in [ChemE](Department) department 
-    - programs offered by [ChemE](Department) department 
-    - what program does [ChemE](Department) department offer 
-    - what program does [ChemE](Department) offer 
-    - [ChemE](Department) programs 
-    - [ChemE](Department) degrees 
-    - programs in [that](ObjectPronoun) department 
-    - programs offered by [that](ObjectPronoun) department 
-    - what program does [that](ObjectPronoun) department offer 
-    - what program does [that](ObjectPronoun) offer 
-    - [that](ObjectPronoun) department programs 
-    - [that](ObjectPronoun) department degrees 
-    - programs in [this](ObjectPronoun) department 
-    - programs offered by [this](ObjectPronoun) department 
-    - what program does [this](ObjectPronoun) department offer 
-    - what program does [this](ObjectPronoun) offer 
-    - [this](ObjectPronoun) department programs 
-    - [this](ObjectPronoun) department degrees 
-    - programs in [it](ObjectPronoun) department 
-    - programs offered by [it](ObjectPronoun) department 
-    - what program does [it](ObjectPronoun) department offer 
-    - what program does [it](ObjectPronoun) offer 
-    - [it](ObjectPronoun) department programs 
-    - [it](ObjectPronoun) department degrees 
-    - programs in [the](ObjectPronoun) department 
-    - programs offered by [the](ObjectPronoun) department 
-    - what program does [the](ObjectPronoun) department offer 
-    - what program does [the](ObjectPronoun) offer 
-    - [the](ObjectPronoun) department programs 
-    - [the](ObjectPronoun) department degrees 
-    - programs in [it's](ObjectPronoun) department 
-    - programs offered by [it's](ObjectPronoun) department 
-    - what program does [it's](ObjectPronoun) department offer 
-    - what program does [it's](ObjectPronoun) offer 
-    - [it's](ObjectPronoun) department programs 
-    - [it's](ObjectPronoun) department degrees 
-    - programs in [its](ObjectPronoun) department 
-    - programs offered by [its](ObjectPronoun) department 
-    - what program does [its](ObjectPronoun) department offer 
-    - what program does [its](ObjectPronoun) offer 
-    - [its](ObjectPronoun) department programs 
-    - [its](ObjectPronoun) department degrees 
+    - tell me about the [btech](Program) in [Computer Science](Department) department 
+    - information about [btech](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Computer Science](Department) department 
+    - information about [beng](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Computer Science](Department) department 
+    - information about [beng](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Computer Science](Department) department 
+    - information about [bachelors](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Computer Science](Department) department 
+    - information about [bachelor of technology](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Computer Science](Department) department 
+    - information about [bachelors of technology](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Computer Science](Department) department 
+    - information about [DD](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Computer Science](Department) department 
+    - information about [dual degree](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Computer Science](Department) department 
+    - information about [dual](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Computer Science](Department) department 
+    - information about [dual deg](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Computer Science](Department) department 
+    - information about [double deg](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Computer Science](Department) department 
+    - information about [integrated deg](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Computer Science](Department) department 
+    - information about [integrated](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Computer Science](Department) department 
+    - information about [integrated degree](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Computer Science](Department) department 
+    - information about [mtech](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Computer Science](Department) department 
+    - information about [masters](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Computer Science](Department) department 
+    - information about [masters of technology](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Computer Science](Department) department 
+    - information about [master of technology](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Computer Science](Department) department 
+    - information about [phd](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Computer Science](Department) department 
+    - information about [postdoc](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Computer Science](Department) department 
+    - information about [postdoc](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Computer Science](Department) department 
+    - information about [doctor of philosophy](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Computer Science](Department) department 
+    - information about [doctorate](Program) in [Computer Science](Department)  
+    - details of the [Computer Science](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [CS](Department) department 
+    - information about [btech](Program) in [CS](Department)  
+    - details of the [CS](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [CS](Department) department 
+    - information about [beng](Program) in [CS](Department)  
+    - details of the [CS](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [CS](Department) department 
+    - information about [beng](Program) in [CS](Department)  
+    - details of the [CS](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [CS](Department) department 
+    - information about [bachelors](Program) in [CS](Department)  
+    - details of the [CS](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [CS](Department) department 
+    - information about [bachelor of technology](Program) in [CS](Department)  
+    - details of the [CS](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [CS](Department) department 
+    - information about [bachelors of technology](Program) in [CS](Department)  
+    - details of the [CS](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [CS](Department) department 
+    - information about [DD](Program) in [CS](Department)  
+    - details of the [CS](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [CS](Department) department 
+    - information about [dual degree](Program) in [CS](Department)  
+    - details of the [CS](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [CS](Department) department 
+    - information about [dual](Program) in [CS](Department)  
+    - details of the [CS](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [CS](Department) department 
+    - information about [dual deg](Program) in [CS](Department)  
+    - details of the [CS](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [CS](Department) department 
+    - information about [double deg](Program) in [CS](Department)  
+    - details of the [CS](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [CS](Department) department 
+    - information about [integrated deg](Program) in [CS](Department)  
+    - details of the [CS](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [CS](Department) department 
+    - information about [integrated](Program) in [CS](Department)  
+    - details of the [CS](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [CS](Department) department 
+    - information about [integrated degree](Program) in [CS](Department)  
+    - details of the [CS](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [CS](Department) department 
+    - information about [mtech](Program) in [CS](Department)  
+    - details of the [CS](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [CS](Department) department 
+    - information about [masters](Program) in [CS](Department)  
+    - details of the [CS](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [CS](Department) department 
+    - information about [masters of technology](Program) in [CS](Department)  
+    - details of the [CS](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [CS](Department) department 
+    - information about [master of technology](Program) in [CS](Department)  
+    - details of the [CS](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [CS](Department) department 
+    - information about [phd](Program) in [CS](Department)  
+    - details of the [CS](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [CS](Department) department 
+    - information about [postdoc](Program) in [CS](Department)  
+    - details of the [CS](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [CS](Department) department 
+    - information about [postdoc](Program) in [CS](Department)  
+    - details of the [CS](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [CS](Department) department 
+    - information about [doctor of philosophy](Program) in [CS](Department)  
+    - details of the [CS](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [CS](Department) department 
+    - information about [doctorate](Program) in [CS](Department)  
+    - details of the [CS](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [CSE](Department) department 
+    - information about [btech](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [CSE](Department) department 
+    - information about [beng](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [CSE](Department) department 
+    - information about [beng](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [CSE](Department) department 
+    - information about [bachelors](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [CSE](Department) department 
+    - information about [bachelor of technology](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [CSE](Department) department 
+    - information about [bachelors of technology](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [CSE](Department) department 
+    - information about [DD](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [CSE](Department) department 
+    - information about [dual degree](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [CSE](Department) department 
+    - information about [dual](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [CSE](Department) department 
+    - information about [dual deg](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [CSE](Department) department 
+    - information about [double deg](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [CSE](Department) department 
+    - information about [integrated deg](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [CSE](Department) department 
+    - information about [integrated](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [CSE](Department) department 
+    - information about [integrated degree](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [CSE](Department) department 
+    - information about [mtech](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [CSE](Department) department 
+    - information about [masters](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [CSE](Department) department 
+    - information about [masters of technology](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [CSE](Department) department 
+    - information about [master of technology](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [CSE](Department) department 
+    - information about [phd](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [CSE](Department) department 
+    - information about [postdoc](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [CSE](Department) department 
+    - information about [postdoc](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [CSE](Department) department 
+    - information about [doctor of philosophy](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [CSE](Department) department 
+    - information about [doctorate](Program) in [CSE](Department)  
+    - details of the [CSE](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Comp Sci](Department) department 
+    - information about [btech](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Comp Sci](Department) department 
+    - information about [beng](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Comp Sci](Department) department 
+    - information about [beng](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Comp Sci](Department) department 
+    - information about [bachelors](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Comp Sci](Department) department 
+    - information about [bachelor of technology](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Comp Sci](Department) department 
+    - information about [bachelors of technology](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Comp Sci](Department) department 
+    - information about [DD](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Comp Sci](Department) department 
+    - information about [dual degree](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Comp Sci](Department) department 
+    - information about [dual](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Comp Sci](Department) department 
+    - information about [dual deg](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Comp Sci](Department) department 
+    - information about [double deg](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Comp Sci](Department) department 
+    - information about [integrated deg](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Comp Sci](Department) department 
+    - information about [integrated](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Comp Sci](Department) department 
+    - information about [integrated degree](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Comp Sci](Department) department 
+    - information about [mtech](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Comp Sci](Department) department 
+    - information about [masters](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Comp Sci](Department) department 
+    - information about [masters of technology](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Comp Sci](Department) department 
+    - information about [master of technology](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Comp Sci](Department) department 
+    - information about [phd](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Comp Sci](Department) department 
+    - information about [postdoc](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Comp Sci](Department) department 
+    - information about [postdoc](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Comp Sci](Department) department 
+    - information about [doctor of philosophy](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Comp Sci](Department) department 
+    - information about [doctorate](Program) in [Comp Sci](Department)  
+    - details of the [Comp Sci](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Comp Science](Department) department 
+    - information about [btech](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Comp Science](Department) department 
+    - information about [beng](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Comp Science](Department) department 
+    - information about [beng](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Comp Science](Department) department 
+    - information about [bachelors](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Comp Science](Department) department 
+    - information about [bachelor of technology](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Comp Science](Department) department 
+    - information about [bachelors of technology](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Comp Science](Department) department 
+    - information about [DD](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Comp Science](Department) department 
+    - information about [dual degree](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Comp Science](Department) department 
+    - information about [dual](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Comp Science](Department) department 
+    - information about [dual deg](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Comp Science](Department) department 
+    - information about [double deg](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Comp Science](Department) department 
+    - information about [integrated deg](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Comp Science](Department) department 
+    - information about [integrated](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Comp Science](Department) department 
+    - information about [integrated degree](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Comp Science](Department) department 
+    - information about [mtech](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Comp Science](Department) department 
+    - information about [masters](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Comp Science](Department) department 
+    - information about [masters of technology](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Comp Science](Department) department 
+    - information about [master of technology](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Comp Science](Department) department 
+    - information about [phd](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Comp Science](Department) department 
+    - information about [postdoc](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Comp Science](Department) department 
+    - information about [postdoc](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Comp Science](Department) department 
+    - information about [doctor of philosophy](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Comp Science](Department) department 
+    - information about [doctorate](Program) in [Comp Science](Department)  
+    - details of the [Comp Science](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Computer Science Engineering](Department) department 
+    - information about [btech](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Computer Science Engineering](Department) department 
+    - information about [beng](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Computer Science Engineering](Department) department 
+    - information about [beng](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Computer Science Engineering](Department) department 
+    - information about [bachelors](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Computer Science Engineering](Department) department 
+    - information about [bachelor of technology](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Computer Science Engineering](Department) department 
+    - information about [bachelors of technology](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Computer Science Engineering](Department) department 
+    - information about [DD](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Computer Science Engineering](Department) department 
+    - information about [dual degree](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Computer Science Engineering](Department) department 
+    - information about [dual](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Computer Science Engineering](Department) department 
+    - information about [dual deg](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Computer Science Engineering](Department) department 
+    - information about [double deg](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Computer Science Engineering](Department) department 
+    - information about [integrated deg](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Computer Science Engineering](Department) department 
+    - information about [integrated](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Computer Science Engineering](Department) department 
+    - information about [integrated degree](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Computer Science Engineering](Department) department 
+    - information about [mtech](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Computer Science Engineering](Department) department 
+    - information about [masters](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Computer Science Engineering](Department) department 
+    - information about [masters of technology](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Computer Science Engineering](Department) department 
+    - information about [master of technology](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Computer Science Engineering](Department) department 
+    - information about [phd](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Computer Science Engineering](Department) department 
+    - information about [postdoc](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Computer Science Engineering](Department) department 
+    - information about [postdoc](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Computer Science Engineering](Department) department 
+    - information about [doctor of philosophy](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Computer Science Engineering](Department) department 
+    - information about [doctorate](Program) in [Computer Science Engineering](Department)  
+    - details of the [Computer Science Engineering](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Electrical Engineering](Department) department 
+    - information about [btech](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Electrical Engineering](Department) department 
+    - information about [beng](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Electrical Engineering](Department) department 
+    - information about [beng](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Electrical Engineering](Department) department 
+    - information about [bachelors](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Electrical Engineering](Department) department 
+    - information about [bachelor of technology](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Electrical Engineering](Department) department 
+    - information about [bachelors of technology](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Electrical Engineering](Department) department 
+    - information about [DD](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Electrical Engineering](Department) department 
+    - information about [dual degree](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Electrical Engineering](Department) department 
+    - information about [dual](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Electrical Engineering](Department) department 
+    - information about [dual deg](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Electrical Engineering](Department) department 
+    - information about [double deg](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Electrical Engineering](Department) department 
+    - information about [integrated deg](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Electrical Engineering](Department) department 
+    - information about [integrated](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Electrical Engineering](Department) department 
+    - information about [integrated degree](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Electrical Engineering](Department) department 
+    - information about [mtech](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Electrical Engineering](Department) department 
+    - information about [masters](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Electrical Engineering](Department) department 
+    - information about [masters of technology](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Electrical Engineering](Department) department 
+    - information about [master of technology](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Electrical Engineering](Department) department 
+    - information about [phd](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Electrical Engineering](Department) department 
+    - information about [postdoc](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Electrical Engineering](Department) department 
+    - information about [postdoc](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Electrical Engineering](Department) department 
+    - information about [doctor of philosophy](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Electrical Engineering](Department) department 
+    - information about [doctorate](Program) in [Electrical Engineering](Department)  
+    - details of the [Electrical Engineering](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [EEE](Department) department 
+    - information about [btech](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [EEE](Department) department 
+    - information about [beng](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [EEE](Department) department 
+    - information about [beng](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [EEE](Department) department 
+    - information about [bachelors](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [EEE](Department) department 
+    - information about [bachelor of technology](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [EEE](Department) department 
+    - information about [bachelors of technology](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [EEE](Department) department 
+    - information about [DD](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [EEE](Department) department 
+    - information about [dual degree](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [EEE](Department) department 
+    - information about [dual](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [EEE](Department) department 
+    - information about [dual deg](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [EEE](Department) department 
+    - information about [double deg](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [EEE](Department) department 
+    - information about [integrated deg](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [EEE](Department) department 
+    - information about [integrated](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [EEE](Department) department 
+    - information about [integrated degree](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [EEE](Department) department 
+    - information about [mtech](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [EEE](Department) department 
+    - information about [masters](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [EEE](Department) department 
+    - information about [masters of technology](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [EEE](Department) department 
+    - information about [master of technology](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [EEE](Department) department 
+    - information about [phd](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [EEE](Department) department 
+    - information about [postdoc](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [EEE](Department) department 
+    - information about [postdoc](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [EEE](Department) department 
+    - information about [doctor of philosophy](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [EEE](Department) department 
+    - information about [doctorate](Program) in [EEE](Department)  
+    - details of the [EEE](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Elec Engg](Department) department 
+    - information about [btech](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Elec Engg](Department) department 
+    - information about [beng](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Elec Engg](Department) department 
+    - information about [beng](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Elec Engg](Department) department 
+    - information about [bachelors](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Elec Engg](Department) department 
+    - information about [bachelor of technology](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Elec Engg](Department) department 
+    - information about [bachelors of technology](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Elec Engg](Department) department 
+    - information about [DD](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Elec Engg](Department) department 
+    - information about [dual degree](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Elec Engg](Department) department 
+    - information about [dual](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Elec Engg](Department) department 
+    - information about [dual deg](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Elec Engg](Department) department 
+    - information about [double deg](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Elec Engg](Department) department 
+    - information about [integrated deg](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Elec Engg](Department) department 
+    - information about [integrated](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Elec Engg](Department) department 
+    - information about [integrated degree](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Elec Engg](Department) department 
+    - information about [mtech](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Elec Engg](Department) department 
+    - information about [masters](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Elec Engg](Department) department 
+    - information about [masters of technology](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Elec Engg](Department) department 
+    - information about [master of technology](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Elec Engg](Department) department 
+    - information about [phd](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Elec Engg](Department) department 
+    - information about [postdoc](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Elec Engg](Department) department 
+    - information about [postdoc](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Elec Engg](Department) department 
+    - information about [doctor of philosophy](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Elec Engg](Department) department 
+    - information about [doctorate](Program) in [Elec Engg](Department)  
+    - details of the [Elec Engg](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Elec](Department) department 
+    - information about [btech](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Elec](Department) department 
+    - information about [beng](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Elec](Department) department 
+    - information about [beng](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Elec](Department) department 
+    - information about [bachelors](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Elec](Department) department 
+    - information about [bachelor of technology](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Elec](Department) department 
+    - information about [bachelors of technology](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Elec](Department) department 
+    - information about [DD](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Elec](Department) department 
+    - information about [dual degree](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Elec](Department) department 
+    - information about [dual](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Elec](Department) department 
+    - information about [dual deg](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Elec](Department) department 
+    - information about [double deg](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Elec](Department) department 
+    - information about [integrated deg](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Elec](Department) department 
+    - information about [integrated](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Elec](Department) department 
+    - information about [integrated degree](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Elec](Department) department 
+    - information about [mtech](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Elec](Department) department 
+    - information about [masters](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Elec](Department) department 
+    - information about [masters of technology](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Elec](Department) department 
+    - information about [master of technology](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Elec](Department) department 
+    - information about [phd](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Elec](Department) department 
+    - information about [postdoc](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Elec](Department) department 
+    - information about [postdoc](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Elec](Department) department 
+    - information about [doctor of philosophy](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Elec](Department) department 
+    - information about [doctorate](Program) in [Elec](Department)  
+    - details of the [Elec](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Electrical](Department) department 
+    - information about [btech](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Electrical](Department) department 
+    - information about [beng](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Electrical](Department) department 
+    - information about [beng](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Electrical](Department) department 
+    - information about [bachelors](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Electrical](Department) department 
+    - information about [bachelor of technology](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Electrical](Department) department 
+    - information about [bachelors of technology](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Electrical](Department) department 
+    - information about [DD](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Electrical](Department) department 
+    - information about [dual degree](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Electrical](Department) department 
+    - information about [dual](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Electrical](Department) department 
+    - information about [dual deg](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Electrical](Department) department 
+    - information about [double deg](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Electrical](Department) department 
+    - information about [integrated deg](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Electrical](Department) department 
+    - information about [integrated](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Electrical](Department) department 
+    - information about [integrated degree](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Electrical](Department) department 
+    - information about [mtech](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Electrical](Department) department 
+    - information about [masters](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Electrical](Department) department 
+    - information about [masters of technology](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Electrical](Department) department 
+    - information about [master of technology](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Electrical](Department) department 
+    - information about [phd](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Electrical](Department) department 
+    - information about [postdoc](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Electrical](Department) department 
+    - information about [postdoc](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Electrical](Department) department 
+    - information about [doctor of philosophy](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Electrical](Department) department 
+    - information about [doctorate](Program) in [Electrical](Department)  
+    - details of the [Electrical](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Electronics](Department) department 
+    - information about [btech](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Electronics](Department) department 
+    - information about [beng](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Electronics](Department) department 
+    - information about [beng](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Electronics](Department) department 
+    - information about [bachelors](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Electronics](Department) department 
+    - information about [bachelor of technology](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Electronics](Department) department 
+    - information about [bachelors of technology](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Electronics](Department) department 
+    - information about [DD](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Electronics](Department) department 
+    - information about [dual degree](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Electronics](Department) department 
+    - information about [dual](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Electronics](Department) department 
+    - information about [dual deg](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Electronics](Department) department 
+    - information about [double deg](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Electronics](Department) department 
+    - information about [integrated deg](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Electronics](Department) department 
+    - information about [integrated](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Electronics](Department) department 
+    - information about [integrated degree](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Electronics](Department) department 
+    - information about [mtech](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Electronics](Department) department 
+    - information about [masters](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Electronics](Department) department 
+    - information about [masters of technology](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Electronics](Department) department 
+    - information about [master of technology](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Electronics](Department) department 
+    - information about [phd](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Electronics](Department) department 
+    - information about [postdoc](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Electronics](Department) department 
+    - information about [postdoc](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Electronics](Department) department 
+    - information about [doctor of philosophy](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Electronics](Department) department 
+    - information about [doctorate](Program) in [Electronics](Department)  
+    - details of the [Electronics](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [ECE](Department) department 
+    - information about [btech](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [ECE](Department) department 
+    - information about [beng](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [ECE](Department) department 
+    - information about [beng](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [ECE](Department) department 
+    - information about [bachelors](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [ECE](Department) department 
+    - information about [bachelor of technology](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [ECE](Department) department 
+    - information about [bachelors of technology](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [ECE](Department) department 
+    - information about [DD](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [ECE](Department) department 
+    - information about [dual degree](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [ECE](Department) department 
+    - information about [dual](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [ECE](Department) department 
+    - information about [dual deg](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [ECE](Department) department 
+    - information about [double deg](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [ECE](Department) department 
+    - information about [integrated deg](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [ECE](Department) department 
+    - information about [integrated](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [ECE](Department) department 
+    - information about [integrated degree](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [ECE](Department) department 
+    - information about [mtech](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [ECE](Department) department 
+    - information about [masters](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [ECE](Department) department 
+    - information about [masters of technology](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [ECE](Department) department 
+    - information about [master of technology](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [ECE](Department) department 
+    - information about [phd](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [ECE](Department) department 
+    - information about [postdoc](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [ECE](Department) department 
+    - information about [postdoc](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [ECE](Department) department 
+    - information about [doctor of philosophy](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [ECE](Department) department 
+    - information about [doctorate](Program) in [ECE](Department)  
+    - details of the [ECE](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [EE](Department) department 
+    - information about [btech](Program) in [EE](Department)  
+    - details of the [EE](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [EE](Department) department 
+    - information about [beng](Program) in [EE](Department)  
+    - details of the [EE](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [EE](Department) department 
+    - information about [beng](Program) in [EE](Department)  
+    - details of the [EE](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [EE](Department) department 
+    - information about [bachelors](Program) in [EE](Department)  
+    - details of the [EE](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [EE](Department) department 
+    - information about [bachelor of technology](Program) in [EE](Department)  
+    - details of the [EE](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [EE](Department) department 
+    - information about [bachelors of technology](Program) in [EE](Department)  
+    - details of the [EE](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [EE](Department) department 
+    - information about [DD](Program) in [EE](Department)  
+    - details of the [EE](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [EE](Department) department 
+    - information about [dual degree](Program) in [EE](Department)  
+    - details of the [EE](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [EE](Department) department 
+    - information about [dual](Program) in [EE](Department)  
+    - details of the [EE](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [EE](Department) department 
+    - information about [dual deg](Program) in [EE](Department)  
+    - details of the [EE](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [EE](Department) department 
+    - information about [double deg](Program) in [EE](Department)  
+    - details of the [EE](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [EE](Department) department 
+    - information about [integrated deg](Program) in [EE](Department)  
+    - details of the [EE](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [EE](Department) department 
+    - information about [integrated](Program) in [EE](Department)  
+    - details of the [EE](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [EE](Department) department 
+    - information about [integrated degree](Program) in [EE](Department)  
+    - details of the [EE](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [EE](Department) department 
+    - information about [mtech](Program) in [EE](Department)  
+    - details of the [EE](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [EE](Department) department 
+    - information about [masters](Program) in [EE](Department)  
+    - details of the [EE](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [EE](Department) department 
+    - information about [masters of technology](Program) in [EE](Department)  
+    - details of the [EE](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [EE](Department) department 
+    - information about [master of technology](Program) in [EE](Department)  
+    - details of the [EE](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [EE](Department) department 
+    - information about [phd](Program) in [EE](Department)  
+    - details of the [EE](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [EE](Department) department 
+    - information about [postdoc](Program) in [EE](Department)  
+    - details of the [EE](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [EE](Department) department 
+    - information about [postdoc](Program) in [EE](Department)  
+    - details of the [EE](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [EE](Department) department 
+    - information about [doctor of philosophy](Program) in [EE](Department)  
+    - details of the [EE](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [EE](Department) department 
+    - information about [doctorate](Program) in [EE](Department)  
+    - details of the [EE](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mechanical Engineering](Department) department 
+    - information about [btech](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mechanical Engineering](Department) department 
+    - information about [beng](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mechanical Engineering](Department) department 
+    - information about [beng](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mechanical Engineering](Department) department 
+    - information about [bachelors](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mechanical Engineering](Department) department 
+    - information about [bachelor of technology](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mechanical Engineering](Department) department 
+    - information about [bachelors of technology](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mechanical Engineering](Department) department 
+    - information about [DD](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mechanical Engineering](Department) department 
+    - information about [dual degree](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mechanical Engineering](Department) department 
+    - information about [dual](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mechanical Engineering](Department) department 
+    - information about [dual deg](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mechanical Engineering](Department) department 
+    - information about [double deg](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mechanical Engineering](Department) department 
+    - information about [integrated deg](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mechanical Engineering](Department) department 
+    - information about [integrated](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mechanical Engineering](Department) department 
+    - information about [integrated degree](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mechanical Engineering](Department) department 
+    - information about [mtech](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mechanical Engineering](Department) department 
+    - information about [masters](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mechanical Engineering](Department) department 
+    - information about [masters of technology](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mechanical Engineering](Department) department 
+    - information about [master of technology](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mechanical Engineering](Department) department 
+    - information about [phd](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical Engineering](Department) department 
+    - information about [postdoc](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical Engineering](Department) department 
+    - information about [postdoc](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mechanical Engineering](Department) department 
+    - information about [doctor of philosophy](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mechanical Engineering](Department) department 
+    - information about [doctorate](Program) in [Mechanical Engineering](Department)  
+    - details of the [Mechanical Engineering](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mechanical](Department) department 
+    - information about [btech](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mechanical](Department) department 
+    - information about [beng](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mechanical](Department) department 
+    - information about [beng](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mechanical](Department) department 
+    - information about [bachelors](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mechanical](Department) department 
+    - information about [bachelor of technology](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mechanical](Department) department 
+    - information about [bachelors of technology](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mechanical](Department) department 
+    - information about [DD](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mechanical](Department) department 
+    - information about [dual degree](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mechanical](Department) department 
+    - information about [dual](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mechanical](Department) department 
+    - information about [dual deg](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mechanical](Department) department 
+    - information about [double deg](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mechanical](Department) department 
+    - information about [integrated deg](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mechanical](Department) department 
+    - information about [integrated](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mechanical](Department) department 
+    - information about [integrated degree](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mechanical](Department) department 
+    - information about [mtech](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mechanical](Department) department 
+    - information about [masters](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mechanical](Department) department 
+    - information about [masters of technology](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mechanical](Department) department 
+    - information about [master of technology](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mechanical](Department) department 
+    - information about [phd](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical](Department) department 
+    - information about [postdoc](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical](Department) department 
+    - information about [postdoc](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mechanical](Department) department 
+    - information about [doctor of philosophy](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mechanical](Department) department 
+    - information about [doctorate](Program) in [Mechanical](Department)  
+    - details of the [Mechanical](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mech](Department) department 
+    - information about [btech](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mech](Department) department 
+    - information about [beng](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mech](Department) department 
+    - information about [beng](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mech](Department) department 
+    - information about [bachelors](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mech](Department) department 
+    - information about [bachelor of technology](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mech](Department) department 
+    - information about [bachelors of technology](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mech](Department) department 
+    - information about [DD](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mech](Department) department 
+    - information about [dual degree](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mech](Department) department 
+    - information about [dual](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mech](Department) department 
+    - information about [dual deg](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mech](Department) department 
+    - information about [double deg](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mech](Department) department 
+    - information about [integrated deg](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mech](Department) department 
+    - information about [integrated](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mech](Department) department 
+    - information about [integrated degree](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mech](Department) department 
+    - information about [mtech](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mech](Department) department 
+    - information about [masters](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mech](Department) department 
+    - information about [masters of technology](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mech](Department) department 
+    - information about [master of technology](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mech](Department) department 
+    - information about [phd](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mech](Department) department 
+    - information about [postdoc](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mech](Department) department 
+    - information about [postdoc](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mech](Department) department 
+    - information about [doctor of philosophy](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mech](Department) department 
+    - information about [doctorate](Program) in [Mech](Department)  
+    - details of the [Mech](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mechatronics](Department) department 
+    - information about [btech](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mechatronics](Department) department 
+    - information about [beng](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mechatronics](Department) department 
+    - information about [beng](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mechatronics](Department) department 
+    - information about [bachelors](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mechatronics](Department) department 
+    - information about [bachelor of technology](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mechatronics](Department) department 
+    - information about [bachelors of technology](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mechatronics](Department) department 
+    - information about [DD](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mechatronics](Department) department 
+    - information about [dual degree](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mechatronics](Department) department 
+    - information about [dual](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mechatronics](Department) department 
+    - information about [dual deg](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mechatronics](Department) department 
+    - information about [double deg](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mechatronics](Department) department 
+    - information about [integrated deg](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mechatronics](Department) department 
+    - information about [integrated](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mechatronics](Department) department 
+    - information about [integrated degree](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mechatronics](Department) department 
+    - information about [mtech](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mechatronics](Department) department 
+    - information about [masters](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mechatronics](Department) department 
+    - information about [masters of technology](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mechatronics](Department) department 
+    - information about [master of technology](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mechatronics](Department) department 
+    - information about [phd](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mechatronics](Department) department 
+    - information about [postdoc](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mechatronics](Department) department 
+    - information about [postdoc](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mechatronics](Department) department 
+    - information about [doctor of philosophy](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mechatronics](Department) department 
+    - information about [doctorate](Program) in [Mechatronics](Department)  
+    - details of the [Mechatronics](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [ME](Department) department 
+    - information about [btech](Program) in [ME](Department)  
+    - details of the [ME](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [ME](Department) department 
+    - information about [beng](Program) in [ME](Department)  
+    - details of the [ME](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [ME](Department) department 
+    - information about [beng](Program) in [ME](Department)  
+    - details of the [ME](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [ME](Department) department 
+    - information about [bachelors](Program) in [ME](Department)  
+    - details of the [ME](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [ME](Department) department 
+    - information about [bachelor of technology](Program) in [ME](Department)  
+    - details of the [ME](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [ME](Department) department 
+    - information about [bachelors of technology](Program) in [ME](Department)  
+    - details of the [ME](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [ME](Department) department 
+    - information about [DD](Program) in [ME](Department)  
+    - details of the [ME](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [ME](Department) department 
+    - information about [dual degree](Program) in [ME](Department)  
+    - details of the [ME](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [ME](Department) department 
+    - information about [dual](Program) in [ME](Department)  
+    - details of the [ME](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [ME](Department) department 
+    - information about [dual deg](Program) in [ME](Department)  
+    - details of the [ME](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [ME](Department) department 
+    - information about [double deg](Program) in [ME](Department)  
+    - details of the [ME](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [ME](Department) department 
+    - information about [integrated deg](Program) in [ME](Department)  
+    - details of the [ME](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [ME](Department) department 
+    - information about [integrated](Program) in [ME](Department)  
+    - details of the [ME](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [ME](Department) department 
+    - information about [integrated degree](Program) in [ME](Department)  
+    - details of the [ME](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [ME](Department) department 
+    - information about [mtech](Program) in [ME](Department)  
+    - details of the [ME](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [ME](Department) department 
+    - information about [masters](Program) in [ME](Department)  
+    - details of the [ME](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [ME](Department) department 
+    - information about [masters of technology](Program) in [ME](Department)  
+    - details of the [ME](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [ME](Department) department 
+    - information about [master of technology](Program) in [ME](Department)  
+    - details of the [ME](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [ME](Department) department 
+    - information about [phd](Program) in [ME](Department)  
+    - details of the [ME](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [ME](Department) department 
+    - information about [postdoc](Program) in [ME](Department)  
+    - details of the [ME](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [ME](Department) department 
+    - information about [postdoc](Program) in [ME](Department)  
+    - details of the [ME](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [ME](Department) department 
+    - information about [doctor of philosophy](Program) in [ME](Department)  
+    - details of the [ME](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [ME](Department) department 
+    - information about [doctorate](Program) in [ME](Department)  
+    - details of the [ME](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mech Engg](Department) department 
+    - information about [btech](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mech Engg](Department) department 
+    - information about [beng](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mech Engg](Department) department 
+    - information about [beng](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mech Engg](Department) department 
+    - information about [bachelors](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mech Engg](Department) department 
+    - information about [bachelor of technology](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mech Engg](Department) department 
+    - information about [bachelors of technology](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mech Engg](Department) department 
+    - information about [DD](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mech Engg](Department) department 
+    - information about [dual degree](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mech Engg](Department) department 
+    - information about [dual](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mech Engg](Department) department 
+    - information about [dual deg](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mech Engg](Department) department 
+    - information about [double deg](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mech Engg](Department) department 
+    - information about [integrated deg](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mech Engg](Department) department 
+    - information about [integrated](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mech Engg](Department) department 
+    - information about [integrated degree](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mech Engg](Department) department 
+    - information about [mtech](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mech Engg](Department) department 
+    - information about [masters](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mech Engg](Department) department 
+    - information about [masters of technology](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mech Engg](Department) department 
+    - information about [master of technology](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mech Engg](Department) department 
+    - information about [phd](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mech Engg](Department) department 
+    - information about [postdoc](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mech Engg](Department) department 
+    - information about [postdoc](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mech Engg](Department) department 
+    - information about [doctor of philosophy](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mech Engg](Department) department 
+    - information about [doctorate](Program) in [Mech Engg](Department)  
+    - details of the [Mech Engg](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Mechanical Engg](Department) department 
+    - information about [btech](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Mechanical Engg](Department) department 
+    - information about [beng](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Mechanical Engg](Department) department 
+    - information about [beng](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Mechanical Engg](Department) department 
+    - information about [bachelors](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Mechanical Engg](Department) department 
+    - information about [bachelor of technology](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Mechanical Engg](Department) department 
+    - information about [bachelors of technology](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Mechanical Engg](Department) department 
+    - information about [DD](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Mechanical Engg](Department) department 
+    - information about [dual degree](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Mechanical Engg](Department) department 
+    - information about [dual](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Mechanical Engg](Department) department 
+    - information about [dual deg](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Mechanical Engg](Department) department 
+    - information about [double deg](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Mechanical Engg](Department) department 
+    - information about [integrated deg](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Mechanical Engg](Department) department 
+    - information about [integrated](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Mechanical Engg](Department) department 
+    - information about [integrated degree](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Mechanical Engg](Department) department 
+    - information about [mtech](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Mechanical Engg](Department) department 
+    - information about [masters](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Mechanical Engg](Department) department 
+    - information about [masters of technology](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Mechanical Engg](Department) department 
+    - information about [master of technology](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Mechanical Engg](Department) department 
+    - information about [phd](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical Engg](Department) department 
+    - information about [postdoc](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Mechanical Engg](Department) department 
+    - information about [postdoc](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Mechanical Engg](Department) department 
+    - information about [doctor of philosophy](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Mechanical Engg](Department) department 
+    - information about [doctorate](Program) in [Mechanical Engg](Department)  
+    - details of the [Mechanical Engg](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Chemical Engineering](Department) department 
+    - information about [btech](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Chemical Engineering](Department) department 
+    - information about [beng](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Chemical Engineering](Department) department 
+    - information about [beng](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Chemical Engineering](Department) department 
+    - information about [bachelors](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Chemical Engineering](Department) department 
+    - information about [bachelor of technology](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Chemical Engineering](Department) department 
+    - information about [bachelors of technology](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Chemical Engineering](Department) department 
+    - information about [DD](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Chemical Engineering](Department) department 
+    - information about [dual degree](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Chemical Engineering](Department) department 
+    - information about [dual](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Chemical Engineering](Department) department 
+    - information about [dual deg](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Chemical Engineering](Department) department 
+    - information about [double deg](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Chemical Engineering](Department) department 
+    - information about [integrated deg](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Chemical Engineering](Department) department 
+    - information about [integrated](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Chemical Engineering](Department) department 
+    - information about [integrated degree](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Chemical Engineering](Department) department 
+    - information about [mtech](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Chemical Engineering](Department) department 
+    - information about [masters](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Chemical Engineering](Department) department 
+    - information about [masters of technology](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Chemical Engineering](Department) department 
+    - information about [master of technology](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Chemical Engineering](Department) department 
+    - information about [phd](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Chemical Engineering](Department) department 
+    - information about [postdoc](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Chemical Engineering](Department) department 
+    - information about [postdoc](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Chemical Engineering](Department) department 
+    - information about [doctor of philosophy](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Chemical Engineering](Department) department 
+    - information about [doctorate](Program) in [Chemical Engineering](Department)  
+    - details of the [Chemical Engineering](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Chemical](Department) department 
+    - information about [btech](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Chemical](Department) department 
+    - information about [beng](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Chemical](Department) department 
+    - information about [beng](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Chemical](Department) department 
+    - information about [bachelors](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Chemical](Department) department 
+    - information about [bachelor of technology](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Chemical](Department) department 
+    - information about [bachelors of technology](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Chemical](Department) department 
+    - information about [DD](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Chemical](Department) department 
+    - information about [dual degree](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Chemical](Department) department 
+    - information about [dual](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Chemical](Department) department 
+    - information about [dual deg](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Chemical](Department) department 
+    - information about [double deg](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Chemical](Department) department 
+    - information about [integrated deg](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Chemical](Department) department 
+    - information about [integrated](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Chemical](Department) department 
+    - information about [integrated degree](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Chemical](Department) department 
+    - information about [mtech](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Chemical](Department) department 
+    - information about [masters](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Chemical](Department) department 
+    - information about [masters of technology](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Chemical](Department) department 
+    - information about [master of technology](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Chemical](Department) department 
+    - information about [phd](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Chemical](Department) department 
+    - information about [postdoc](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Chemical](Department) department 
+    - information about [postdoc](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Chemical](Department) department 
+    - information about [doctor of philosophy](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Chemical](Department) department 
+    - information about [doctorate](Program) in [Chemical](Department)  
+    - details of the [Chemical](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Chem Engineering](Department) department 
+    - information about [btech](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Chem Engineering](Department) department 
+    - information about [beng](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Chem Engineering](Department) department 
+    - information about [beng](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Chem Engineering](Department) department 
+    - information about [bachelors](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Chem Engineering](Department) department 
+    - information about [bachelor of technology](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Chem Engineering](Department) department 
+    - information about [bachelors of technology](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Chem Engineering](Department) department 
+    - information about [DD](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Chem Engineering](Department) department 
+    - information about [dual degree](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Chem Engineering](Department) department 
+    - information about [dual](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Chem Engineering](Department) department 
+    - information about [dual deg](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Chem Engineering](Department) department 
+    - information about [double deg](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Chem Engineering](Department) department 
+    - information about [integrated deg](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Chem Engineering](Department) department 
+    - information about [integrated](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Chem Engineering](Department) department 
+    - information about [integrated degree](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Chem Engineering](Department) department 
+    - information about [mtech](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Chem Engineering](Department) department 
+    - information about [masters](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Chem Engineering](Department) department 
+    - information about [masters of technology](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Chem Engineering](Department) department 
+    - information about [master of technology](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Chem Engineering](Department) department 
+    - information about [phd](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Chem Engineering](Department) department 
+    - information about [postdoc](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Chem Engineering](Department) department 
+    - information about [postdoc](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Chem Engineering](Department) department 
+    - information about [doctor of philosophy](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Chem Engineering](Department) department 
+    - information about [doctorate](Program) in [Chem Engineering](Department)  
+    - details of the [Chem Engineering](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Chem Engg](Department) department 
+    - information about [btech](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Chem Engg](Department) department 
+    - information about [beng](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Chem Engg](Department) department 
+    - information about [beng](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Chem Engg](Department) department 
+    - information about [bachelors](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Chem Engg](Department) department 
+    - information about [bachelor of technology](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Chem Engg](Department) department 
+    - information about [bachelors of technology](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Chem Engg](Department) department 
+    - information about [DD](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Chem Engg](Department) department 
+    - information about [dual degree](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Chem Engg](Department) department 
+    - information about [dual](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Chem Engg](Department) department 
+    - information about [dual deg](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Chem Engg](Department) department 
+    - information about [double deg](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Chem Engg](Department) department 
+    - information about [integrated deg](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Chem Engg](Department) department 
+    - information about [integrated](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Chem Engg](Department) department 
+    - information about [integrated degree](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Chem Engg](Department) department 
+    - information about [mtech](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Chem Engg](Department) department 
+    - information about [masters](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Chem Engg](Department) department 
+    - information about [masters of technology](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Chem Engg](Department) department 
+    - information about [master of technology](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Chem Engg](Department) department 
+    - information about [phd](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Chem Engg](Department) department 
+    - information about [postdoc](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Chem Engg](Department) department 
+    - information about [postdoc](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Chem Engg](Department) department 
+    - information about [doctor of philosophy](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Chem Engg](Department) department 
+    - information about [doctorate](Program) in [Chem Engg](Department)  
+    - details of the [Chem Engg](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [Chem](Department) department 
+    - information about [btech](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [Chem](Department) department 
+    - information about [beng](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [Chem](Department) department 
+    - information about [beng](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [Chem](Department) department 
+    - information about [bachelors](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [Chem](Department) department 
+    - information about [bachelor of technology](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [Chem](Department) department 
+    - information about [bachelors of technology](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [Chem](Department) department 
+    - information about [DD](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [Chem](Department) department 
+    - information about [dual degree](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [Chem](Department) department 
+    - information about [dual](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [Chem](Department) department 
+    - information about [dual deg](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [Chem](Department) department 
+    - information about [double deg](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [Chem](Department) department 
+    - information about [integrated deg](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [Chem](Department) department 
+    - information about [integrated](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [Chem](Department) department 
+    - information about [integrated degree](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [Chem](Department) department 
+    - information about [mtech](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [Chem](Department) department 
+    - information about [masters](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [Chem](Department) department 
+    - information about [masters of technology](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [Chem](Department) department 
+    - information about [master of technology](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [Chem](Department) department 
+    - information about [phd](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [Chem](Department) department 
+    - information about [postdoc](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [Chem](Department) department 
+    - information about [postdoc](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [Chem](Department) department 
+    - information about [doctor of philosophy](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [Chem](Department) department 
+    - information about [doctorate](Program) in [Chem](Department)  
+    - details of the [Chem](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [ChemE](Department) department 
+    - information about [btech](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [btech](Program) program  
+    - tell me about the [beng](Program) in [ChemE](Department) department 
+    - information about [beng](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [beng](Program) program  
+    - tell me about the [beng](Program) in [ChemE](Department) department 
+    - information about [beng](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [ChemE](Department) department 
+    - information about [bachelors](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [ChemE](Department) department 
+    - information about [bachelor of technology](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [ChemE](Department) department 
+    - information about [bachelors of technology](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [ChemE](Department) department 
+    - information about [DD](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [ChemE](Department) department 
+    - information about [dual degree](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [ChemE](Department) department 
+    - information about [dual](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [ChemE](Department) department 
+    - information about [dual deg](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [ChemE](Department) department 
+    - information about [double deg](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [ChemE](Department) department 
+    - information about [integrated deg](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [ChemE](Department) department 
+    - information about [integrated](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [ChemE](Department) department 
+    - information about [integrated degree](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [ChemE](Department) department 
+    - information about [mtech](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [mtech](Program) program  
+    - tell me about the [masters](Program) in [ChemE](Department) department 
+    - information about [masters](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [ChemE](Department) department 
+    - information about [masters of technology](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [ChemE](Department) department 
+    - information about [master of technology](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [ChemE](Department) department 
+    - information about [phd](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [ChemE](Department) department 
+    - information about [postdoc](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [ChemE](Department) department 
+    - information about [postdoc](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [ChemE](Department) department 
+    - information about [doctor of philosophy](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [ChemE](Department) department 
+    - information about [doctorate](Program) in [ChemE](Department)  
+    - details of the [ChemE](Department) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [that](ObjectPronoun) department  
+    - information about [btech](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [that](ObjectPronoun) department  
+    - information about [beng](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [that](ObjectPronoun) department  
+    - information about [beng](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [that](ObjectPronoun) department  
+    - information about [bachelors](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [that](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [that](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [that](ObjectPronoun) department  
+    - information about [DD](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [that](ObjectPronoun) department  
+    - information about [dual degree](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [that](ObjectPronoun) department  
+    - information about [dual](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [that](ObjectPronoun) department  
+    - information about [dual deg](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [that](ObjectPronoun) department  
+    - information about [double deg](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [that](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [that](ObjectPronoun) department  
+    - information about [integrated](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [that](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [that](ObjectPronoun) department  
+    - information about [mtech](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [that](ObjectPronoun) department  
+    - information about [masters](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [that](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [that](ObjectPronoun) department  
+    - information about [master of technology](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [that](ObjectPronoun) department  
+    - information about [phd](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [that](ObjectPronoun) department  
+    - information about [postdoc](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [that](ObjectPronoun) department  
+    - information about [postdoc](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [that](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [that](ObjectPronoun) department  
+    - information about [doctorate](Program) in [that](ObjectProunoun)  
+    - details of the [that](ObjectPronoun) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [this](ObjectPronoun) department  
+    - information about [btech](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [this](ObjectPronoun) department  
+    - information about [beng](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [this](ObjectPronoun) department  
+    - information about [beng](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [this](ObjectPronoun) department  
+    - information about [bachelors](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [this](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [this](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [this](ObjectPronoun) department  
+    - information about [DD](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [this](ObjectPronoun) department  
+    - information about [dual degree](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [this](ObjectPronoun) department  
+    - information about [dual](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [this](ObjectPronoun) department  
+    - information about [dual deg](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [this](ObjectPronoun) department  
+    - information about [double deg](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [this](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [this](ObjectPronoun) department  
+    - information about [integrated](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [this](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [this](ObjectPronoun) department  
+    - information about [mtech](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [this](ObjectPronoun) department  
+    - information about [masters](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [this](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [this](ObjectPronoun) department  
+    - information about [master of technology](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [this](ObjectPronoun) department  
+    - information about [phd](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [this](ObjectPronoun) department  
+    - information about [postdoc](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [this](ObjectPronoun) department  
+    - information about [postdoc](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [this](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [this](ObjectPronoun) department  
+    - information about [doctorate](Program) in [this](ObjectProunoun)  
+    - details of the [this](ObjectPronoun) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [it](ObjectPronoun) department  
+    - information about [btech](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [it](ObjectPronoun) department  
+    - information about [beng](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [it](ObjectPronoun) department  
+    - information about [beng](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [it](ObjectPronoun) department  
+    - information about [bachelors](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [it](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [it](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [it](ObjectPronoun) department  
+    - information about [DD](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [it](ObjectPronoun) department  
+    - information about [dual degree](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [it](ObjectPronoun) department  
+    - information about [dual](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [it](ObjectPronoun) department  
+    - information about [dual deg](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [it](ObjectPronoun) department  
+    - information about [double deg](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [it](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [it](ObjectPronoun) department  
+    - information about [integrated](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [it](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [it](ObjectPronoun) department  
+    - information about [mtech](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [it](ObjectPronoun) department  
+    - information about [masters](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [it](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [it](ObjectPronoun) department  
+    - information about [master of technology](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [it](ObjectPronoun) department  
+    - information about [phd](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [it](ObjectPronoun) department  
+    - information about [postdoc](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [it](ObjectPronoun) department  
+    - information about [postdoc](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [it](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [it](ObjectPronoun) department  
+    - information about [doctorate](Program) in [it](ObjectProunoun)  
+    - details of the [it](ObjectPronoun) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [the](ObjectPronoun) department  
+    - information about [btech](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [the](ObjectPronoun) department  
+    - information about [beng](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [the](ObjectPronoun) department  
+    - information about [beng](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [the](ObjectPronoun) department  
+    - information about [bachelors](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [the](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [the](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [the](ObjectPronoun) department  
+    - information about [DD](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [the](ObjectPronoun) department  
+    - information about [dual degree](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [the](ObjectPronoun) department  
+    - information about [dual](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [the](ObjectPronoun) department  
+    - information about [dual deg](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [the](ObjectPronoun) department  
+    - information about [double deg](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [the](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [the](ObjectPronoun) department  
+    - information about [integrated](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [the](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [the](ObjectPronoun) department  
+    - information about [mtech](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [the](ObjectPronoun) department  
+    - information about [masters](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [the](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [the](ObjectPronoun) department  
+    - information about [master of technology](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [the](ObjectPronoun) department  
+    - information about [phd](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [the](ObjectPronoun) department  
+    - information about [postdoc](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [the](ObjectPronoun) department  
+    - information about [postdoc](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [the](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [the](ObjectPronoun) department  
+    - information about [doctorate](Program) in [the](ObjectProunoun)  
+    - details of the [the](ObjectPronoun) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [it's](ObjectPronoun) department  
+    - information about [btech](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [it's](ObjectPronoun) department  
+    - information about [beng](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [it's](ObjectPronoun) department  
+    - information about [beng](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [it's](ObjectPronoun) department  
+    - information about [bachelors](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [it's](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [it's](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [it's](ObjectPronoun) department  
+    - information about [DD](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [it's](ObjectPronoun) department  
+    - information about [dual degree](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [it's](ObjectPronoun) department  
+    - information about [dual](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [it's](ObjectPronoun) department  
+    - information about [dual deg](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [it's](ObjectPronoun) department  
+    - information about [double deg](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [it's](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [it's](ObjectPronoun) department  
+    - information about [integrated](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [it's](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [it's](ObjectPronoun) department  
+    - information about [mtech](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [it's](ObjectPronoun) department  
+    - information about [masters](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [it's](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [it's](ObjectPronoun) department  
+    - information about [master of technology](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [it's](ObjectPronoun) department  
+    - information about [phd](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [it's](ObjectPronoun) department  
+    - information about [postdoc](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [it's](ObjectPronoun) department  
+    - information about [postdoc](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [it's](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [it's](ObjectPronoun) department  
+    - information about [doctorate](Program) in [it's](ObjectProunoun)  
+    - details of the [it's](ObjectPronoun) [doctorate](Program) program  
+    - tell me about the [btech](Program) in [its](ObjectPronoun) department  
+    - information about [btech](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [btech](Program) program  
+    - tell me about the [beng](Program) in [its](ObjectPronoun) department  
+    - information about [beng](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [beng](Program) program  
+    - tell me about the [beng](Program) in [its](ObjectPronoun) department  
+    - information about [beng](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [beng](Program) program  
+    - tell me about the [bachelors](Program) in [its](ObjectPronoun) department  
+    - information about [bachelors](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [bachelors](Program) program  
+    - tell me about the [bachelor of technology](Program) in [its](ObjectPronoun) department  
+    - information about [bachelor of technology](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [bachelor of technology](Program) program  
+    - tell me about the [bachelors of technology](Program) in [its](ObjectPronoun) department  
+    - information about [bachelors of technology](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [bachelors of technology](Program) program  
+    - tell me about the [DD](Program) in [its](ObjectPronoun) department  
+    - information about [DD](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [DD](Program) program  
+    - tell me about the [dual degree](Program) in [its](ObjectPronoun) department  
+    - information about [dual degree](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [dual degree](Program) program  
+    - tell me about the [dual](Program) in [its](ObjectPronoun) department  
+    - information about [dual](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [dual](Program) program  
+    - tell me about the [dual deg](Program) in [its](ObjectPronoun) department  
+    - information about [dual deg](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [dual deg](Program) program  
+    - tell me about the [double deg](Program) in [its](ObjectPronoun) department  
+    - information about [double deg](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [double deg](Program) program  
+    - tell me about the [integrated deg](Program) in [its](ObjectPronoun) department  
+    - information about [integrated deg](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [integrated deg](Program) program  
+    - tell me about the [integrated](Program) in [its](ObjectPronoun) department  
+    - information about [integrated](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [integrated](Program) program  
+    - tell me about the [integrated degree](Program) in [its](ObjectPronoun) department  
+    - information about [integrated degree](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [integrated degree](Program) program  
+    - tell me about the [mtech](Program) in [its](ObjectPronoun) department  
+    - information about [mtech](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [mtech](Program) program  
+    - tell me about the [masters](Program) in [its](ObjectPronoun) department  
+    - information about [masters](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [masters](Program) program  
+    - tell me about the [masters of technology](Program) in [its](ObjectPronoun) department  
+    - information about [masters of technology](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [masters of technology](Program) program  
+    - tell me about the [master of technology](Program) in [its](ObjectPronoun) department  
+    - information about [master of technology](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [master of technology](Program) program  
+    - tell me about the [phd](Program) in [its](ObjectPronoun) department  
+    - information about [phd](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [phd](Program) program  
+    - tell me about the [postdoc](Program) in [its](ObjectPronoun) department  
+    - information about [postdoc](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [postdoc](Program) in [its](ObjectPronoun) department  
+    - information about [postdoc](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [postdoc](Program) program  
+    - tell me about the [doctor of philosophy](Program) in [its](ObjectPronoun) department  
+    - information about [doctor of philosophy](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [doctor of philosophy](Program) program  
+    - tell me about the [doctorate](Program) in [its](ObjectPronoun) department  
+    - information about [doctorate](Program) in [its](ObjectProunoun)  
+    - details of the [its](ObjectPronoun) [doctorate](Program) program  
+    - tell me about [that](ObjectPronoun) program  
+    - information about [that](ObjectPronoun) program  
+    - [that](ObjectPronoun) program details  
+    - tell me about [this](ObjectPronoun) program  
+    - information about [this](ObjectPronoun) program  
+    - [this](ObjectPronoun) program details  
+    - tell me about [it](ObjectPronoun) program  
+    - information about [it](ObjectPronoun) program  
+    - [it](ObjectPronoun) program details  
+    - tell me about [the](ObjectPronoun) program  
+    - information about [the](ObjectPronoun) program  
+    - [the](ObjectPronoun) program details  
+    - tell me about [it's](ObjectPronoun) program  
+    - information about [it's](ObjectPronoun) program  
+    - [it's](ObjectPronoun) program details  
+    - tell me about [its](ObjectPronoun) program  
+    - information about [its](ObjectPronoun) program  
+    - [its](ObjectPronoun) program details  

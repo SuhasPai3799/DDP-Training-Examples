@@ -24,8 +24,26 @@ dept_names["Electrical Engg."] = Elec_syns
 dept_names["Mechanical Engg."] = Mech_syns
 dept_names["Chemical Engg."] = Chem_syns
 
+btech_syns = ["btech", "beng", "beng", "bachelors", "bachelor of technology", "bachelors of technology"]
+dd_syns = ["DD", "dual degree", "dual", "dual deg", "double deg", "integrated deg" , "integrated" , "integrated degree"]
+mtech_syns = ["mtech", "masters", "masters of technology", "master of technology"]
+phd_syns = [ "phd" , "postdoc" , "postdoc" , "doctor of philosophy" , "doctorate"]
+
+programs_syns = [btech_syns,dd_syns,mtech_syns, phd_syns]
 
 
+def program_lookup_examples():
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- lookup: Program \n  examples: |\n"
+    for program in programs_syns:
+        for program_syn in program:
+            res_str += "    - {} \n".format(program_syn)
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close()
 
 def prof_lookup_examples():
 
@@ -75,6 +93,8 @@ def course_prof_examples():
         res_str += "  - courses taught by [{}](Professors)?\n".format("prof " + prof_name)
         res_str += "  - courses taught by [{}](Professors)?\n".format("professor " + prof_name)
         res_str += "  - courses taught by [{}](Professors)?\n".format("prof " + prof_name)
+
+    
 
     f1.write(res_str)
     f2.write(res_str)
@@ -158,6 +178,9 @@ def get_course_details_examples():
 
         res_str += "    - describe the [{}](Courses) course \n".format(course_code)
         res_str += "    - describe the [{}](Courses) course \n".format(course_name)
+
+        res_str += "    - description of the [{}](Courses) course \n".format(course_code)
+        res_str += "    - description of [{}](Courses) course \n".format(course_name)
 
     f1.write(res_str)
     f2.write(res_str)
@@ -412,14 +435,58 @@ def get_dept_info_examples():
             res_str += "    - information about [{}](Department) department \n".format(syn)
             res_str += "    -  [{}](Department) department description \n".format(syn)
             res_str += "    -  [{}](Department) dept description \n".format(syn)
-            
+            res_str += "    -  details on the [{}](Department) department in IIT madras \n".format(syn)
+
+    for objPro in ObjectPronouns:
+        res_str += "    - tell me about the [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    - information about [{}](ObjectPronoun) department \n".format(objPro)
+        res_str += "    -  [{}](ObjectPronoun) department description \n".format(objPro)
+        res_str += "    -  [{}](ObjectPronoun) dept description \n".format(objPro)
+        res_str += "    -  details on the [{}](ObjectPronoun) department in IIT madras \n".format(objPro)
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close() 
+
+def get_program_info_examples():
+
+    f1 = open("cur_examples.txt","w+")
+    f2 = open("all_examples.txt","a+")
+    res_str = "- intent: program_info \n  examples: | \n"
+    for dept in dept_names.keys():
+        dept_syns = dept_names[dept]
+        for syn in dept_syns:
+            for program in programs_syns:
+                for program_syn in program:
+                    res_str += "    - tell me about the [{}](Program) in [{}](Department) department \n".format(program_syn,syn)
+                    res_str += "    - information about [{}](Program) in [{}](Department)  \n".format(program_syn,syn)
+                    res_str += "    - details of the [{}](Department) [{}](Program) program  \n".format(syn, program_syn)
+    
+    for objPro in ObjectPronouns:
+        for program in programs_syns:
+                for program_syn in program:
+                    res_str += "    - tell me about the [{}](Program) in [{}](ObjectPronoun) department  \n".format(program_syn,objPro)
+                    res_str += "    - information about [{}](Program) in [{}](ObjectProunoun)  \n".format(program_syn,objPro)
+                    res_str += "    - details of the [{}](ObjectPronoun) [{}](Program) program  \n".format(objPro, program_syn)
+
+    for objPro in ObjectPronouns:
+        res_str += "    - tell me about [{}](ObjectPronoun) program  \n".format(objPro)
+        res_str += "    - information about [{}](ObjectPronoun) program  \n".format(objPro)       
+        res_str += "    - [{}](ObjectPronoun) program details  \n".format(objPro)  
+
+    f1.write(res_str)
+    f2.write(res_str)
+    f1.close()
+    f2.close() 
+
+
 def get_main_name(name):
     s = sorted(name.split(" "), key=len)
     return s[-1]
 
 
 def main():
-    get_dept_progs_examples()
+    get_program_info_examples()
     pass
 
 if __name__ == "__main__":
